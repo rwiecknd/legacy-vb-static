@@ -1,0 +1,13 @@
+Data is in tab delimited format with the following columns:
+
+CHR: The chromosome that the scaffolds are mapped to.
+Alt_Scaffold: The scaffold who's overlapping sequence will be considered the haplotype to the golden path.
+Chr_Scaffold: The scaffold who's overlapping sequence (overlapping with the Hap_Scaffold that is) will be used for the golden path.
+as_Start: The start of the overlap on the haplotype scaffold (Hap_Scaffold).
+as_End: The end of the overlap on the haplotype scaffold (Hap_Scaffold).
+cs_Start: The start of the overlap on the scaffold that will be used for the golden path (Chr_Scaffold).
+cs_End: The end of the overlap on the scaffold that will be used for the golden path (Chr_Scaffold).
+Chr_Start: The start of the overlapping regions, in chromosomal coordinates.
+Chr_End: The end of the overlapping regions, in chromosomal coordinates.
+as_to_cs: The orientation of the haplotype scaffold with respect to the golden path scaffold (Chr_Scaffold).
+as_to_chr: The orientation of the haplotype scaffold with respect to the chromosome.										Chr	Alt_Scaffold	Chr_Scaffold	as_start	as_end	cs_start	cs_end	Chr_Start	Chr_End	as_to_cs	as_to_chr2R	AAAB01008794	AAAB01008879	2193	205049	2706750	2921310	34250339	34464899	+	+2R	AAAB01008982	AAAB01008794	1	168745	803211	932688	35063061	35192538	+	+2R	AAAB01008904	AAAB01008982	2256	646991	314898	1000550	35338691	36024343	+	+2R	AAAB01008851	AAAB01008904	1	635373	1102797	1759265	36480149	37136617	+	+2R	AAAB01008851	AAAB01008820	1983646	2082253	489078	590116	38484890	38585928	-	+2R	AAAB01008820	AAAB01008888	1	96439	1	81415	38978567	39059981	-	-2R	AAAB01008844	AAAB01008805	2783895	2865540	1	87065	45168935	45255999	+	+3R	AAAB01008944	AAAB01008964	1	168956	161300	367554	12032434	12238688	-	+3R	AAAB01008964	AAAB01008944	1	161299	168957	325687	12238689	12395419	-	-3R	AAAB01008984	AAAB01008835	12376694	12483120	1	96179	31165849	31262027	+	+3R	AAAB01008797	AAAB01008835	1	97624	1673997	1771096	32839845	32936944	+	+3R	AAAB01008980	AAAB01008839	1	114703	1	109822	36150001	36259822	-	+3L	AAAB01008979	AAAB01008848	1540105	1577277	1892817	1927899	9631003	9666085	-	-3L	AAAB01008951	AAAB01008979	189796	359421	1	159224	11046966	11206189	+	-3L	AAAB01008951	AAAB01008823	1	126196	3271177	3392972	11269789	11391584	+	-3L	AAAB01008793	AAAB01008823	1	37689	1	41313	14621448	14662760	-	+3L	AAAB01008804	AAAB01008793	846043	907607	339024	402616	14964095	15027687	-	-3L	AAAB01008816	AAAB01008804	5988069	6058108	1	63462	15810268	15873729	+	-3L	AAAB01008956	AAAB01008966	866859	1048260	1	183775	25551533	25735307	+	-3L	AAAB01008956	AAAB01008090	1	188054	226247	381451	26414112	26569316	+	-3L	AAAB01008834	AAAB01008090	2459627	2541584	1	85440	26710123	26795562	+	-										

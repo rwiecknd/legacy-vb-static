@@ -1,0 +1,19 @@
+There are several different formats:
+
+
+
+this is a single SNP as a VCF file
+
+https://www.ebi.ac.uk/~gmaslen/test.vcf
+
+
+
+in Ensembl format that should be
+
+2L 39221641 39221641 A/T 1
+
+
+
+or you could run a much larger set such as
+
+https://www.ebi.ac.uk/~gmaslen/b1600.vcf

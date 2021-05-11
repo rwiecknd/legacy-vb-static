@@ -1,0 +1,13 @@
+Experimental_sample	Experimental_label	Control_sample	Control_label	Data_file	Image_file	Data matrix file
+lstm_dodowa_DOR.1	Cy3	lstm_dodowa_DOC.1	Cy5	13542047.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.1	Cy5	lstm_dodowa_DOC.1	Cy3	13542048.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.2	Cy5	lstm_dodowa_DOC.2	Cy3	13584814 array 1.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.2	Cy3	lstm_dodowa_DOC.2	Cy5	13584814 array 2.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.3	Cy5	lstm_dodowa_DOC.3	Cy3	13584815 array 1.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.3	Cy3	lstm_dodowa_DOC.3	Cy5	13584815 array 2.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.4	Cy3	lstm_dodowa_DOC.4	Cy5	13584817 array 1.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.4	Cy5	lstm_dodowa_DOC.4	Cy3	13584817 array 2.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.6	Cy5	lstm_dodowa_DOC.6	Cy3	13584520 array 1.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.7	Cy3	lstm_dodowa_DOC.7	Cy5	13584520 array 2 - 3rd scan.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.6	Cy3	lstm_dodowa_DOC.6	Cy5	13584458 array 1 - 2nd scan.gpr		final_data_matrix.txt
+lstm_dodowa_DOR.7	Cy5	lstm_dodowa_DOC.7	Cy3	13584460 array 1.gpr		final_data_matrix.txt

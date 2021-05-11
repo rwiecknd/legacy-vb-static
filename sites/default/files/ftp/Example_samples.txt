@@ -1,0 +1,13 @@
+Sample ID	Material Type	Characteristics[Organism]	Characteristics[Age]	Characteristics[DevelopmentalStage]	Characteristics[Sex]	Characteristics[GrowthCondition]	Characteristics[GenoType]	Characteristics[StrainOrLine]	Factor Value[GrowthCondition]
+lstm_dodowa_DOC.1	whole_organism	Anopheles gambiae	5 days	adult	female	unselected	S form	Dodowa	unselected
+lstm_dodowa_DOC.2	whole_organism	Anopheles gambiae	5 days	adult	female	unselected	S form	Dodowa	unselected
+lstm_dodowa_DOC.3	whole_organism	Anopheles gambiae	5 days	adult	female	unselected	S form	Dodowa	unselected
+lstm_dodowa_DOC.4	whole_organism	Anopheles gambiae	5 days	adult	female	unselected	S form	Dodowa	unselected
+lstm_dodowa_DOC.6	whole_organism	Anopheles gambiae	5 days	adult	female	unselected	S form	Dodowa	unselected
+lstm_dodowa_DOC.7	whole_organism	Anopheles gambiae	5 days	adult	female	unselected	S form	Dodowa	unselected
+lstm_dodowa_DOR.1	whole_organism	Anopheles gambiae	5 days	adult	female	permethrin-selected	S form	Dodowa	permethrin-selected
+lstm_dodowa_DOR.2	whole_organism	Anopheles gambiae	5 days	adult	female	permethrin-selected	S form	Dodowa	permethrin-selected
+lstm_dodowa_DOR.3	whole_organism	Anopheles gambiae	5 days	adult	female	permethrin-selected	S form	Dodowa	permethrin-selected
+lstm_dodowa_DOR.4	whole_organism	Anopheles gambiae	5 days	adult	female	permethrin-selected	S form	Dodowa	permethrin-selected
+lstm_dodowa_DOR.6	whole_organism	Anopheles gambiae	5 days	adult	female	permethrin-selected	S form	Dodowa	permethrin-selected
+lstm_dodowa_DOR.7	whole_organism	Anopheles gambiae	5 days	adult	female	permethrin-selected	S form	Dodowa	permethrin-selected

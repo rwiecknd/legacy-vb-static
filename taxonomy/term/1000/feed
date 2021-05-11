@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - EMBL (European Molecular Biology Laboratory)</title>
+ <link>https://legacy.vectorbase.org/glossary/embl-european-molecular-biology-laboratory</link>
+ <description> Europe&#039;s primary nucleotide sequence resource. The main sources of the DNA and RNA sequences in the database are submissions from individual researchers, genome sequencing projects and patent applications.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - SSAHA (Sequence Search and Alignment by Hashing Algorithm)</title>
+ <link>https://legacy.vectorbase.org/glossary/ssaha-sequence-search-and-alignment-hashing-algorithm</link>
+ <description> A search designed to detect exact matches, or nearly exact matches, in DNA or protein databases. The SSAHA search has been optimized for alignments of high percentage identity and display as results the most significant matches for ungapped alignments between sequences. Each exact match in an SSAHA alignment is analogous to finding a high-scoring segment pair in BLAST. A number of consecutive matches on a contig may represent features of a gene such as exons or 5&#039; and 3&#039; untranslated regions, depending on the nature of the query sequence.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

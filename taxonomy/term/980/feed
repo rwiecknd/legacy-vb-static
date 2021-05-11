@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - CNV</title>
+ <link>https://legacy.vectorbase.org/glossary/cnv</link>
+ <description> Copy number variation. It is defined by SO (sequence ontology) as a variation that increases or decreases the copy number of a given region. See more details here.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

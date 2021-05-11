@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Toplevel</title>
+ <link>https://legacy.vectorbase.org/glossary/toplevel</link>
+ <description> The largest continuous sequence for an organism. The official technical definition for toplevel sequences are &#039;sequence regions in the genome assembly that are not a component of another sequence region&#039;. For example, when a genome is assembled into chromosomes, toplevel sequences will be chromosomes and unplaced scaffolds. If a genome has only been assembled into scaffolds, then toplevel sequences are scaffolds and unplaced contigs.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

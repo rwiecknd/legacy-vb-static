@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - SNAP</title>
+ <link>https://legacy.vectorbase.org/glossary/snap</link>
+ <description> 1. (Synonymous/Non-synonymous Analysis Program) A program which calculates synonymous and non-synonymous substitution rates based on a set of codon-aligned nucleotide sequences, based on the method of Nei and Gojobori, incorporating a statistic developed in Ota and Nei.       2. An ab initio gene prediction program developed by Ian Korf that models protein coding sequences in genomic DNA by means of hidden Markov models.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

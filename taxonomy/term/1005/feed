@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - EST (Expressed Sequence Tags)</title>
+ <link>https://legacy.vectorbase.org/glossary/est-expressed-sequence-tags</link>
+ <description> Coarse sequence reads from flanking vector regions into the inserts of cDNA libraries. ESTs act as physical markers for cloning and full length sequencing of the cDNAs of expressed genes. Typically identified by purifying mRNAs, converting to cDNAs, and then sequencing a portion of the cDNAs. Usually short, single reads from a tissue or stage in development.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

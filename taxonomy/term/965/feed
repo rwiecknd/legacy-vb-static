@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Base pairs (number of base pairs in the genome)</title>
+ <link>https://legacy.vectorbase.org/glossary/base-pairs-number-base-pairs-genome</link>
+ <description> The base pairs length on pages such as the whole genome display (next to the golden path length) is based on the assembled end position of the last seq_region in each chromosome (from the AGP file), or if there is a terminal gap it is set to the assembled end location of that terminal gap.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

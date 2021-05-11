@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - MBRH (Multiple Best Reciprocal Hit)</title>
+ <link>https://legacy.vectorbase.org/glossary/mbrh-multiple-best-reciprocal-hit</link>
+ <description> When due to gene duplications there are multiple &#039;best&#039; hits with identical score, E-value, % identity, %positivity, one is unable to pick a unique orthologue for a gene. This results in more complex graphs of &#039;best&#039; relationships. This often occurs when different genes have identical translations, which could be due to a duplication event, an assembly error, or chance. On average 3% of the genes have an identical translation to some other gene either within it&#039;s genome or in another genome.        * MBRH / DUP 1.# - MBRH set where in one genome there is only one gene, but the other genome has multiple genes, all on the same chromosome and within 1.5 megbases of each other. This could be due to recent gene duplication events where sequences have not diverged or a mis-assembly of the genome sequence leading to artificial, apparent gene duplications. (e.g. MBRH / DUP 1.2 or MBRH/ DUP 1.4)        * MBRH / SYN - This is a more complex MBRH set where there are multiple genes in each genome split across multiple chromosomes. The one(s) labeled MBRH/SYN satisfies both the MBRH criteria and the RHS search criteria.        * MBRH / COMPLEX - This is a more complex MBRH set where there are multiple genes in each genome split across multiple chromosomes. This MBRH pair does not satisfy the RHS criteria.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

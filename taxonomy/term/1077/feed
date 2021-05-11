@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - PDB (Protein Data Bank)</title>
+ <link>https://legacy.vectorbase.org/glossary/pdb-protein-data-bank</link>
+ <description> A repository for 3-D biological macromolecular structure data. PDB archives protein structures deduced from crystallography and nuclear magnetic reasonance (NMR) experiments on protein structures. The Protein Data Bank (PDB) is operated by Rutgers, The State University of New Jersey; the San Diego Supercomputer Center at the University of California, San Diego; and the Center for Advanced Research in Biotechnology of the National Institute of Standards and Technology -- three members of the Research Collaboratory for Structural Bioinformatics (RCSB). The RCSB PDB is supported by funds from the National Science Foundation, the Department of Energy, and the National Institutes of Health.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

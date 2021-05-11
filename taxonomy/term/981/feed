@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - codon</title>
+ <link>https://legacy.vectorbase.org/glossary/codon</link>
+ <description> Three base pairs in either DNA or RNA that code for an amino acid (or stop translation).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

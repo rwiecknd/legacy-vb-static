@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Projected gene (or known by_projection)</title>
+ <link>https://legacy.vectorbase.org/glossary/projected-gene-or-known-byprojection</link>
+ <description> A projected Ensembl gene has only one or more novel transcripts annotated, and has a known gene from human or mouse as an orthologue. The gene symbol and description are projected from the human or mouse orthologue.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

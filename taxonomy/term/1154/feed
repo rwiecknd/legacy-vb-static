@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Validation status</title>
+ <link>https://legacy.vectorbase.org/glossary/validation-status</link>
+ <description> A measure of confidence that a variant is a true polymorphism. It includes 1000 Genomes, HapMap and other validation statuses from dbSNP such as frequency and cluster. See a detailed description on the dbSNP website.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Data (faqs)</title>
+ <link>https://legacy.vectorbase.org/tags/data-faqs</link>
+ <description>FAQ category.
+</description>
+ <language>en</language>
+<item>
+ <title>Are the (genomes) gene sets experimentally validated? </title>
+ <link>https://legacy.vectorbase.org/faqs/are-genomes-gene-sets-experimentally-validated</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;No genes have been experimentally validated by VectorBase, but automatic predictions of the initial gene sets are done using two approaches: &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Computational: &lt;em&gt;ab initio&lt;/em&gt; and &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Similarity&quot; title=&quot;How well one sequence matches another determined by calculation by an alignment program of identical and conserved residues.&quot; class=&quot;lexicon-term&quot;&gt;similarity&lt;/a&gt; methods&lt;/li&gt;
+&lt;li&gt;Experimental: RNA and protein sequencing methods&lt;/li&gt;
+&lt;/ul&gt;&lt;p align=&quot;justify&quot;&gt;Available data has been different in the case of each one of the current 40 genomes we host, including EST, RNAseq, protein alignments, as well as data from more distant species. For details about each genome, we strongly encourage you to look for the genome paper for your species of interest.&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;For most of our &lt;em&gt;Anopheles gambiae genes&lt;/em&gt; and a large number of &lt;em&gt;Aedes aegypti&lt;/em&gt; genes, a VectorBase curator was in charge of manually check the gene models.  Starting in 2013, we mainly relay on community manual annotation.  Any such community annotation not yet incorporated into an updated &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt; can be viewed in the Genome Browser (Location tab/Region in detail/Configure this page/Genes and transcripts/Current Apollo annotation) and in Apollo (track/user-created annotations).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;In VectorBase Genome Browser, you can also add tracks to display protein alignments from other species, and experimental evidence with microarrays, RNAseq and mass spectrometry for the species of interest. You can use these tracks as experimental evidence to (indirectly) validate gene models. &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Apr 2018 16:03:34 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9764122 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/are-genomes-gene-sets-experimentally-validated#comments</comments>
+</item>
+<item>
+ <title>Are the BLAST databases masked?</title>
+ <link>https://legacy.vectorbase.org/faqs/are-blast-databases-masked</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p style=&quot;text-align:justify&quot;&gt;The &lt;a href=&quot;https://legacy.vectorbase.org/glossary#BLAST&quot; title=&quot;BLAST (Basic Local Alignment Search Tool) is a sequence comparison algorithm optimised for speed which is used to search sequence databases for optimal local alignments to a query. (Altschul et al., J Mol Biol 215:403-410; 1990)&quot; class=&quot;lexicon-term&quot;&gt;BLAST&lt;/a&gt; databases are NOT masked - but there is an option to turn this &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Feature&quot; title=&quot;Any annotation on a specific location in the genomic sequence.&quot; class=&quot;lexicon-term&quot;&gt;feature&lt;/a&gt; on or off as shown in this screenshot of the &lt;a href=&quot;/blast&quot;&gt;tool&#039;s page&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/mask.png&quot; height=&quot;100&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Apr 2018 11:43:49 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9764121 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/are-blast-databases-masked#comments</comments>
+</item>
+<item>
+ <title>Which are the gene biotype definitions? </title>
+ <link>https://legacy.vectorbase.org/faqs/which-are-gene-biotype-definitions</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p align=&quot;justify&quot;&gt;This a Search query for all genes in VectorBase (click on the image to enlarge):&lt;/p&gt;
+
+&lt;a href=&quot;/sites/default/files/ftp/biotypes.png&quot;&gt;&lt;img src=&quot;/sites/default/files/ftp/biotypes.png&quot; alt=&quot;Gene set table&quot; style=&quot;width:304px;height:228px;&quot;&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://www.vectorbase.org/search/site/*?&amp;site=%22Genome%22&amp;bundle_name=%22Gene%22&quot;&gt;https://www.vectorbase.org/search/site/*?&amp;site=%22Genome%22&amp;bundle_name=%22Gene%22&lt;/a&gt;
+
+&lt;p align=&quot;justify&quot;&gt;All these terms are from the Sequence Ontology, &lt;a href=&quot;http://www.sequenceontology.org&quot;&gt;http://www.sequenceontology.org&lt;/a&gt;, except for nontranslating_CDS. Below you will find each term link to SO, definitions are provided there and have also been included in VectorBase &lt;a href=&quot;/glossary#&quot;&gt;Glossary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000010&quot;&gt;protein_coding &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000253&quot;&gt;tRNA &lt;/a&gt;: &lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000655&quot;&gt;ncRNA&lt;/a&gt;: &lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0001244&quot;&gt;pre_miRNA &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000252&quot;&gt;rRNA&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000274&quot;&gt;snRNA &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000336&quot;&gt;pseudogene &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000275&quot;&gt;snoRNA &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000590&quot;&gt;SRP_RNA &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0002127&quot;&gt;lncRNA &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000386&quot;&gt;RNase_P_RNA &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000385&quot;&gt;RNase_MRP_RNA &lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0002131&quot;&gt;sense_intronic&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0002095&quot;&gt;scaRNA&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/browser/current_svn/term/SO:0000374&quot;&gt;ribozyme&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;p align=&quot;justify&quot;&gt;In VectorBase we created the category nontranslating_CDS. This is for genes which have been annotated as &#039;protein_coding&#039;, but which have an invalid translation (i.e. internal stop codons). This means this category does not really reflect a biological fact like the other biotypes do, it&#039;s just a pragmatic way to represent our incomplete knowledge about a gene. This term is under review and its name it may changed in the future.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Two other FAQs have related information that may also be of your interest:&lt;/p&gt;
+&lt;ul&gt; 
+&lt;li&gt;&lt;a href=&quot;/faqs/what-gene-set-counts-mean&quot;&gt;What the gene set counts mean?&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;/faqs/how-are-rna-genes-annotated&quot;&gt;How are RNA genes annotated?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sun, 27 Aug 2017 02:14:38 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9770342 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/which-are-gene-biotype-definitions#comments</comments>
+</item>
+<item>
+ <title>How are &quot;high confidence&quot; orthologs defined?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-are-high-confidence-orthologs-defined</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Ortholog&quot; title=&quot;Orthologs are genes derived from a common ancestor through vertical descent (or speciation) and can be thought of as the direct evolutionary counterpart. In contrast, paralogues are genes within the same genome that have evolved by duplication.&quot; class=&quot;lexicon-term&quot;&gt;Ortholog&lt;/a&gt; metrics are calculated for some groups of species, and these are used to classify a &quot;high confidence&quot; set of orthologs. The &lt;a href=&quot;http://www.ensembl.org/info/genome/compara/Ortholog_qc_manual.html&quot;&gt;methodology&lt;/a&gt; uses two orthogonal sources of information, gene order conservation (GOC) and whole genome alignments (WGA).&lt;/p&gt;
+&lt;p&gt;The &quot;GOC score&quot; metric for a pair of orthologs measures whether the two genes up- and downstream of each gene in the ortholog pair are also orthologous, and allows for inversions and gene insertions. The &quot;WGA coverage&quot; metric determines the extent to which the orthologous regions have been aligned by pairwise LASTz alignments, primarily based on exonic coverage, with a small contribution from intronic coverage. Both metrics have a value between 0 and 100.&lt;/p&gt;
+&lt;p&gt;There is only an expectation for gene order conservation between species that are evolutionarily close; thus the GOC score is only calculated within Diptera, Chelicerata, and Hemiptera. Similarly, pairwise WGAs, and thus the related metric, are only available for a subset of fairly closely-related species.&lt;/p&gt;
+&lt;p&gt;To classify orthologs as &quot;high confidence&quot;, thresholds are applied to the ortholog metrics, according to the evolutionary distance between the species. Within Anophelinae and Glossinidae, the GOC threshold is 50 and the WGA threshold is 50; within Brachycera, Culicinae, Hemiptera, and Phlebotominae the GOC threshold is 25 and the WGA threshold is 25; no thresholds are applied beyond these clades. In cases where GOC and WGA metrics are not available, a &lt;a href=&quot;http://www.ensembl.org/info/genome/compara/homology_method.html#homology_types&quot;&gt;&quot;tree-compliance&quot; metric&lt;/a&gt; is used to identify (and therefore exclude from the &quot;high confidence&quot; set) orthologs inferred from dubious tree topologies. Finally, to be included in the &quot;high confidence&quot; set, both orthologous proteins must have percentage identity above a certain threshold, currently set at 25% for all species.&lt;/p&gt;
+&lt;p&gt;The metrics are displayed in the genome browser in the ortholog table, and are available in BioMart.&lt;/p&gt;
+&lt;p&gt;The following plots show, respectively, the percentage of orthologs with some degree of gene order conservation; the mean WGA coverage; and the mean percentage identity between orthologous protein sequences:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;file&quot;&gt;&lt;a href=&quot;/sites/default/files/ftp/goc_25.png&quot;&gt;&lt;img src=&quot;/sites/default/files/ftp/goc_25.png&quot; width=&quot;600&quot; height=&quot;600&quot; alt=&quot;Gene Order Conservation: Score Metric&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;file&quot;&gt;&lt;a href=&quot;/sites/default/files/ftp/wga_mean.png&quot;&gt;&lt;img src=&quot;/sites/default/files/ftp/wga_mean.png&quot; width=&quot;600&quot; height=&quot;600&quot; alt=&quot;Whole Genome Alignment: Coverage Metric&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;file&quot;&gt;&lt;a href=&quot;/sites/default/files/ftp/perc_id_mean.png&quot;&gt;&lt;img src=&quot;/sites/default/files/ftp/perc_id_mean.png&quot; width=&quot;600&quot; height=&quot;600&quot; alt=&quot;Percentage Identity&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 27 Mar 2017 14:49:32 +0000</pubDate>
+ <dc:creator>jallen</dc:creator>
+ <guid isPermaLink="false">9770030 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-are-high-confidence-orthologs-defined#comments</comments>
+</item>
+<item>
+ <title>How are RNA genes annotated?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-are-rna-genes-annotated</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;
+A large proportion of the RNA genes in VectorBase are annotated in a completely automated way. There are some exceptions to this rule, where we import genes from other sources, or have been supplied with manual annotations for particular classes of RNA.
+&lt;/p&gt;
+&lt;h3&gt;VectorBase automated annotation&lt;/h3&gt;
+&lt;p&gt;VectorBase uses three sources for RNA gene annotation:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://www.mirbase.org/&quot;&gt;miRBase&lt;/a&gt; provide genomic locations of precursor microRNA genes for a small subset of species (&lt;em&gt;Aedes aegypti&lt;/em&gt;, &lt;em&gt;Anopheles gambiae&lt;/em&gt;, &lt;em&gt;Culex quinquefasciatus&lt;/em&gt;, &lt;em&gt;Ixodes scapularis&lt;/em&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lowelab.ucsc.edu/tRNAscan-SE/&quot;&gt;tRNAscan-SE&lt;/a&gt; is used to predict &lt;a href=&quot;https://legacy.vectorbase.org/glossary#tRNA&quot; title=&quot;Transfer RNA. These are identified using tRNAscan. Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&amp;#039; end, to which the tRNA&amp;#039;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &amp;#039;wobble&amp;#039; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000253&quot; class=&quot;lexicon-term&quot;&gt;tRNA&lt;/a&gt; genes (with a score threshold of 65). Lowe, T. M., &amp;amp; Eddy, S. R. (1997). tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence. &lt;em&gt;Nucleic Acids Research&lt;/em&gt;, 25(5), 955–964.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rfam.xfam.org/&quot;&gt;Rfam&lt;/a&gt; covariance model alignments are used to annotate RNA genes of all classes except tRNA. Models are restricted to those that are taxonomically appropriate, and are filtered to prevent overlapping genes (on either strand). Nawrocki, E. P., Burge, S. W., Bateman, A., Daub, J., Eberhardt, R. Y., Eddy, S. R., … Finn, R. D. (2015). Rfam 12.0: updates to the RNA families database. &lt;em&gt;Nucleic Acids Research&lt;/em&gt;, 43(Database issue), D130–D137. &lt;a href=&quot;http://doi.org/10.1093/nar/gku1063&quot;&gt;http://doi.org/10.1093/nar/gku1063&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;RNA genes from other sources&lt;/h3&gt;
+&lt;p&gt;
+The following classes of RNA genes have not been annotated automatically by VectorBase:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;Aedes albopictus&lt;/em&gt;: precursor microRNA (&lt;a href=&quot;https://legacy.vectorbase.org/glossary#pre_miRNA&quot; title=&quot;The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0001244&quot; class=&quot;lexicon-term&quot;&gt;pre_miRNA&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Anopheles darlingi&lt;/em&gt;: ribosomal and transfer RNA (&lt;a href=&quot;https://legacy.vectorbase.org/glossary#rRNA&quot; title=&quot;Ribosomal RNA. RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000252&quot; class=&quot;lexicon-term&quot;&gt;rRNA&lt;/a&gt;, tRNA)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Musca domestica&lt;/em&gt;: transfer RNA (tRNA)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Rhodnius prolixus&lt;/em&gt;: precursor microRNA (pre_miRNA)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sarcoptes scabiei&lt;/em&gt;: ribosomal and transfer RNA (rRNA, tRNA)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Stomoxys calcitrans&lt;/em&gt;: transfer RNA (tRNA)&lt;/li&gt;
+&lt;/ul&gt;&lt;h1&gt;Example&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;This a gene page (click on the image to enlarge), notice the following information:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;the &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;transcript&lt;/a&gt; table links in the &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Biotype&quot; title=&quot;A gene or transcript classification. Transcript types include protein coding, pseudogene, and non-coding RNAs.&quot; class=&quot;lexicon-term&quot;&gt;Biotype&lt;/a&gt; column that provide the full name of the gene acronyms&lt;/li&gt;
+&lt;li&gt;the Summary section links to the Rfam page/wikipedia page&lt;/li&gt;
+&lt;li&gt;the secondary structure image in the gene-based displays&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;/sites/default/files/ftp/ncRNA.png&quot;&gt;&lt;img src=&quot;/sites/default/files/ftp/ncRNA.png&quot; alt=&quot;Gene set table&quot; style=&quot;width:304px;height:228px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.vectorbase.org/Aedes_aegypti/Gene/Summary?g=AAEL018514;r=supercont1.131:1212365-1212706;t=AAEL018514-RA&quot;&gt;https://www.vectorbase.org/Aedes_aegypti/Gene/Summary?g=AAEL018514;r=supercont1.131:1212365-1212706;t=AAEL018514-RA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;Two other FAQs have related information that may also be of your interest:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/faqs/what-gene-set-counts-mean&quot;&gt;What the gene set counts mean?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/faqs/which-are-gene-biotype-definitions&quot;&gt;Which are the gene biotype definitions? &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 17 Feb 2017 11:08:52 +0000</pubDate>
+ <dc:creator>jallen</dc:creator>
+ <guid isPermaLink="false">9770012 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-are-rna-genes-annotated#comments</comments>
+</item>
+<item>
+ <title>What the gene set counts mean?</title>
+ <link>https://legacy.vectorbase.org/faqs/what-gene-set-counts-mean</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p align=&quot;justify&quot;&gt;This a &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt; table (click on the image to enlarge): &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/default/files/ftp/faq_geneset2.png&quot;&gt;&lt;img src=&quot;/sites/default/files/ftp/faq_geneset2.png&quot; alt=&quot;Gene set table&quot; style=&quot;width:304px;height:228px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.vectorbase.org/organisms/anopheles-arabiensis/dongola/aarad14&quot;&gt;https://www.vectorbase.org/organisms/anopheles-arabiensis/dongola/aarad14&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;Gene set statistics are split into two categories: Gene and &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;Transcript&lt;/a&gt; providing quick summary counts for the content of a specific gene set. The prevelance of alternative splicing in eukaryotic genomes through which a single gene can encode for multiple transcripts means that the Gene and Transcript counts are likely to differ. Further, each of these categories are split between &lt;em&gt;Protein_coding&lt;/em&gt; (those Genes/Transcripts which via mRNAs are translated into polypeptides) and &lt;em&gt;Other&lt;/em&gt; which contains non-coding RNA genes and pseudogenes.&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;The &#039;Other&#039; category is everything that is not an mRNA. These include (but are not limited to) the types listed below:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;Translational ribonucleic acids&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Ribosomal RNA (&lt;a href=&quot;https://legacy.vectorbase.org/glossary#rRNA&quot; title=&quot;Ribosomal RNA. RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000252&quot; class=&quot;lexicon-term&quot;&gt;rRNA&lt;/a&gt;) [&lt;a href=&quot;https://en.wikipedia.org/wiki/Ribosomal_RNA&quot;&gt;more information from Wikipedia&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Transfer RNA (&lt;a href=&quot;https://legacy.vectorbase.org/glossary#tRNA&quot; title=&quot;Transfer RNA. These are identified using tRNAscan. Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&amp;#039; end, to which the tRNA&amp;#039;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &amp;#039;wobble&amp;#039; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000253&quot; class=&quot;lexicon-term&quot;&gt;tRNA&lt;/a&gt;) [&lt;a href=&quot;https://en.wikipedia.org/wiki/Transfer_RNA&quot;&gt;more information from Wikipedia&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Regulatory ribonucleic acids&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;MicroRNA (&lt;a href=&quot;https://legacy.vectorbase.org/glossary#miRNA&quot; title=&quot;MicroRNA is single-stranded RNA, typically 21-23 base pairs long, that is thought to be involved in gene regulation (especially inhibition of protein expression).&quot; class=&quot;lexicon-term&quot;&gt;miRNA&lt;/a&gt;) [&lt;a href=&quot;https://en.wikipedia.org/wiki/MicroRNA&quot;&gt;more information from Wikipedia&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Small nuclear RNA (&lt;a href=&quot;https://legacy.vectorbase.org/glossary#snRNA&quot; title=&quot;A small nuclear RNA molecule involved in pre-mRNA splicing and processing. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000274&quot; class=&quot;lexicon-term&quot;&gt;snRNA&lt;/a&gt;) [&lt;a href=&quot;https://en.wikipedia.org/wiki/Small_nuclear_RNA&quot;&gt;more information from Wikipedia&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Small nucleolar RNA (&lt;a href=&quot;https://legacy.vectorbase.org/glossary#snoRNA&quot; title=&quot;Small nucleolar RNA, involved in modifications of other RNAs. A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000275&quot; class=&quot;lexicon-term&quot;&gt;snoRNA&lt;/a&gt;) [&lt;a href=&quot;https://en.wikipedia.org/wiki/Small_nucleolar_RNA&quot;&gt;more information from Wikipedia&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;Note that there are many more RFAM families but whenever they are classified as motifs (e.g. a SECIS element &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Motif&quot; title=&quot;A conserved region of sequence with a specific function/ structure.&quot; class=&quot;lexicon-term&quot;&gt;motif&lt;/a&gt;, RF00031), they are filtered out by VectorBase/Ensembl ncRNA gene prediction pipeline. For all non-coding RNA, except tRNA and rRNA genes, models are predicted by aligning a genomic sequence against Rfam sequences. Rfam makes its annotations available for editing in the online encyclopedia &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_RNA&quot;&gt;Wikipedia&lt;/a&gt;. &lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;Daub, J., Gardner, P. P., Tate, J., Ramsköld, D., Manske, M., Scott, W. G., … Bateman, A. (2008). The RNA WikiProject: Community annotation of RNA families. RNA, 14(12), 2462–2464. &lt;a href=&quot;http://doi.org/10.1261/rna.1200508&quot;&gt;http://doi.org/10.1261/rna.1200508&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;Two other FAQs have related information that may also be of your interest:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/faqs/which-are-gene-biotype-definitions&quot;&gt;Which are the gene biotype definitions? &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/faqs/how-are-rna-genes-annotated&quot;&gt;How are RNA genes annotated?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 29 Nov 2016 16:33:07 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9769675 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/what-gene-set-counts-mean#comments</comments>
+</item>
+<item>
+ <title>What data is available for download?</title>
+ <link>https://legacy.vectorbase.org/faqs/what-data-available-download</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;The data in VectorBase is available for &lt;a href=&quot;/downloads?field_status_value=Current&quot;&gt;download&lt;/a&gt; in a variety of formats.&lt;/p&gt;
+&lt;h2&gt;Genomic sequences&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/downloads?field_download_file_type_tid=453&amp;amp;field_download_file_format_tid=472&amp;amp;field_status_value=Current&quot;&gt;Fasta files&lt;/a&gt; are available for contigs, scaffolds, and (if available) chromosomes, for all assembled genomes in VectorBase. All sequences are soft-masked. The assemblies are described by &lt;a href=&quot;/downloads?field_download_file_type_tid=453&amp;amp;field_download_file_format_tid=1169&amp;amp;field_status_value=Current&quot;&gt;AGP (v2.0) files&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#repeat&quot; title=&quot;Repetitive DNA in which the same sequence occurs multiple times.&quot; class=&quot;lexicon-term&quot;&gt;Repeat&lt;/a&gt; data&lt;/h2&gt;
+&lt;p&gt;Repeat features annotated on assembled genomes are available in &lt;a href=&quot;/downloads?field_download_file_type_tid=1372&amp;amp;field_download_file_format_tid=474&amp;amp;field_status_value=Current&quot;&gt;GFF3 format&lt;/a&gt;. For many species the &lt;a href=&quot;/downloads?field_download_file_type_tid=1362&amp;amp;field_download_file_format_tid=1360&amp;amp;field_status_value=Current&quot;&gt;custom repeat library&lt;/a&gt; used with &lt;a href=&quot;https://legacy.vectorbase.org/glossary#RepeatMasker&quot; title=&quot;RepeatMasker (AFA Smit &amp;amp; P Green) is a standard software tool used in computational genomics to identify repetitive elements and low-complexity sequences.&quot; class=&quot;lexicon-term&quot;&gt;RepeatMasker&lt;/a&gt; is also available.&lt;/p&gt;
+&lt;h2&gt;Gene annotations&lt;/h2&gt;
+&lt;p&gt;Gene sets for assembled genomes are provided in &lt;a href=&quot;/downloads?field_download_file_type_tid=463&amp;amp;field_download_file_format_tid=474&amp;amp;field_status_value=Current&quot;&gt;GFF3&lt;/a&gt; and &lt;a href=&quot;/downloads?field_download_file_type_tid=463&amp;amp;field_download_file_format_tid=473&amp;amp;field_status_value=Current&quot;&gt;GTF (v2.2&lt;/a&gt;) formats. The sequences of the transcripts and proteins are available as &lt;a href=&quot;/downloads?field_download_file_type_tid=463&amp;amp;field_download_file_format_tid=472&amp;amp;field_status_value=Current&quot;&gt;Fasta files&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Transcriptomes and proteomes&lt;/h2&gt;
+&lt;p&gt;Transcriptomes and proteomes are available, in &lt;a href=&quot;/downloads?field_download_file_type_tid=942&amp;amp;field_download_file_format_tid=472&amp;amp;field_status_value=Current&quot;&gt;Fasta format&lt;/a&gt;, for species which do not have a genome &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Assembly&quot; title=&quot;When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;assembly&lt;/a&gt; (and also for some species which do have a genome assembly).&lt;/p&gt;
+&lt;h2&gt;Projection data&lt;/h2&gt;
+&lt;p&gt;When assemblies are updated, genes are projected from the old to the new assembly. This process generates &lt;a href=&quot;/downloads?field_download_file_type_tid=1514&amp;amp;field_status_value=Current&quot;&gt;a range of files (in text, Fasta, and GFF3 format)&lt;/a&gt;, described in detail in &lt;a href=&quot;/faqs/how-are-genes-projected-between-assembly-versions&quot;&gt;another FAQ&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Microarray data&lt;/h2&gt;
+&lt;p&gt;For &lt;em&gt;Anopheles gambiae&lt;/em&gt; and &lt;em&gt;Aedes aegypti&lt;/em&gt; there are &lt;a href=&quot;/downloads?field_download_file_type_tid=413&amp;amp;field_status_value=Current&quot;&gt;tab-delimited files&lt;/a&gt; of gene-averaged expression summary data. These are the p-values and text summaries for genes that are displayed in the &lt;a href=&quot;/expression-browser&quot;&gt;Expression Browser&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Ontologies&lt;/h2&gt;
+&lt;p&gt;Ontologies used in VectorBase are provided in &lt;a href=&quot;/downloads?field_download_file_type_tid=470&amp;amp;field_download_file_format_tid=475&amp;amp;field_status_value=Current&quot;&gt;OBO format&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Comparative data&lt;/h2&gt;
+&lt;p&gt;Files relating to comparative analyses are described in detail in &lt;a href=&quot;/faqs/downloads-comparative-data&quot;&gt;another FAQ&lt;/a&gt;.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 31 Aug 2016 16:10:00 +0000</pubDate>
+ <dc:creator>jallen</dc:creator>
+ <guid isPermaLink="false">9769578 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/what-data-available-download#comments</comments>
+</item>
+<item>
+ <title>Is there any plan to map the species supercontigs to chromosomes?</title>
+ <link>https://legacy.vectorbase.org/faqs/there-any-plan-map-species-supercontigs-chromosomes</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Currently all VectorBase genomes, with the exception of &lt;em&gt;Anopheles gambiae&lt;/em&gt; PEST, are available only as supercontigs. For some species, the genome papers and other publications have achieved to locate a subset of the supercontigs. For mosquitoes, specially for &lt;em&gt;Aedes aegypti&lt;/em&gt;, preliminary work has also come as product of one of our &lt;a href=&quot;https://pre.vectorbase.org/projects/driving-biological-projects&quot;&gt;Driving Biological projects, DBPs (i.e., Reference maps for vector genome assembly)&lt;/a&gt; and a new consortium lead by &lt;a href=&quot;http://www.nytimes.com/2016/03/31/us/mapping-a-genetic-strategy-to-fight-the-zika-virus.html?_r=0&quot;&gt;Dr. Leslie B. Vosshall (The New York Times, Amy Harmon, March 30, 2016)&lt;/a&gt;.  VectorBase will incorporate the chromosome nomenclature in a species by species case, base on each project timeline. &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 04 Aug 2016 16:45:57 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9769495 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/there-any-plan-map-species-supercontigs-chromosomes#comments</comments>
+</item>
+<item>
+ <title>Is it possible to query for genes&#039; pathway information? e.g., KEGG</title>
+ <link>https://legacy.vectorbase.org/faqs/it-possible-query-genes-pathway-information-eg-kegg</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;/br&gt;
+
+&lt;h1&gt;KEEG&lt;/h1&gt;
+
+&lt;p align=&quot;justify&quot;&gt;KEGG is a database to understand high-level functions and utilities of biological systems, from molecular-level information. One of its data-oriented entry points is KEGG pathway, a collection of manually drawn pathway maps representing knowledge on the molecular interaction and reaction networks among proteins and other molecules. These curated pathways include six of our hosted genomes, these species are &lt;em&gt;Aedes aegypti, Anopheles gambiae, Culex quinquefasciatus, Ixodes scapularis, Musca domestica&lt;/em&gt; and &lt;em&gt;Pediculus humans&lt;/em&gt;. 
+
+&lt;p align=&quot;justify&quot;&gt;If you do want to query our data here are the three possible access routes: 
+
+&lt;ul&gt; 
+&lt;li&gt;Navigate to a transcript page, in the left hand side menu click on &#039;General Identifiers&#039;. &lt;em&gt;e.g.,&lt;/em&gt; &lt;a href=&quot;https://www.vectorbase.org/Anopheles_gambiae/Transcript/Similarity?db=core;g=AGAP004786;r=2L:3545835-3548422;t=AGAP004786-RA&quot;&gt;AGAP004786&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;If you know the KEEG ID, type it in the search box using as prefix &#039;KEEG:&#039;, &lt;em&gt;e.g.,&lt;/em&gt; &lt;a href=&quot;https://www.vectorbase.org/search/site/KEGG%3Aaga00010&quot;&gt;KEGG:aga00010&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;If you have a list of gene of interest use them as your &#039;filter&#039; and select KEEG as the desired &#039;attributes&#039; in Biomart, &lt;em&gt;e.g.&lt;/em&gt;, &lt;a href=&quot;http://biomart.vectorbase.org/biomart/martview/f74a4c86b21ab3e744f287199a6fbe7d&quot;&gt;AGAP003030, AGAP004773, AGAP004786, AGAP010421&lt;/a&gt; (if after following this link you you not see the expected hits click on &#039;Results&#039;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;ArthropodaCyc&lt;/h1&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&lt;a href=&quot;http://arthropodacyc.cycadsys.org&quot;&gt;ArthropodaCyc&lt;/a&gt;, a collection of databases dedicated to the arthropod metabolism reconstruction, has used seven VectorBase genomes for its network reconstructions, these species are &lt;em&gt;Ae. aegypti, An. gambiae, Cx. quinquefasciatus, I. scapularis, P. humans and Rhodnius prolixus&lt;/em&gt; 
+
+&lt;h2&gt;Note&lt;/h2&gt;
+
+If neither of the above resources has the pathway information for your organisms of interest, you can use a close/model species to find its orthologs, using VectorBase &lt;a href=&quot;http://biomart.vectorbase.org/biomart/martview/211d9443f04432df984592fa543237c9&quot;&gt;BioMart&lt;/a&gt;, &lt;a href=&quot;https://www.vectorbase.org/hmmer&quot;&gt;HMMER&lt;/a&gt;  and/or &lt;a href=&quot;https://www.vectorbase.org/blast&quot;&gt;BLASTp&lt;/a&gt;. If you need help finding orthologs genes go to the tutorials or send us an email to info@vectorbase.org. &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 03 Aug 2016 16:06:47 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9769491 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/it-possible-query-genes-pathway-information-eg-kegg#comments</comments>
+</item>
+<item>
+ <title>How are gene descriptions propagated between species?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-are-gene-descriptions-propagated-between-species</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Some of the species in VectorBase have been annotated more extensively than others, and it is useful to propagate gene descriptions to closely related species. Gene descriptions (but not gene names) are propagated based on orthology.&lt;/p&gt;
+&lt;p&gt;If there is one-to-one or one-to-many orthology between a gene in a source (i.e. well annotated) species and a target species, then the description is propagated from the source to the target if the following conditions are met:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;a description in the source gene exists, and does not contain the words &#039;hypothetical&#039; or &#039;putative&#039;&lt;/li&gt;
+&lt;li&gt;no existing name or description in the target gene&lt;/li&gt;
+&lt;li&gt;&amp;gt;30% amino acid &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Sequence_identity&quot; title=&quot;A measure of how similar two sequences are, specifically, what percent of amino acids are the same in type and position between the two sequences.&quot; class=&quot;lexicon-term&quot;&gt;sequence identity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;an &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Alignment&quot; title=&quot;A comparison between two or more sequences by matching identical and/or similar residues and assigning a score to the match.&quot; class=&quot;lexicon-term&quot;&gt;alignment&lt;/a&gt; that covers &amp;gt;66% of both genes&#039; lengths&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;When the description is propagated to the target gene it retains the source description&#039;s provenance, and information is added about the source species and gene stable ID. If the description ends in a digit, this usually indicates a species-specific element of the annotation, and is removed during propagation.&lt;/p&gt;
+&lt;p&gt;Descriptions are propagated between the following species:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;Aedes aegypti&lt;/em&gt; to &lt;em&gt;Aedes albopictus&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Anopheles gambiae&lt;/em&gt; to the other Anophelines&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Glossina morsitans&lt;/em&gt; to the other &lt;em&gt;Glossinidae&lt;/em&gt;, &lt;em&gt;Musca domestica&lt;/em&gt;, &lt;em&gt;Stomoxys calcitrans&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Drosophila melanogaster&lt;/em&gt; to &lt;em&gt;Glossinidae&lt;/em&gt;, &lt;em&gt;Musca domestica&lt;/em&gt;, &lt;em&gt;Stomoxys calcitrans&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 17 Feb 2016 12:08:46 +0000</pubDate>
+ <dc:creator>jallen</dc:creator>
+ <guid isPermaLink="false">9769354 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-are-gene-descriptions-propagated-between-species#comments</comments>
+</item>
+</channel>
+</rss>

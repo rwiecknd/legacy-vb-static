@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - tRNA</title>
+ <link>https://legacy.vectorbase.org/glossary/trna</link>
+ <description> Transfer RNA. These are identified using tRNAscan. Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&#039; end, to which the tRNA&#039;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &#039;wobble&#039; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000253
+ </description>
+ <language>en</language>
+</channel>
+</rss>

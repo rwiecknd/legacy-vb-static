@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - BLAT (BLAST-Like Alignment Tool)</title>
+ <link>https://legacy.vectorbase.org/glossary/blat-blast-alignment-tool</link>
+ <description> An mRNA/DNA and cross-species protein sequence analysis tool to quickly find sequences of 95% and greater similarity of length 40 bases or more. (Kent, W.J. 2002. BLAT -- The BLAST-Like Alignment Tool. Genome Research 4: 656-664)
+ </description>
+ <language>en</language>
+</channel>
+</rss>

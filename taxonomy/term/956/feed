@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - ambiguity code</title>
+ <link>https://legacy.vectorbase.org/glossary/ambiguity-code</link>
+ <description> The standard ambiguity codes for nucleotides are provided by IUPAC (INTERNATIONAL UNION OF PURE AND APPLIED CHEMISTRY) and indicate the possible nucleotides that can occur at a given position. The symbols are valid for both DNA and RNA and are shown below:    A = adenine    C = cytosine    G = guanine    T = thymine    R = G A (purine)    Y = T C (pyrimidine)    K = G T (keto)    M = A C (amino)    S = G C (strong bonds)    W = A T (weak bonds)    B = G T C (all but A)    D = G A T (all but C)    H = A C T (all but G)    V = G C A (all but T)    N = A G C T (any)
+ </description>
+ <language>en</language>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - PAR (Pseudoautosomal region)</title>
+ <link>https://legacy.vectorbase.org/glossary/par-pseudoautosomal-region</link>
+ <description> Small regions of sequence identity located at the tips of the short and the long arms of the X and Y chromosomes where recombination and genetic exchange take place. Genes within the pseudoautosomal region are not sex linked. The Genome Reference Consortium defines two PARs for the human genome assembly. The first pseudoautosomal region, PAR1, is located at the tip of the short arm and consists entirely of N&#039;s. The second pseudoautosomal region, PAR2, is located at the tip of the long arm. In the Ensembl human database, DNA for the complete X chromosome is stored and annotated. Only the two unique regions of the Y chromosome are stored and annotated. We are able to represent the complete Y chromosome by filling the &#039;gaps&#039; with the two PAR regions from the X chromosome. This is done on-the-fly using our assembly_exceptions table. Please note that when using the API, SliceAdaptor by default will fetch only the unique regions of the genome. This means that the PARs on chromosome X will be fetched but only the unique regions on Y will be fetched. To fetch the full length of the Y chromosome using the SliceAdaptor, set the 4th argument to &#039;1&#039; as shown: my $slices = $slice_adaptor-&gt;fetch_all( &#039;toplevel&#039;, &#039;GRCh37&#039;, 0, 1 );
+ </description>
+ <language>en</language>
+</channel>
+</rss>

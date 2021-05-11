@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Ensembl genes</title>
+ <link>https://legacy.vectorbase.org/glossary/ensembl-genes</link>
+ <description> Set of Ensembl gene predictions based on experimental evidence from protein sequences and/or near-full-length cDNA available from public sequence databases. &quot;Ensembl known genes&quot; are predicted on the basis of species-specific database entries from manually curated UniProt/Swiss-Prot, partially manually curated RefSeq and UniProt/TrEMBL databases. Predictions of &quot;Ensembl novel genes&quot; are based on other experimental evidence such as protein and cDNA sequence information from related species. Golden genes are the result of a merge between a Havana transcript (manually curated) and an Ensembl gene prediction from the annotation pipeline. See &quot;havana transcript&quot;.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

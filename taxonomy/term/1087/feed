@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Prosite</title>
+ <link>https://legacy.vectorbase.org/glossary/prosite</link>
+ <description> PROSITE is a database of protein families and domains run by the (Expert Protein Analysis System (ExPASy) proteomics server of the Swiss Institute of Bioinformatics (SIB). It consists of biologically significant sites, patterns and profiles that help to reliably identify to which known protein family (if any) a new sequence belongs.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

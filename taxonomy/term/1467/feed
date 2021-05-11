@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Documentation</title>
+ <link>https://legacy.vectorbase.org/tags/documentation</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Gene trees</title>
+ <link>https://legacy.vectorbase.org/content/gene-trees-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Gene trees in VectorBase are inferred from protein alignments, using the &lt;a href=&quot;/info/genome/compara/homology_method.html&quot;&gt;methodology&lt;/a&gt; developed by Ensembl. From these gene trees (which are reconciled with the species tree as part of the inference) lists of orthologs and paralogs are generated.&lt;/p&gt;
+&lt;p&gt;All &lt;a href=&quot;/genomes&quot;&gt;VectorBase species with gene sets&lt;/a&gt;, plus &lt;em&gt;Drosophila melanogaster&lt;/em&gt;, are included in the inference of gene trees. In cases where we have more than one &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Assembly&quot; title=&quot;When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;assembly&lt;/a&gt; for a species, only the genes from the reference assembly are used.&lt;/p&gt;
+&lt;h2&gt;Data Access&lt;/h2&gt;
+&lt;p&gt;Interactive versions of the gene trees are viewable in the &lt;a href=&quot;/species.html&quot;&gt;genome browser&lt;/a&gt;, and are also available for &lt;a href=&quot;/faqs/downloads-comparative-data&quot;&gt;download in bulk&lt;/a&gt;.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 01 Dec 2014 16:55:17 +0000</pubDate>
+ <dc:creator>lawson</dc:creator>
+ <guid isPermaLink="false">9768287 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/content/gene-trees-0#comments</comments>
+</item>
+<item>
+ <title>Whole genome alignment</title>
+ <link>https://legacy.vectorbase.org/content/whole-genome-alignment</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;Two types of pairwise genome &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Alignment&quot; title=&quot;A comparison between two or more sequences by matching identical and/or similar residues and assigning a score to the match.&quot; class=&quot;lexicon-term&quot;&gt;alignment&lt;/a&gt; are available in VectorBase, based on LastZ [1] and translated BLAT (tBLAT) [2]. LastZ is typically used for closely related species, and tBLAT for more distant species. The method of alignment affects the coverage of the genomes, with tBLAT expected to mostly find homologies in coding regions.&lt;/p&gt;
+&lt;p&gt;The raw results from LastZ or tBLAT are alignment blocks, which are &#039;chained&#039; according to their location in both genomes, then &#039;netted&#039; to choose the best sub-chain in each region for the reference species [3]. &lt;/p&gt;
+&lt;p&gt;Coverage statistics are available for &lt;a href=&quot;/compara_analyses.html&quot;&gt;all pairwise alignments&lt;/a&gt; (e.g. &lt;a href=&quot;/mlss.html?mlss=9367&quot;&gt;&lt;em&gt;Anopheles gambiae&lt;/em&gt; and &lt;em&gt;Anopheles coluzzii&lt;/em&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://www.bx.psu.edu/~rsharris/lastz&quot;&gt;Improved pairwise alignment of genomic DNA.&lt;/a&gt; Harris RS. 2007. Ph.D. Thesis, The Pennsylvania State University.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://europepmc.org/abstract/MED/11932250&quot;&gt;BLAT--the BLAST-like alignment tool.&lt;/a&gt; Kent WJ. 2002. Genome Research. 12(4):656-64.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://europepmc.org/abstract/MED/14500911&quot;&gt;Evolution&#039;s cauldron: duplication, deletion, and rearrangement in the mouse and human genomes.&lt;/a&gt; Kent WJ et al. 2003. PNAS. 100(20):11484-9.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Data Access&lt;/h2&gt;
+&lt;p&gt;Pairwise alignments are viewable in the &lt;a href=&quot;/species.html&quot;&gt;genome browser&lt;/a&gt;, and are also available for &lt;a href=&quot;/faqs/downloads-comparative-data&quot;&gt;download in bulk&lt;/a&gt;.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 01 Dec 2014 16:47:00 +0000</pubDate>
+ <dc:creator>lawson</dc:creator>
+ <guid isPermaLink="false">9768286 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/content/whole-genome-alignment#comments</comments>
+</item>
+</channel>
+</rss>

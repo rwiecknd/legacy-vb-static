@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Compara (faqs)</title>
+ <link>https://legacy.vectorbase.org/tags/compara-faqs</link>
+ <description>FAQ category.
+</description>
+ <language>en</language>
+<item>
+ <title>How are orthologs and paralogs defined?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-are-orthologs-and-paralogs-defined</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;The VectorBase putative orthologs and paralogs are determined using the Ensembl homology prediction pipeline. &lt;em&gt;Drosophila melanogaster&lt;/em&gt; is included in these predictions.&lt;/p&gt;
+&lt;p&gt;Broadly speaking, this means that after an all-versus-all &lt;a href=&quot;https://legacy.vectorbase.org/glossary#BLAST&quot; title=&quot;BLAST (Basic Local Alignment Search Tool) is a sequence comparison algorithm optimised for speed which is used to search sequence databases for optimal local alignments to a query. (Altschul et al., J Mol Biol 215:403-410; 1990)&quot; class=&quot;lexicon-term&quot;&gt;BLAST&lt;/a&gt; step, genes are clustered, and then aligned. Phylogenetic trees are inferred from the multiple sequence alignments, from which homologs are determined. See the &lt;a href=&quot;http://www.ensembl.org/info/docs/compara/homology_method.html&quot;&gt;Ensembl documentation page&lt;/a&gt; for further details.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/compara-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Compara (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 14:04:20 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9764158 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-are-orthologs-and-paralogs-defined#comments</comments>
+</item>
+<item>
+ <title>Downloads of comparative data</title>
+ <link>https://legacy.vectorbase.org/faqs/downloads-comparative-data</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;The comparative data in VectorBase is available for &lt;a href=&quot;/downloads?field_download_file_type_tid=1539&amp;amp;field_status_value=Current&quot;&gt;download in bulk&lt;/a&gt;; because the data is often spread across many files, the downloads are provided as compressed &#039;tar&#039; archives. There are two sources of comparative data, &lt;a href=&quot;/content/peptide-compara&quot;&gt;gene trees&lt;/a&gt; and &lt;a href=&quot;/content/whole-genome-alignment&quot;&gt;whole genome alignments&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Gene trees and homologs&lt;/h2&gt;
+&lt;p&gt;Gene trees are provided in two formats, &lt;a href=&quot;http://evolution.genetics.washington.edu/phylip/newicktree.html&quot;&gt;Newick&lt;/a&gt; (a.k.a. New Hampshire) and &lt;a href=&quot;http://www.phyloxml.org/&quot;&gt;PhyloXML&lt;/a&gt;. The Newick-format trees have branch lengths and labelled leaf nodes. The PhyloXML files include additional metadata, such as bootstrap values and internal node labels.&lt;/p&gt;
+&lt;p&gt;The amino acid and cDNA alignments on which the gene trees were inferred are available in Fasta format. The ID field in these Fasta files is the VectorBase protein or &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript_ID&quot; title=&quot;Ensembl transcript identifiers are unique for each splice variant.&quot; class=&quot;lexicon-term&quot;&gt;transcript ID&lt;/a&gt;, and the header contains 3 further fields of meta data, separated by &#039;|&#039;: species, genomic location, gene ID. (These alignments are also embedded within the PhyloXML files.)&lt;/p&gt;
+&lt;p&gt;The homologs that are derived from the gene trees are provided in &lt;a href=&quot;http://orthoxml.org&quot;&gt;OrthoXML&lt;/a&gt; format.&lt;/p&gt;
+&lt;p&gt;For all of this gene tree-related data there is one file per gene tree, named for the VectorBase gene tree ID (e.g. VBGT00190000009607). To avoid having many thousands of files within one directory, gene trees are ordered sequentially (by ID) then grouped into sets of 500 and placed in sub-directories whose name indicates the range of IDs within.&lt;/p&gt;
+&lt;p&gt;Gene tree IDs in VectorBase are &quot;stable&quot; in that they track an evolutionary hypothesis, but won&#039;t necessarily represent exactly the same tree from release to release. For example, in VB release 1512, let&#039;s say we have a tree with 32 nodes. In release 1602, we add &lt;em&gt;Aedes albopictus&lt;/em&gt; to our set of species, and the tree is updated to include one of its genes. That gene tree would have the same ID across the two releases; at a fundamental level the tree is the same, even though its Newick representation will be different.&lt;/p&gt;
+&lt;h2&gt;Pairwise whole genome alignments&lt;/h2&gt;
+&lt;p&gt;Pairwise alignments, calculated with either LASTZ or tBLAT, are available in &lt;a href=&quot;https://genome.ucsc.edu/FAQ/FAQformat.html#format5&quot;&gt;MAF&lt;/a&gt; format. If the reference species has chromosomes (e.g. &lt;em&gt;Anopheles gambiae&lt;/em&gt;) there is one MAF file per chromosome, otherwise all scaffolds are in a single file.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/compara-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Compara (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 09 Feb 2016 11:44:23 +0000</pubDate>
+ <dc:creator>jallen</dc:creator>
+ <guid isPermaLink="false">9769328 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/downloads-comparative-data#comments</comments>
+</item>
+<item>
+ <title>Gene tree coloring</title>
+ <link>https://legacy.vectorbase.org/faqs/gene-tree-coloring</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h2&gt;Taxonomic-based Coloring&lt;/h2&gt;
+&lt;p&gt;By default, gene trees in the genome browser are colored according to taxonomic level. For example, genes from Anopheline mosquitos will have a pink background, and genes from sandflies will have a yellow background. The coloring can be switched off, or configured so that the text is colored (on a white background). To configure the coloring, from a gene tree page select &lt;b&gt;Configure this page&lt;/b&gt; from the menu on the left, and set the &lt;b&gt;Colour tree according to taxonomy&lt;/b&gt; option to either &quot;&lt;em&gt;No colouring&lt;/em&gt;&quot;, &quot;&lt;em&gt;Background&lt;/em&gt;&quot;, or &quot;&lt;em&gt;Foreground&lt;/em&gt;&quot;.&lt;/p&gt;
+&lt;p&gt;The taxonomic levels and colors are:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Anophelinae: pink&lt;/li&gt;
+&lt;li&gt;Culicinae: orange&lt;/li&gt;
+&lt;li&gt;Phlebotominae: yellow&lt;/li&gt;
+&lt;li&gt;Brachycera: turquoise&lt;/li&gt;
+&lt;li&gt;Hemiptera: blue&lt;/li&gt;
+&lt;li&gt;Phthiraptera: blue&lt;/li&gt;
+&lt;li&gt;Chelicerata: blue&lt;/li&gt;
+&lt;li&gt;Gastropoda: purple&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;If sub-trees are collapsed in the gene tree display, these will be colored if the sub-tree contains only species from one taxonomic level. Note that Drosophila melanogaster, which is included in our comparative analyses despite not being a &quot;VectorBase species&quot;, always has a white background.&lt;/p&gt;
+&lt;p&gt;The following example shows the default taxonomic coloring:&lt;br /&gt;&lt;img src=&quot;/sites/default/files/ftp/gene_tree_coloring_1.png&quot; width=&quot;800&quot; height=&quot;362&quot; alt=&quot;Taxonomic-based coloring&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Highlighting Annotations&lt;/h2&gt;
+&lt;p&gt;Layered on top of the taxonomic coloring, it is also possible to highlight (with a green background around the ID) genes which are attached to a chosen GO or &lt;a href=&quot;https://legacy.vectorbase.org/glossary#InterPro&quot; title=&quot;InterPro is an integrated resource for protein families, domains and sites, combining information from several different protein signature databases. InterPro IDs are linked to the summary of information about that domain or family. InterPro is managed by EBI. A number of databases (SwissProt, TrEMBL, PROSITE, PRINTS, Pfam, and ProDom, SMART, TIGRFAMs, PIR SuperFamilies and SUPERFAMILY) with different approaches to biological information are used to derive protein signatures. ProteinView, GeneView and DomainView provide links to the relevant InterPro entries.&quot; class=&quot;lexicon-term&quot;&gt;InterPro&lt;/a&gt; term. These can be selected in the Annotations table above the gene tree display. Note that a collapsed sub-tree in the gene tree display will be highlighted if any (not necesarily all) genes within the sub-tree are annotated with the term.&lt;/p&gt;
+&lt;p&gt;The next example shows &#039;foreground&#039; taxonomic coloring, with highlighting on the genes that have been annotated with the &lt;b&gt;SH3&lt;/b&gt; InterPro &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Domain&quot; title=&quot;A region of special biological interest within a single protein sequence. However, a domain may also be defined as a region within the three-dimensional structure of a protein that may encompass regions of several distinct protein sequences that accomplishes a specific function. A domain class is a group of domains that share a common set of well-defined properties or characteristics.&quot; class=&quot;lexicon-term&quot;&gt;domain&lt;/a&gt;:&lt;br /&gt;&lt;img src=&quot;/sites/default/files/ftp/gene_tree_coloring_2.png&quot; width=&quot;800&quot; height=&quot;553&quot; alt=&quot;Highlighting annotations&quot; /&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/compara-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Compara (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 14 Dec 2015 11:58:42 +0000</pubDate>
+ <dc:creator>jallen</dc:creator>
+ <guid isPermaLink="false">9769241 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/gene-tree-coloring#comments</comments>
+</item>
+<item>
+ <title>How to visualise syntenic regions</title>
+ <link>https://legacy.vectorbase.org/faqs/how-visualise-syntenic-regions</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;We don&#039;t have a separate display for visualising these regions as chromosome blocks as for the moment, only one species (&lt;i&gt;Anopheles gambiae&lt;/i&gt;) has it&#039;s whole genome assigned to chromosomes.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;VectorBase has precomputed tBLAT (translated BLAT) DNA-DNA comparisons for &lt;i&gt;Anopheles gambiae, Aedes aegypti&lt;/i&gt; and &lt;i&gt;Culex quinquefasciatus&lt;/i&gt;. In the VectoBase genome browser, select the gene, genes or region you are interested in (Location tab). In the left hand menu, select &quot;Comparative genomics -&amp;gt; &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Alignment&quot; title=&quot;A comparison between two or more sequences by matching identical and/or similar residues and assigning a score to the match.&quot; class=&quot;lexicon-term&quot;&gt;Alignment&lt;/a&gt; (image)&quot;. Using the drop down menu in the middle of the page, select the species against which you would like to see the alignment. The link &quot;Go to a graphical view&quot; is below this drop down menu. After this option is activated it is also possible to select &quot;Multi-species view&quot; from the left hand menu. Use the &quot;Configure this page&quot; button on the left and later &quot;Select Species&quot; to add or remove a species.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;It is also possible to access this data programmatically by querying against the Compara database at VectorBase (database available upon request), but it would take quite a lot of time to learn how to do this unless you are already familiar with the Ensembl Compara perl API.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/compara-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Compara (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 29 Aug 2011 21:52:44 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">9764159 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-visualise-syntenic-regions#comments</comments>
+</item>
+</channel>
+</rss>

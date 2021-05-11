@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - dbSNP</title>
+ <link>https://legacy.vectorbase.org/glossary/dbsnp</link>
+ <description> The Single Nucleotide Polymorphism database (dbSNP) is a public-domain archive for a broad collection of simple (short) genetic polymorphisms. This collection of polymorphisms is maintained by NCBI and includes single-base nucleotide substitutions (also known as single nucleotide polymorphisms or SNPs), small-scale multi-base deletions or insertions (also called deletion insertion polymorphisms, indels or DIPs), and retroposable element insertions and microsatellite repeat variations (also called short tandem repeats or STRs). See more details here.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

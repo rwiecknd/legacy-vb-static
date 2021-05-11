@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - GeneWise</title>
+ <link>https://legacy.vectorbase.org/glossary/genewise</link>
+ <description> GeneWise is sequence analysis tool for comparing proteins or profile HMMs to DNA sequences allowing for introns and frameshifts. The Wise2 package was written by Ewan Birney. More information about the package can be obtained at: http://www.ebi.ac.uk/Tools/psa/genewise/help/
+ </description>
+ <language>en</language>
+</channel>
+</rss>

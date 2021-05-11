@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Accession number</title>
+ <link>https://legacy.vectorbase.org/glossary/accession-number</link>
+ <description> A unique identifier given to a sequence, sample or other item when it is submitted to a repository (for example GenBank).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

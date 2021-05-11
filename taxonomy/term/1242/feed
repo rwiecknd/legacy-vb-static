@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Unclassified</title>
+ <link>https://legacy.vectorbase.org/taxonomy/unclassified</link>
+ <description> This taxonomic level (Order) is unranked here.  However, several clades and a superfamily do exist: Heterobranchia (clade), Euthyneura (clade), Panpulmonata (clade), Hygrophila (clade), and Planorboidea (superfamily).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

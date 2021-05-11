@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Exonerate</title>
+ <link>https://legacy.vectorbase.org/glossary/exonerate</link>
+ <description> A fast gapped DNA-DNA alignment algorithm. It can be used for aligning various types of sequences such as genomic DNA, cDNAs/ESTs, and proteins.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

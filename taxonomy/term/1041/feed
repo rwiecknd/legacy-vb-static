@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Karyotype</title>
+ <link>https://legacy.vectorbase.org/glossary/karyotype</link>
+ <description> The Karyotype View in VectorBase displays the set of chromosomes for a species, including the centromere and banding pattern as they would appear under a light microscope. Dark bands indicate heterochromatin and light bands indicate homochromatin.
+The Karyotype View is only available for species where the genome assembly provided to us has been assembled into chromosomes, currently only Anopheles gambiae. For many species in VectorBase, the genome assembly is comprised of only unplaced scaffolds.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

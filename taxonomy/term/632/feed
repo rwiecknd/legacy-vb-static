@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - neurotranscriptome</title>
+ <link>https://legacy.vectorbase.org/tags/neurotranscriptome</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Comparative Neurotranscriptome of Aedes aegypti</title>
+ <link>https://legacy.vectorbase.org/projects/comparative-neurotranscriptome-aedes-aegypti</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;b&gt;Carolyn McBride, Matthew DeGennaro, and Leslie B. Vosshall&lt;/b&gt;&lt;br /&gt;
+Contacts: &lt;a href=&quot;mailto:leslie@rockefeller.edu&quot;&gt;leslie@rockefeller.edu&lt;/a&gt;, tel: (212) 327 7236 &lt;a href=&quot;mailto:lmcbride@rockefeller.edu&quot;&gt;lmcbride@rockefeller.edu&lt;/a&gt;, tel: (212) 327 7139&lt;/p&gt;
+&lt;h2&gt;Executive summary&lt;/h2&gt;
+&lt;p&gt;We generated a complete neurotranscriptome—a catalogue of all genes expressed in the central nervous system and head sensory appendages—of the Dengue/Yellow Fever vector, Aedes aegypti using RNA-seq technology. The deadly effectiveness of mosquitoes as disease vectors rests primarily on their hostseeking behavior and strong preference for human hosts (Takken and Knols, 1999). Since mosquitoes can only transmit human pathogens if they seek out and bite human hosts, understanding the molecular basis of host-seeking behaviors is a priority in the search for effective vector intervention strategies. &lt;/p&gt;
+&lt;p&gt;This project focused on decoding gene expression in the three principal head sensory organs thought to be involved in host-seeking behavior—the antenna, maxillary palp, and proboscis—as well as the brain, which directs the motor behavior needed to obtain a blood meal (Fig. 1). Beyond comparing tissue-specific differences in gene expression, we examined how tissue-specific gene expression changes with bloodfeeding state (Fig. 2) and also how it differs between two strains of Aedes that differ in host preference (Fig. 3). &lt;/p&gt;
+&lt;p&gt;The power of these biological comparisons will spur new interest in drawing neurobiologists into the field of vector biology to understand the molecular and neural mechanisms underlying host-seeking behavior. Information from this project will also lead to generally improved genome annotation of expressed regions, provide novel population level expression data for an important vector, and aid in studies of the molecular physiology of mosquito host seeking and host preference. The project therefore provides both important general resources to the vector community and specific interest to neurobiologists. We contrasted tissue-specific gene expression in sugar-fed and blood-fed females of the Liverpool genome strain of Aedes aegypti. The transmission of vector borne disease involves female mosquitoes making behavioral shifts from host-seeking to oviposition to the resumption of host-seeking during each gonotrophic cycle (Brown et al., 1994; Klowden and Lea, 1979) (Fig. 2). These behavioral changes have also been correlated with alterations in antennal sensitivity to host-odor stimuli (Davis, 1984). We compared gene expression between sugar-fed females, which show high attraction to human hosts, and females 48 hr post blood-feeding, which show no host attraction. We hypothesized that modulation of gene expression in part accounts for these dramatic effects on mosquito behavior and that monitoring changes in the neural transcriptome during the Aedes aegypti gonotrophic cycle could uncover novel regulators of host-seeking behavior.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figure 1.&lt;/b&gt;&lt;br /&gt;&lt;img src=&quot;/sites/default/files/ftp/Vosshall_DBP_Figure_1.jpg&quot; width=&quot;559&quot; height=&quot;307&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;br /&gt;
+Project schematic.&lt;br /&gt;
+A, Illustration of the four tissue types to be analyzed by RNA-seq in this project. Mosquito head drawing adapted from (Ignell et al., 2005).&lt;br /&gt;
+B, Table listing the 16 sample types to be analyzed by RNAseq in this project.&lt;/p&gt;
+&lt;p&gt;We also contrasted &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Anthropophilic&quot; title=&quot;Anthropophilic mosquitoes preferentially feed on humans.&quot; class=&quot;lexicon-term&quot;&gt;anthropophilic&lt;/a&gt; and &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Zoophilic&quot; title=&quot;Zoophilic mosquitoes preferentially feed on animals.&quot; class=&quot;lexicon-term&quot;&gt;zoophilic&lt;/a&gt; mosquito colonies derived from populations that coexist along the coast of East Africa. Classic work in this region in the 1960s-1980s established the co-existence of brown colored “domestic” populations breeding inside homes in villages and black colored “sylvan” populations breeding in tree and rock holes in surrounding forests (Gouck, 1972; McClelland and Weitz, 1963; Mukwaya, 1974). Mosquitoes from the domestic populations resembled those found throughout the tropics and subtropics outside of Africa including the Liverpool genome reference strain; they were strongly attracted to human scent and represented effective disease vectors. Mosquitoes from sylvan populations, on the other hand, preferred non-human animals and were therefore ineffective vectors. We collected fresh samples of both subspecies in 2009 and have confirmed their divergent host preferences in the laboratory (Fig. 3). Understanding the neural gene expression differences between these recently collected field strains may illuminate mechanisms underlying their distinct host preferences.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figure 2.&lt;/b&gt;&lt;br /&gt;&lt;img src=&quot;/sites/default/files/ftp/Vosshall_DBP_Figure_2.jpg&quot; width=&quot;670&quot; height=&quot;245&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;br /&gt;
+Aedes aegypti host-seeking behavior is modulated by feeding state. A, Uniport olfactometer assays of Orlando strain of Aedes aegypti measures activation and attraction behavior in response to human host cues (breath and hand odor). B, Host preference of females deprived of food overnight was measured in a uniport olfactometer (Klowden and Lea, 1978) with a human hand and breath as stimulus. % of females entering the large chamber is scored as activation, while % of females entering the cartridge at the top of distal end of the olfactometer is scored as attraction. C, Females were either sugar fed or blood-fed. Blood-fed female behavior was measured at 4 time points after the blood meal N=3-5 (n=20 mosquitoes per experiment). Data represent mean±SEM.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figure 3.&lt;/b&gt;&lt;br /&gt;&lt;img src=&quot;/sites/default/files/ftp/Vosshall_DBP_Figure_3.jpg&quot; width=&quot;468&quot; height=&quot;246&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;br /&gt;
+Kenyan strains show divergent host preferences. Host preference of sugar-fed females of Rabai brown, Rabai black, and Liverpool strains deprived of food overnight was measured in a modified Gouck Olfactometer (Gouck, 1972), with a choice of a live guinea pig or a human hand (50-100 females per trial, n=2-5). Preference index=# choosing human —#choosing guinea pig/total # choosing either. Rabai colonies were derived from immature stages collected in Rabai, Kenya in January 2009 and passaged in the Vosshall laboratory for 2-5 generations.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;RNA-seq experiments accomplished during DBP&lt;/h3&gt;
+&lt;table class=&quot;views-table cols-2&quot;&gt;&lt;tr&gt;&lt;th&gt;Tissue&lt;/th&gt;
+&lt;th&gt;Strain&lt;/th&gt;
+&lt;th&gt;Host preference&lt;/th&gt;
+&lt;th&gt;Feeding status&lt;/th&gt;
+&lt;th&gt;SRA accession&lt;/th&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd views-row-first&quot;&gt;&lt;td&gt;antenna&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;anthropophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;maxillary palp&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;anthropophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;proboscis&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;anthropophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;brain&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;anthropophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;antenna&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;48 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;maxillary palp&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;48 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;proboscis&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;48 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;brain&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;48 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;antenna&lt;/td&gt;
+&lt;td&gt;Rabai-Brown&lt;/td&gt;
+&lt;td&gt;anthropophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;maxillary palp&lt;/td&gt;
+&lt;td&gt;Rabai-Brown&lt;/td&gt;
+&lt;td&gt;anthropophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;proboscis&lt;/td&gt;
+&lt;td&gt;Rabai-Brown&lt;/td&gt;
+&lt;td&gt;anthropophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;brain&lt;/td&gt;
+&lt;td&gt;Rabai-Brown&lt;/td&gt;
+&lt;td&gt;anthropophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;antenna&lt;/td&gt;
+&lt;td&gt;Rabai-Black&lt;/td&gt;
+&lt;td&gt;zoophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;maxillary palp&lt;/td&gt;
+&lt;td&gt;Rabai-Black&lt;/td&gt;
+&lt;td&gt;zoophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;proboscis&lt;/td&gt;
+&lt;td&gt;Rabai-Black&lt;/td&gt;
+&lt;td&gt;zoophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;brain&lt;/td&gt;
+&lt;td&gt;Rabai-Black&lt;/td&gt;
+&lt;td&gt;zoophilic&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP035216&quot;&gt;SRP035216&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female abdominal tips&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;96 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female abdominal tips&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female antennae&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;48 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female antennae&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;96 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female antennae&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female brain&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female brain&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;48 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female brain&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;96 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female forelegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;96 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female forelegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female hindlegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;48 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female hindlegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;6 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female hindlegs &lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female maxillary palps&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female midlegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;96 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female midlegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female ovaries&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;96 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female ovaries&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female proboscis&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;female rostrums&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;48 hr post blood fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;female rostrums&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;male abdominal tips&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;male antennae&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;male brains&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;male forelegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;male hindlegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;odd&quot;&gt;&lt;td&gt;male midlegs&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr class=&quot;even&quot;&gt;&lt;td&gt;male rostrums&lt;/td&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;(not motivated)&lt;/td&gt;
+&lt;td&gt;sugar fed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra?term=SRP037535&quot;&gt;SRP037535&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Differential expression data&lt;/h3&gt;
+&lt;p&gt;Data from experiments looking for differences in antennal gene expression between both natural and lab-selected populations showing differences in host preference are &lt;a href=&quot;/search/site/McBride?site=%22Expression%22&quot;&gt;available from VectorBase via this link&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;References cited:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Brown, M. R., Klowden, M. J., Crim, J. W., Young, L., Shrouder, L., and Lea, A. (1994). Endogenous regulation of mosquito host-seeking behavior by a neuropeptide. J Insect Physiol 40, 399-406.
+&lt;/li&gt;&lt;li&gt;Davis, E. E. (1984). Development of lactic acid-receptor sensitivity and host-seeking behavior in newly emerged female Aedes aegypti mosquitoes. J Insect Physiol 30, 211-215.
+&lt;/li&gt;&lt;li&gt;Gouck, H. K. (1972). Host preferences of various strains of Aedes aegypti and Aedes simpsoni as determined by an olfactometer. Bull World Health Org 47, 680-683.
+&lt;/li&gt;&lt;li&gt;Ignell, R., Dekker, T., Ghaninia, M., and Hansson, B. S. (2005). Neuronal architecture of the mosquito deutocerebrum. J Comp Neurol 493, 207-240.
+&lt;/li&gt;&lt;li&gt;Klowden, M. J., and Lea, A. O. (1978). Blood meal size as a factor affecting continued host-seeking by Aedes aegypti (L.). Am J Trop Med Hyg 27, 827-831.
+&lt;/li&gt;&lt;li&gt;Klowden, M. J., and Lea, A. O. (1979). Humoral inhibition of host-seeking in Aedes aegypti during oocyte maturation. J Insect Physiol 25, 231-235.
+&lt;/li&gt;&lt;li&gt;McClelland, G. A., and Weitz, B. (1963). Serological identification of the natural hosts of Aedes aegypti (L.) and some other mosquitoes (Diptera, Culicidae) caught resting in vegetation in Kenya and Uganda. Ann Trop Med Parasitol 57, 214-224.
+&lt;/li&gt;&lt;li&gt;Mukwaya, L. G. (1974). Host preference in Aedes (Stegomyia) mosquitoes in Uganda. II. Studies on indoor and outdoor biting and resting behaviour with special reference to Aedes aegypti L. Acta Trop 31, 165-176.
+&lt;/li&gt;&lt;li&gt;Takken, W., and Knols, B. G. (1999). Odor-mediated behavior of Afrotropical malaria mosquitoes. Annu Rev Entomol 44, 131-157
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The attached PDF is the original proposal to generate a complete neurotranscriptome (a catalogue of all genes expressed in the central nervous system and head sensory appendage) of Aedes aegypti.&lt;/p&gt;
+&lt;p&gt;The proposal authors were Carolyn McBride, Matthew DeGennaro, and Leslie B. Vosshall.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Jul 2012 09:37:38 +0000</pubDate>
+ <dc:creator>gmaslen</dc:creator>
+ <guid isPermaLink="false">9766610 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/projects/comparative-neurotranscriptome-aedes-aegypti#comments</comments>
+</item>
+</channel>
+</rss>

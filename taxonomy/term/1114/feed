@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Slice</title>
+ <link>https://legacy.vectorbase.org/glossary/slice</link>
+ <description> The term &quot;slice&quot; in Ensembl refers to a length of DNA sequence. A slice can be any length, from one base long to the entire length of a chromosome. A slice is defined as follows:    &#039;coord_system_name:coord_system_version:seq_region_name:start:end:strand&#039;    eg. &#039;chromosome:GRCm38:X:1000:2000:1&#039;
+ </description>
+ <language>en</language>
+</channel>
+</rss>

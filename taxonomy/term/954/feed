@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Alternate sequence</title>
+ <link>https://legacy.vectorbase.org/glossary/alternate-sequence</link>
+ <description> Genomic sequence that differs from the genomic DNA on the primary assembly. The alternate sequences come in two types: allelic sequence (haplotypes and novel patches) and fix patches. Novel patches represent new allelic loci but they are not necessarily haplotypes. Fix patches are where the primary assembly was found to be incorrect, and the patch reflects the corrected sequence. Both haplotypes, novel patches and fix patches are determined by the GRC, not by Ensembl. When using the API, the primary assembly is referred to as reference sequence and alternate sequence is referred to as non-reference sequence.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

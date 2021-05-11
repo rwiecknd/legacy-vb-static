@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Jalview</title>
+ <link>https://legacy.vectorbase.org/glossary/jalview</link>
+ <description> Jalview is a multiple alignment editor, used by the EBI clustalw server and the PFAM protein domain database and is available as a general purpose alignment editor.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

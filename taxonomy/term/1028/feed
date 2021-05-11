@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - High-coverage genome</title>
+ <link>https://legacy.vectorbase.org/glossary/high-coverage-genome</link>
+ <description> Refers to the number of overlapping sequences used to build the genomic assembly. High coverage, such as human and mouse genomes, indicates a good amount of sequence information. This is also referred to as deep-coverage. Low coverage reflects a low amount of sequence information.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

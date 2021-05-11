@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Site usage</title>
+ <link>https://legacy.vectorbase.org/tags/site-usage</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>How can I find geo-coordinates for a place of interest?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-can-i-find-geo-coordinates-place-interest</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Open a new web browser tab or window with &lt;a href=&quot;https://maps.google.com&quot;&gt;Google Maps&lt;/a&gt; and when you have found the place you want, right-click on the map itself. A menu should come up with &quot;What&#039;s here?&quot; item.  Select this and you should see a new information panel appear at the bottom of the screen.  As shown in the screenshot below, there are latitude, longitude coordinates which you can copy-paste into VectorBase search.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/google-maps-coords_2018.png&quot; width=&quot;524&quot; height=&quot;146&quot; alt=&quot;Google Maps lat/long coordinates&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&quot;http://www.bing.com/maps/&quot;&gt;Bing Maps&lt;/a&gt;, right-click on the map directly generates a popup containing the latitude, longitude coordinates. Copy paste these into VectorBase search.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/bing-maps-coords_2018.png&quot; width=&quot;236&quot; height=&quot;235&quot; alt=&quot;Bing Maps lat/long coordinates&quot; /&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 10 Feb 2015 16:47:21 +0000</pubDate>
+ <dc:creator>maccallr</dc:creator>
+ <guid isPermaLink="false">9768370 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-can-i-find-geo-coordinates-place-interest#comments</comments>
+</item>
+</channel>
+</rss>

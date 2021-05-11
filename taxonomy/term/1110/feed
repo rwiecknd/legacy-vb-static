@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Shotgun sequencing</title>
+ <link>https://legacy.vectorbase.org/glossary/shotgun-sequencing</link>
+ <description> A method in which small, random DNA sequences are generated that overlap. The fragments are sequenced and the full, connected sequence determined through the overlaps.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

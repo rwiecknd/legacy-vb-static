@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - UTR (Untranslated Region)</title>
+ <link>https://legacy.vectorbase.org/glossary/utr-untranslated-region</link>
+ <description> The 5&#039; UTR is the portion of an mRNA from the 5&#039; end to the position of the first codon used in translation. The 3&#039; UTR is the portion of an mRNA from the position of the last codon that is used in translation to the 3&#039; end.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

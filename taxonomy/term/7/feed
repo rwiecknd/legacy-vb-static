@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Expression data (faqs)</title>
+ <link>https://legacy.vectorbase.org/tags/expression-data-faqs</link>
+ <description>FAQ category.
+</description>
+ <language>en</language>
+<item>
+ <title>Why do you reanalyze the microarray and RNAseq data?</title>
+ <link>https://legacy.vectorbase.org/faqs/why-do-you-reanalyze-microarray-and-rnaseq-data</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;We have developed (and are always looking at improving) a standardised analysis pipeline for microarray and RNAseq differential expression data in VectorBase. We use this in preference to the original authors&#039; processed data for the following reasons:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;we have a complete audit trail from raw data to final p-value&lt;/li&gt;
+&lt;li&gt;we can &lt;a href=&quot;https://legacy.vectorbase.org/glossary#repeat&quot; title=&quot;Repetitive DNA in which the same sequence occurs multiple times.&quot; class=&quot;lexicon-term&quot;&gt;repeat&lt;/a&gt;/refine the analysis whenever we want.&lt;/li&gt;
+&lt;li&gt;data entry/curation is simplified&lt;/li&gt;
+&lt;li&gt;the authors&#039; processed data is nearly always available from either
+&lt;ul&gt;&lt;li&gt;the publication&#039;s supplementary information&lt;/li&gt;
+&lt;li&gt;ArrayExpress&lt;/li&gt;
+&lt;li&gt;GEO&lt;/li&gt;
+&lt;li&gt;the authors&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p style=&quot;text-align:justify&quot;&gt;This strategy allows us to provide to you the expression report pages for each gene, in which you can see all the experiments tested for differential expression for your gene of interest or, discover the genes expressed under the experimental conditions of your interest, as in this &lt;a href=&quot;https://www.vectorbase.org/expression-browser/gene/AGAP001111&quot;&gt;example&lt;/a&gt;. &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/expression-data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Expression data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Apr 2018 11:09:19 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9764156 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/why-do-you-reanalyze-microarray-and-rnaseq-data#comments</comments>
+</item>
+<item>
+ <title>How do I find more details about a differential expression experiment?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-do-i-find-more-details-about-differential-expression-experiment</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;In the Expression Browser, the Expression report page has a brief overview with links about each experiment for the gene of interest, e.g., &lt;a href=&quot;https://www.vectorbase.org/expression-browser/gene/AGAP001111&quot;&gt;AGAP001111&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/expressionreport.png&quot; height=&quot;400&quot; width=&quot;721&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Each experiment is presented in a row. Notice each experiment has three links, i.e., Microarray/RNAseq experiment info, Plots and data and, details. Click on Microarray/RNAseq experiment info. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/experimentpubmed.png&quot; height=&quot;400&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Among other details, the experiment page contains link to a publication (look for the PubMed link).&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;You can find detailed information about each sample used in an experiment (e.g. which strain of insects were used, how old they were, etc) by clicking on the hybridisation or sequencing runs table links near the bottom of the experiment page. If you are in the plots and tables page, the spot data or ref &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;transcript&lt;/a&gt; data links are also at the bottom of the pages.&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;If you think that any information is missing, please contact the &lt;a href=&quot;/contact&quot;&gt;VectorBase help desk&lt;/a&gt;.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/expression-data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Expression data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 17:40:32 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9764152 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-do-i-find-more-details-about-differential-expression-experiment#comments</comments>
+</item>
+<item>
+ <title>Can VectorBase make my transcript data available? </title>
+ <link>https://legacy.vectorbase.org/faqs/can-vectorbase-make-my-transcript-data-available</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;br /&gt;
+We can add any RNAseq data to download from our website as long as the organism fits the VectorBase requirement (invertebrate, vector human pathogen). Click here for the &lt;a href=&quot;https://www.vectorbase.org/downloads?field_download_file_type_tid%5B%5D=1189&amp;amp;field_download_file_format_tid=All&amp;amp;field_status_value=Current&quot;&gt;currently available&lt;/a&gt; data sets. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/rnaseq.png&quot; height=&quot;200&quot; width=&quot;550&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Query and Search&lt;/strong&gt;&lt;br /&gt;
+In VectorBase you can use &lt;a href=&quot;/annotated-transcriptomes&quot;&gt;Search and BLAST&lt;/a&gt;, to find RNAseq of interest. Data can be visualized as tracks in &lt;a href=&quot;/apollo&quot;&gt;Apollo&lt;/a&gt; and the &lt;a href=&quot;/content/rna-seq-tracks&quot;&gt;Genome Browser&lt;/a&gt;. If the RNAseq data was obtained as an experiment and differential expression was detected, data can also be viewed in the &lt;a href=&quot;/expression-browser/&quot;&gt;Expression Browser&lt;/a&gt;. You can also retrieve probe/sequence averaged expression data available using BioMart.&lt;/p&gt;
+&lt;p&gt;&lt;br clear=&quot;all&quot; /&gt;&lt;br /&gt;&lt;strong&gt;Legacy data&lt;/strong&gt;&lt;br /&gt;
+In the past we also received ESTs and microarrays, but we have now concentrated in receiving mostly, if not only, RNAseq data. &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/expression-data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Expression data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 17:01:26 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9766703 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/can-vectorbase-make-my-transcript-data-available#comments</comments>
+</item>
+<item>
+ <title>How to convert microarray probes to gene IDs? </title>
+ <link>https://legacy.vectorbase.org/faqs/how-convert-microarray-probes-gene-ids</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Here are some examples of how to obtain the microarray probe to genome mapping data: &lt;/p&gt; 
+
+&lt;ol&gt; 
+&lt;li&gt; Export microarray probe to gene mappings by using &lt;a href=&quot;https://www.vectorbase.org/search/site/%2A?as=True&quot;&gt;Search&lt;/a&gt;
+&lt;ul&gt;
+ &lt;li&gt;using VectorBase search select the &quot;Expression&quot; domain.&lt;/li&gt;
+ &lt;li&gt;Select the &quot;Probe&quot; subdomain.&lt;/li&gt;
+ &lt;li&gt;You will be presented with a list of platforms and the probe count for each platform.  Select the appropriate probe microarray form the list and you will be presented with a list of all the probes on the array.&lt;/li&gt;
+ &lt;li&gt;To export this list click on the &quot;Export&quot; button. This will produce a CSV file that can be imported into a number of spreadsheet programs, e.g., Excel. &lt;/li&gt;
+&lt;/ul&gt;
+N.B. If you are a registered VectorBase user you can download the complete results of any query. Non-regisitered users, or users who are not logged in are restricted to 5,000 entries.
+
+&lt;/li&gt;
+&lt;/p&gt;
+
+&lt;li&gt;
+Download the genes from the array &lt;a href=&quot;https://www.vectorbase.org/expression-browser/platform/A-MEXP-862&quot;&gt;A-MEXP-862&lt;/a&gt; 
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/fig1.png&quot; height=&quot;191&quot; width=&quot;721&quot;&gt;
+
+
+&lt;ul&gt; 
+
+&lt;li&gt;Construct a query with Search filters, no keywords needed. &lt;a href=&quot;https://www.vectorbase.org/search/site/*?&amp;site=%22Expression%22&amp;bundle_name=%22Probe%22&amp;platform_id_ss=%22A-MEXP-862%22&quot;&gt;Click here for the query results.&lt;/a&gt; Notice also how the link to Search is available in the array page (shown in the image) above. Export to CSV. &lt;/li&gt; 
+&lt;/ul&gt;
+&lt;/li&gt; 
+&lt;/br&gt;
+
+&lt;li&gt;Convert a list of probes from &lt;a href=&quot;
+https://www.vectorbase.org/expression-browser/platform/GPL1321&quot;&gt;Affymetrix Plasmodium Anopheles&lt;/a&gt; chip to AGAP* gene IDs&lt;/li&gt; 
+
+&lt;ul&gt; 
+&lt;li&gt;If you only have a few probes, use them as keywords in Search. &lt;a href=&quot;https://www.vectorbase.org/search/site/Ag.3L.3.0_CDS_a_at&quot;&gt;Click here for an example&lt;/a&gt; and filter with Expression (Domain) &gt; Probe (Sub-domain) &gt; &lt;em&gt;Anopheles gambiae&lt;/em&gt; (Species)&lt;/li&gt; 
+
+&lt;li&gt;In Search use as keywords the name or description of the array and download the probes via Export. &lt;a href=&quot;https://www.vectorbase.org/search/site/Plasmodium_Anopheles?site=%22Expression%22&amp;bundle_name=%22Platform%22&quot;&gt;Click here for an example&lt;/a&gt; and filter as appropriate.&lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;/ol&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/expression-data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Expression data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 10 Apr 2018 14:23:34 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9770791 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-convert-microarray-probes-gene-ids#comments</comments>
+</item>
+<item>
+ <title>Which gene expression microarray data do you have in VectorBase?</title>
+ <link>https://legacy.vectorbase.org/faqs/which-gene-expression-microarray-data-do-you-have-vectorbase</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;There are two ways to view which microarrays are in VectorBase&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt; See the &lt;a href=&quot;/expression-browser/platform/&quot;&gt;list of microarrays&lt;/a&gt; currently in VectorBase. &lt;/li&gt;
+&lt;li&gt; VectorBase also provides support for track hubs as a way of sharing annotation over the internet. A list of public track hubs is available at the &lt;a href=&quot;https://trackhubregistry.org/&quot;&gt;Trackhub Registry&lt;/a&gt; and can be searched from within the genome browser.
+&lt;ul&gt;&lt;li&gt;open the Genome Browser to the Location tab (&lt;a href=&quot;https://www.vectorbase.org/Aedes_aegypti/Location/View?r=supercont1.114:1965092-2050094&quot;&gt;example&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;select the &quot;Configure this page&quot; option, then select the &quot;personal data&quot; tab at the top of this view&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/configure.png&quot; width=&quot;300&quot; height=&quot;50&quot; alt=&quot;Configure this page&quot; /&gt;&lt;/p&gt;
+&lt;li&gt;select the &quot;search for public track hubs&quot; option&lt;/li&gt;
+&lt;li&gt;enter the term &quot;microarray&quot; into the the search term input box and select search&lt;/li&gt;
+&lt;li&gt;You should see an entry &quot;VectorBase &lt;release version=&quot;&quot;&gt; microarray trackhub&quot;  for your species of interest - select the &quot;Attach this hub&quot; option&lt;/release&gt;&lt;/li&gt;
+&lt;li&gt;A dialog telling you that the hub has been successfully attached should appear, and you should  see a &quot;Configure this hub&quot; link. &lt;/li&gt;
+&lt;li&gt;By default a subset of the available microarray tracks will be displayed, but the array you are interested in may not be turned on. Select the &quot;Enable/disable all species microarrays&quot; link or individually select which microarray experiments you want to display.&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/track.png&quot; alt=&quot;Track&quot; /&gt;&lt;/p&gt;
+&lt;li&gt;When you have finished selecting tracks click on the tick symbol at the top right of the display and the view will be reconfigured to show the track data that you have selected&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/expression-data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Expression data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Oct 2017 13:00:00 +0000</pubDate>
+ <dc:creator>gmaslen</dc:creator>
+ <guid isPermaLink="false">9764155 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/which-gene-expression-microarray-data-do-you-have-vectorbase#comments</comments>
+</item>
+<item>
+ <title>How do you map the microarrays to the genome?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-do-you-map-microarrays-genome</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;We have two kind of mapping for the arrays:&lt;/p&gt;
+&lt;h3&gt;Affymetrix arrays&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Array generation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;See the Affymetrix website relative to &lt;a href=&quot;http://www.affymetrix.com/estore/browse/products.jsp?productId=131485#1_1&quot; title=&quot;http://www.affymetrix.com/estore/browse/products.jsp?productId=131485#1_1&quot; rel=&quot;nofollow&quot;&gt;this array&lt;/a&gt; for more information on how it was generated.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Array mapping
+&lt;ul&gt;&lt;li&gt;The Affymetrix probes are mapped by an in-house pipeline. We remap the probes for every update of the Anopheles &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;We only match the probes that are specific to Anopheles (not Plasmodium)
+&lt;/li&gt;
+&lt;li&gt;There are 11 probes per set
+&lt;ul&gt;&lt;li&gt;We map each probe individually to the genome. If a probe overlap with a transcripts + 2Kb downstream (no crossing of &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Exon&quot; title=&quot;The part of the genomic sequence that remains in the transcript (mRNA) after introns have been spliced out.&quot; class=&quot;lexicon-term&quot;&gt;exon&lt;/a&gt; boundary allowed, 1 mismatch allowed, &amp;gt;50% must overlap gene), then it is temporarily associated to this &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;transcript&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;A set is associated to a transcript if at least half of the probes from this set have been associated to this transcript (previous step).
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Techi stuff: information stored in the oligo tables of the core database
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Other arrays&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Array generation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Depend on the submitter of the array - see the detail on our Base website or in the submitter&#039;s article.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Array mapping
+&lt;ul&gt;&lt;li&gt;The probes are map directly onto the genome. If a probe overlap with a transcript, then it is associated to this transcript. &lt;/li&gt;
+&lt;li&gt;Any associations made by the submitting laboratory, between a probe and a gene are ignored - even if this leads to inconsistencies in the final mappings.&lt;/li&gt;
+&lt;li&gt;Techi stuff: information stored in the xrefs tables of the core database&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/expression-data-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Expression data (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 29 Aug 2011 21:50:29 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">9764154 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-do-you-map-microarrays-genome#comments</comments>
+</item>
+</channel>
+</rss>

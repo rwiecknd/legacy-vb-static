@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - AGP file (A Golden Path)</title>
+ <link>https://legacy.vectorbase.org/glossary/agp-file-golden-path</link>
+ <description> A file provided to VectorBase that describes how the longer sequences in the genome assembly were assembled from shorter sequences. For example, an AGP file can describe how a chromosome is assembled from a collection of scaffolds or a collection of contigs. For an AGP file that describes how a scaffold is assembled from a collection of contigs, each contig will be listed on a separate line in the AGP file and the line will include information about where the contig lies within the scaffold and the orientation of the contig.
+AGPs available from VectorBase
+ </description>
+ <language>en</language>
+</channel>
+</rss>

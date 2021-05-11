@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - BLOSUM 62 (Blocks Substitution Matrix)</title>
+ <link>https://legacy.vectorbase.org/glossary/blosum-62-blocks-substitution-matrix</link>
+ <description> A matrix that defines scores for amino acid substitutions, reflecting the similarity of physicochemical properties, and observed substitution frequencies. The BLOSUM 62 matrix is tailored using sequences sharing no more than 62% identity (sequences closer evolutionary, were represented by a single sequence in the alignment to avoid bias from using related family members). (Henikoff and Henikoff, Proc Natl Acad Sci U S A 89:10915-10919; 1992).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

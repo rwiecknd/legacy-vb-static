@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Shotgun method</title>
+ <link>https://legacy.vectorbase.org/glossary/shotgun-method</link>
+ <description> (also whole genome shotgun) Semi-automated sequencing method that involves randomly sequenced cloned pieces of the genome (size selected, sually 2, 10, 50 and 150 kb), with no prior knowledge their location. The clones are then sequenced from both ends. The two ends of the same clone are referred to as mate pairs. The distance between two &quot;mate pairs&quot; can be inferred if the library size is known and has a narrow window of deviation. This approach can be contrasted with &quot;directed&quot; strategies, in which pieces of DNA from known chromosomal locations are sequenced.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

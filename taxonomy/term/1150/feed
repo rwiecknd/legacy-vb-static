@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - UniSTS</title>
+ <link>https://legacy.vectorbase.org/glossary/unists</link>
+ <description> UniSTS is a NCBI resource for non-redundant Sequence Tagged Sites (STS) markers. For each marker, UniSTS displays the primer sequences, product size, and mapping information, as well as cross references to dbSNP, RHdb, GDB, MGD, etc. The marker report also lists GenBank and RefSeq records that contain the primer sequences determined by ePCR.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

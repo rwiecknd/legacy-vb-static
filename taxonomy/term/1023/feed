@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Haplotypes</title>
+ <link>https://legacy.vectorbase.org/glossary/haplotypes</link>
+ <description> A set of genes or markers on one chromosome that are inherited together. Often refers to SNPs that are closely linked (i.e. have a high linkage disequilibrium (LD) value, and are inherited together.) In Region in Detail, the haplotype regions are coloured with a red background.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

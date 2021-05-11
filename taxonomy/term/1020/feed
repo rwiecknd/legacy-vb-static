@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - GO (Gene Ontology)</title>
+ <link>https://legacy.vectorbase.org/glossary/go-gene-ontology</link>
+ <description> An organized hierarchy of terms produced by the Gene Ontology Consortium, used to describe biological processes, cellular component, and molecular function. Specific GO terms are as follows: Molecular Function Ontology. Tasks performed by individual gene products; examples are carbohydrate binding and ATPase activity. Biological Process Ontology. Broad biological goals, such as mitosis or purine metabolism, are accomplished by ordered assemblies of molecular functions. Cellular Component Ontology. Subcellular structures, locations, and macromolecular complexes; examples include nucleus, telomere, and origin recognition complex. A gene may be indexed under many GO terms depending on GO classification system. A gene product has one or more molecular functions and is used in one or more biological processes; it might be associated with one or more cellular components. For instance, cytochrome c can be described by the molecular function term electron transporter activity, the biological process terms oxidative phosphorylation and induction of cell death, and the cellular component terms mitochondrial matrix and mitochondrial inner membrane.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

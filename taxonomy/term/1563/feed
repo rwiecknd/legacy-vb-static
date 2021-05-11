@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - RNase_MRP_RNA</title>
+ <link>https://legacy.vectorbase.org/glossary/rnasemrprna</link>
+ <description>The RNA molecule essential for the catalytic activity of RNase MRP, an enzymatically active ribonucleoprotein with two distinct roles in eukaryotes. In mitochondria it plays a direct role in the initiation of mitochondrial DNA replication. In the nucleus it is involved in precursor rRNA processing, where it cleaves the internal transcribed spacer 1 between 18S and 5.8S rRNAs. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000385</description>
+ <language>en</language>
+</channel>
+</rss>

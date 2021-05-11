@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - ORF (Open Reading Frame)</title>
+ <link>https://legacy.vectorbase.org/glossary/orf-open-reading-frame</link>
+ <description> A DNA sequence that possesses a start codon and a large window of sequence with no stop codon that could potentially code for a protein.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

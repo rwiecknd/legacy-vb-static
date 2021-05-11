@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - meeting</title>
+ <link>https://legacy.vectorbase.org/tags/meeting</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>VectorBase Hands-on Workshop</title>
+ <link>https://legacy.vectorbase.org/workshops/vectorbase-hands-workshop-1</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;center&gt;&lt;/p&gt; 
+&lt;div style=&quot;width: 70%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt; 
+&lt;p&gt;&lt;h2&gt;VectorBase Hands-on Workshop&lt;/p&gt; &lt;p&gt;April 29, 2019&lt;/p&gt; &lt;p&gt;Universidad Nacional de la Amazonia Peruana, UNAP&lt;/p&gt; &lt;p&gt;Iquitos, Perú&lt;/p&gt;&lt;/div&gt;&lt;/center&gt;&lt;/h2&gt;
+&lt;/br&gt;
+
+
+
+&lt;/br&gt;
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;h1&gt;Instructor&lt;/h1&gt;
+
+&lt;p&gt;Gloria I. Giraldo-Calderón, PhD&lt;/br&gt;
+VectorBase Scientific Liaison/Outreach Manager&lt;/br&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;Official language&lt;/h1&gt;
+&lt;p&gt;The official language of the workshop will be Spanish, but the instructor is also able to speak in English if needed. All the handout material will be provided in English, reading proficiency in this language is expected.&lt;/p&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;About the workshop&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;VectorBase is a Bioinformatics Resource Center (BRC) focused on invertebrate vectors of human pathogens. This BRC currently hosts sequence data from &lt;a href=&quot;https://www.vectorbase.org/genomes&quot;&gt;&lt;u&gt;40 genomes&lt;/u&gt;&lt;/a&gt;. VectorBase also provides transcriptomic, proteomic and &lt;a href=&quot;https://www.vectorbase.org/popbio/map/?geography=Peru&amp;view=smpl&amp;zoom_level=11&amp;center=-3.764446431508594,-73.3537929528393&amp;summarizeBy=Species&amp;markerID=6r7f4&amp;panelID=graphs&amp;grid=true&amp;shared_link=true&amp;limitTerms=true&amp;optimizeColors=true&quot;&gt;&lt;u&gt;population biology data&lt;/u&gt;&lt;/a&gt; from colony and field specimens for an even broader selection of species. The goal of this &lt;strong&gt;one-day workshop&lt;/strong&gt; is to offer the opportunity to scientists working in medical entomology and vector biology, hands-on practical sessions with VectorBase &lt;a href=&quot;https://www.vectorbase.org/navigation/data&quot;&gt;&lt;u&gt;data&lt;/u&gt;&lt;/a&gt;, &lt;a href=&quot;https://www.vectorbase.org/navigation/tools&quot;&gt;&lt;u&gt;tools and resources&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Below you will find a link to apply. During the day of the workshop, we aim to provide opportunities for hands-on activities, discussions and practice exercises, for each of the tools and topics listed in the agenda below.The outcome of this training relies heavily on your dedication and effort, which includes the time invested during and after the workshop. After the workshop, you are invited to send follow up questions to the instructor, via &lt;a href=&quot;https://www.vectorbase.org/contact&quot;&gt;&lt;u&gt;info@vectorbase.org&lt;/u&gt;&lt;/a&gt;. 
+&lt;/p&gt;
+
+&lt;/br&gt;
+
+
+&lt;h1&gt;Schedule and Location&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;April 29th 2019, 8:00 am to 5:15 pm.
+&lt;p&gt;Dirección Vicerrectorado de Investigación - Universidad Nacional de la Amazonia Peruana, UNAP
+&lt;p&gt;Pasaje Los Paujiles s/n, Nuevo San Lorenzo, 
+&lt;p&gt;San Juan Bautista, Maynas, Perú  
+&lt;p&gt;Iquitos, Perú
+&lt;br/&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;Agenda - 8:00 am – 5:15 pm&lt;/h1&gt; (subject to change)&lt;/p&gt;
+
+&lt;h2&gt;All are hands-on sessions except when marked as &#039;lecture&#039;&lt;/h2&gt;
+
+&lt;/br&gt;
+
+&lt;h3&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;8:00-9:00 am (lecture):
+&lt;ul&gt; 
+&lt;li&gt;General introduction to omics &lt;/li&gt; 
+&lt;li&gt;Gene automatic and manual annotations: 
+&lt;ul&gt;
+&lt;li&gt;gene set predictions, functional annotation and projecting gene descriptions&lt;/li&gt;
+&lt;li&gt;Apollo demo and test in sand boxes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Overview of VectorBase&#039;s remit, data, tools and resources&lt;/li&gt; 
+&lt;li&gt;VectorBase Genome browser: gene, transcript, protein and location pages&lt;/li&gt; 
+&lt;/ul&gt; 
+
+&lt;h3&gt;Population biology&lt;/h3&gt;
+9:00-10:00 am: 
+&lt;ul&gt;
+&lt;li&gt;Map-based search and analysis of population data: 
+&lt;ul&gt;
+&lt;li&gt;population abundance&lt;/li&gt; 
+&lt;li&gt;insecticide resistance (IR) genotypes and phenotypes&lt;/li&gt;
+&lt;li&gt;pathogen infection status&lt;/li&gt;
+&lt;li&gt;blood meal source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Simple Search and Browse&lt;/li&gt; 
+&lt;li&gt;Advanced Search&lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;p&gt;10:00-10:20 am: &lt;strong&gt;Coffee Break&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Population biology&lt;/h3&gt;
+10:20 - 12:00 m: continue with exercises  
+
+&lt;p&gt;12:00 - 1:00 pm: &lt;strong&gt;Lunch&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Finding data and information&lt;/h3&gt;
+
+&lt;p&gt;1:00-2:30 pm: 
+&lt;ul&gt; 
+&lt;li&gt;Search&lt;/li&gt;
+&lt;li&gt;BLAST&lt;/li&gt;
+&lt;li&gt;BioMart&lt;/li&gt;
+&lt;li&gt;Clustal and Hmmer&lt;/li&gt;
+&lt;li&gt;Downloads: data files and images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Comparative genomics&lt;/h3&gt;
+2:30-3:00 pm: 
+&lt;ul&gt; 
+&lt;li&gt;Genomic alignments&lt;/li&gt;
+&lt;li&gt;Gene trees, orthology &amp; paralogy&lt;/li&gt; 
+&lt;/ul&gt;  
+
+&lt;p&gt;3:00-3:20 pm: &lt;strong&gt;Coffee Break&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Functional genomics&lt;/h3&gt;
+3:20-4:30 pm: 
+&lt;ul&gt;
+&lt;li&gt;Introductory Concepts: microarray and RNAseq data (lecture)&lt;/li&gt;
+&lt;li&gt;Expression Browser and Map&lt;/li&gt;
+&lt;li&gt;Expression tracks (from the track hub registry) in the Genome Browser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Variation and Population data&lt;/h3&gt;
+4:30-5:00 pm: 
+&lt;ul&gt; 
+&lt;li&gt;Introductory Concepts: Single Nucleotide Polymorphisms (SNPs), insertions and deletions (INDELs) and microsatellites (lecture)&lt;/li&gt;
+&lt;li&gt;Finding and browsing variation data&lt;/li&gt;
+&lt;/ul&gt;
+                                                                                           
+&lt;h3&gt;Wrap up&lt;/h3&gt;
+
+&lt;p&gt;5:00 – 5:15 pm: 
+&lt;ul&gt; 
+&lt;li&gt;Group photo&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfWO-TH8-tQGbxUD-MbfjYKJQvKMuAhXDo9zl2dobC_XFph5Q/viewform&quot;&gt;
+&lt;u&gt;Exit questionnaire&lt;/u&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;Workshop certificates: will be provided in digital format, no later than Monday, May 10th.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt; 
+ 
+&lt;/br&gt;
+&lt;h1&gt;Computer and Internet access&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;A room with computers will not be provided, please bring your own laptop, it should have the latest Firefox, Google Chrome, Safari or Internet Explorer version installed.&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;h1&gt;Registration&lt;/h1&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;Number of course participants: maximum 20 people&lt;/li&gt;
+
+&lt;li&gt;Applications will open on March 28, 2019&lt;/li&gt;
+
+&lt;li&gt;Applications may be made via &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScVEqi-CjOE5GB1BgWJD-Cf9Xtw4mWGl6VK5_NuoP3rf1vkyA/viewform&quot;&gt;&lt;u&gt;this web form&lt;/u&gt;&lt;/a&gt;. This (Google) registration form is used to customize the workshop agenda and examples to the participants research interest. This information is confidential. &lt;/li&gt;   
+
+&lt;li&gt;Application deadline: While there is no deadline for registration, registrations will be taken on a first come, first served basis until we fill the workshop at 20 people. We do expect the workshop to fill up quickly.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Acceptance confirmation:&lt;/strong&gt; If you have been accepted to attend, please reply to your acceptance notification with a short email to info@vectorbase.org within two business days of receiving the message. If you do not reply we will assume that you are unable to attend and will award your place to another applicant. This is an &lt;em&gt;honor system&lt;/em&gt;, if you say you are coming we trust in your word. If you have last minute plan changes, please let us know as soon as possible with a brief email to info@vectorbase.org, no explanations required, just a notification so we may offer your seat to an applicant in the wait-list.&lt;/li&gt;
+
+&lt;li&gt;Who should apply: The ideal candidate should have a need to learn how to use VectorBase and presumably has a research question that involves this database to help to solve it&lt;/li&gt;
+
+
+
+&lt;/ul&gt; 
+&lt;/br&gt;
+
+&lt;h1&gt;Costs and fees&lt;/h1&gt; 
+
+&lt;p&gt;The registration fee is S/50 Soles (Peruvian currency) for all attendees, except from the ones coming from the local host UPCH. Payments should be made directly to the host, not to VectorBase. The payment can only be made in cash, on the day of the event. The registration fee includes all workshop sessions, materials, morning and afternoon coffee breaks and lunch.&lt;/p&gt;
+
+&lt;p&gt;You are responsible for your own transportation, lodging and other meals (breakfast and dinner). At your request, we can email to you a registration acceptance letter to facilitate the solicitation of outside travel funds or scholarships. &lt;/p&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;Hotel Accommodations&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;If you are accepted to participate and need a hotel, let us know to provide you with recommendations.
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;h1&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;Please direct inquiries or comments to &lt;a href=&quot;https://www.vectorbase.org/contact &quot;&gt;&lt;u&gt;info@vectorbase.org&lt;/u&gt;&lt;/a&gt; &lt;/p&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;Sponsored and organized by:&lt;/h1&gt;
+
+&lt;p&gt;Centro de Excelencia en Investigación de Malaria (ICEMR) de la Amazonía&lt;/p&gt;
+
+&lt;p&gt;Laboratorio Malaria de la Universidad Peruana Cayetano Heredia (UPCH)&lt;/p&gt;
+
+&lt;p&gt;Translational Research Development for Endemic Infectious Diseases of Amazonia - FOGARTY. Grant number: 2D43TW007120-11A1&lt;/p&gt;
+
+VectorBase, Bioinformatics Resource for Invertebrate Vectors of Human Pathogens. VectorBase have been funded in whole or in part with Federal funds from the National Institute of Allergy and Infectious Diseases and National Institutes of Health, NIAID/NIH&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Iquitos, Perú&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-images field-type-image field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Attached or inlined images:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/workshops_21.png&quot; width=&quot;75&quot; height=&quot;75&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/sponsorperu2019_0.png&quot; width=&quot;800&quot; height=&quot;843&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-files field-type-file field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Attached files:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;PDF icon&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/Peru%20flyer%20v2.pdf&quot; type=&quot;application/pdf; length=618057&quot;&gt;Peru flyer v2.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;PDF icon&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/Peru%20flyer%20v3.pdf&quot; type=&quot;application/pdf; length=1693420&quot;&gt;Peru flyer v3.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;PDF icon&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/GuatemalaPeru%20flyer.pdf&quot; type=&quot;application/pdf; length=1559554&quot;&gt;GuatemalaPeru flyer.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 27 Mar 2019 17:36:57 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771228 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/vectorbase-hands-workshop-1#comments</comments>
+</item>
+<item>
+ <title>Molecular and population biology of mosquitoes and other disease vectors</title>
+ <link>https://legacy.vectorbase.org/workshops/molecular-and-population-biology-mosquitoes-and-other-disease-vectors</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;Save the date, follow this link for more information: &lt;a href=&quot;http://meetings.embo.org/event/19-mosquitoes&quot;&gt;http://meetings.embo.org/event/19-mosquitoes&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Chania, Greece&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 01 Feb 2019 20:48:40 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771150 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/molecular-and-population-biology-mosquitoes-and-other-disease-vectors#comments</comments>
+</item>
+<item>
+ <title>10th International Symposium on Phlebotomine Sandflies (ISOPS)</title>
+ <link>https://legacy.vectorbase.org/workshops/10th-international-symposium-phlebotomine-sandflies-isops</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;For details about the meeting, please follow this link: &lt;a href=&quot;http://www.usfq.edu.ec/eventos/isops/Paginas/default.aspx&quot;&gt;&lt;u&gt;http://www.usfq.edu.ec/eventos/isops/Paginas/default.aspx&lt;/u&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Galápagos, Ecuador &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 18 Jan 2019 14:24:29 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771148 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/10th-international-symposium-phlebotomine-sandflies-isops#comments</comments>
+</item>
+<item>
+ <title>VectorBase Hands-on Workshop</title>
+ <link>https://legacy.vectorbase.org/workshops/vectorbase-hands-workshop-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;center&gt;&lt;/p&gt; 
+&lt;div style=&quot;width: 70%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt; 
+&lt;p&gt;&lt;h2&gt;VectorBase Hands-on Workshop&lt;/p&gt; &lt;p&gt;June 3 - 5, 2019&lt;/p&gt; &lt;p&gt;Universidad del Valle&lt;/p&gt; &lt;p&gt;Guatemala city, Guatemala&lt;/p&gt;&lt;/div&gt;&lt;/center&gt;&lt;/h2&gt;
+&lt;/br&gt;
+
+
+
+&lt;/br&gt;
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;h1&gt;Instructor&lt;/h1&gt;
+
+&lt;p&gt;Gloria I. Giraldo-Calderón, PhD&lt;/br&gt;
+VectorBase Scientific Liaison/Outreach Manager&lt;/br&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;Official language&lt;/h1&gt;
+&lt;p&gt;The official language of the workshop will be English, but the mother language of the instructor is Spanish.&lt;/p&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;About the workshop&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;VectorBase is a Bioinformatics Resource Center (BRC) focused on invertebrate vectors of human pathogens. This BRC currently hosts sequence data from &lt;a href=&quot;https://www.vectorbase.org/genomes&quot;&gt;&lt;u&gt;41 genomes&lt;/u&gt;&lt;/a&gt;. VectorBase also provides transcriptomic, proteomic and &lt;a href=&quot;https://www.vectorbase.org/popbio&quot;&gt;&lt;u&gt;population biology data&lt;/u&gt;&lt;/a&gt; from colony and field specimens for an even broader selection of species. The goal of this &lt;strong&gt;three-day workshop&lt;/strong&gt; is to offer the opportunity to scientists working in medical entomology and vector biology, hands-on practical sessions with VectorBase &lt;a href=&quot;https://www.vectorbase.org/navigation/data&quot;&gt;&lt;u&gt;data&lt;/u&gt;&lt;/a&gt;, &lt;a href=&quot;https://www.vectorbase.org/navigation/tools&quot;&gt;&lt;u&gt;tools and resources&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Below you will find a link to apply. During the three days of the workshop, we aim to provide opportunities for hands-on activities, discussions and practice exercises, for each of the tools and topics listed in the agenda below.The outcome of this training relies heavily on your dedication and effort, which includes the time invested before, during and after the workshop. After the workshop, you are invited to send follow up questions to the instructor, via &lt;a href=&quot;https://www.vectorbase.org/contact&quot;&gt;&lt;u&gt;info@vectorbase.org&lt;/u&gt;&lt;/a&gt;. 
+&lt;/p&gt;
+
+&lt;/br&gt;
+
+
+&lt;h1&gt;Schedule and Location&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;June 3 - 5, 8:30 am to 5:30 pm.
+&lt;p&gt;Universidad del Valle
+&lt;p&gt;18 Avenida 11-95, Guatemala 01015
+&lt;p&gt;Guatemala City, Guatemala
+&lt;br/&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;Agenda &lt;/h1&gt; (subject to change)&lt;/p&gt;
+
+
+&lt;/br&gt;
+
+
+&lt;p&gt;&lt;h2&gt;Day 1, 8:30 am – 5:30 pm&lt;/h2&gt;&lt;/p&gt;
+
+&lt;/br&gt;
+
+&lt;h3&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;8:30-9:00 am: General introduction to omics &lt;a href=&quot;https://docs.google.com/presentation/d/1iUpo6d-7Rpt3hcKNhQ_FljJTBa4S-RP_amWjCta0jbU/edit?usp=sharing&quot;&gt;&lt;u&gt;(lecture)&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;9:00-9:30 am: Overview of VectorBase&#039;s remit, data, tools and resources &lt;a href=&quot;https://docs.google.com/presentation/d/1geYwok70WVyc8_M9q_eHDW9Es6XEN1FLvjaAR3XLrTg/edit?usp=sharing&quot;&gt;&lt;u&gt;(lecture)&lt;/u&gt;&lt;/a&gt;
+
+&lt;p&gt;10:00-10:30 am: Group talks: Each group will have ~3 minutes to present a research question and experimental strategy to solve it&lt;/p&gt;
+
+&lt;h3&gt;Finding data and information&lt;/h3&gt;
+
+&lt;p&gt;9:30-10:00 am: Genome browser: gene, &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;transcript&lt;/a&gt;, protein and location pages (lecture)&lt;/p&gt;
+
+&lt;p&gt;10:30-10:50 am: &lt;strong&gt;Coffee Break&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;10:50-12:00 pm: Finding data 
+&lt;ul&gt; 
+&lt;li&gt;Search&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#BLAST&quot; title=&quot;BLAST (Basic Local Alignment Search Tool) is a sequence comparison algorithm optimised for speed which is used to search sequence databases for optimal local alignments to a query. (Altschul et al., J Mol Biol 215:403-410; 1990)&quot; class=&quot;lexicon-term&quot;&gt;BLAST&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BioMart&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;12:00 - 1:00 pm: &lt;strong&gt;Lunch&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1:00-2:00 pm: Finding data:
+&lt;ul&gt; 
+&lt;li&gt;Clustal and Hmmer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Comparative genomics &lt;a href=&quot;https://docs.google.com/presentation/d/1_aba4oC-48FZaQ7784nR9hPVb15yaXTQFXtSJFJ2kiw/edit?usp=sharing&quot;&gt;&lt;u&gt;(lecture)&lt;/u&gt;&lt;/a&gt;&lt;/h3&gt;
+2:00-2:30 pm: 
+&lt;ul&gt; 
+&lt;li&gt;Genomic alignments&lt;/li&gt;
+&lt;li&gt;Gene trees, orthology &amp; paralogy&lt;/li&gt; 
+&lt;/ul&gt;  
+
+&lt;h3&gt;Gene automatic and manual annotations&lt;/h3&gt;
+2:30-3:00 pm: 
+&lt;ul&gt;
+&lt;li&gt;Genome &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Assembly&quot; title=&quot;When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;assembly&lt;/a&gt; &lt;a href=&quot;https://docs.google.com/presentation/d/11FvJpnHEXhJ7sPyL6S5zwtk711SsEodPAmFe7-VfoKY/edit?usp=sharing&quot;&gt;&lt;u&gt;(lecture)&lt;/u&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;Automatic annotation of genomes at VectorBase: &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt; predictions, functional annotation and projecting gene descriptions &lt;a href=&quot;https://docs.google.com/presentation/d/1Oa-FZc9gbPLyFCCijat6MY4qcLpUt8TOi_6b8Yq2eOg/edit?usp=sharing&quot;&gt;VectorBase&lt;/a&gt;&lt;u&gt;(lecture)&lt;/u&gt;&lt;/i&gt;
+&lt;li&gt;Apollo demo and test in sand boxes &lt;a href=&quot;https://www.vectorbase.org/tutorials/community-annotation-tutorials/apollo&quot;&gt;(3 videos-demos)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3:00-3:20 pm: &lt;strong&gt;Coffee Break&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Galaxy&lt;/h3&gt;
+3:20-5:30 pm: 
+&lt;ul&gt;
+&lt;li&gt;Genome vs Transcriptome &lt;a href=&quot;https://docs.google.com/presentation/d/1YqeFsVdGXimR9h2RWkU7gA--uT_6dmvg3JI8dffPVX4/edit?usp=sharing&quot;&gt;(lecture)&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;Galaxy basics &lt;a href=&quot;https://docs.google.com/presentation/d/1an5ENtBm9She92kPj8JSAT0QgvXjsUX-SP2MVJv5Wfc/edit?usp=sharing&quot;&gt;&lt;u&gt;(lecture)&lt;/u&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;RNAseq differential expression workflow (launch jobs)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/br&gt;
+&lt;p&gt;&lt;h2&gt;Day 2, 8:30 am – 5:30 pm&lt;/h2&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p&gt;8:30-9:00 pm: Invited seminar speaker: Dr. Sergio Melgar (Universidad de San Carlos de Guatemala) - &#039;Genetic diversity of &lt;em&gt;Triatoma dimidiata&lt;/em&gt; in the border between Guatemala and El Salvador&#039;&lt;/p&gt;
+
+&lt;h3&gt;Visualization and analyses of NGS data&lt;/h3&gt;
+9:00-10:30 am:
+&lt;ul&gt; 
+&lt;li&gt;Differential expression workflow (view results from jobs launched yesterday)&lt;/li&gt;
+&lt;li&gt;Viewing &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Alignment&quot; title=&quot;A comparison between two or more sequences by matching identical and/or similar residues and assigning a score to the match.&quot; class=&quot;lexicon-term&quot;&gt;alignment&lt;/a&gt; coverage in Galaxy and the genome browser&lt;/li&gt;
+&lt;li&gt;Analysis of a list of differentially expressed genes&lt;/li&gt;
+&lt;li&gt;Viewing SNP calls (precomputed results) and their genomic consequences in VectorBase genome browser&lt;/li&gt;
+&lt;li&gt;Analysis of a list of SNPs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;10:30-10:50 am:&lt;strong&gt;Coffee Break&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;12:00-1:00 pm: &lt;strong&gt;Lunch&lt;/strong&gt;&lt;/p&gt;     
+
+&lt;h3&gt;Functional genomics&lt;/h3&gt;
+1:00-2:00 pm: 
+&lt;ul&gt;
+&lt;li&gt;Introductory Concepts: microarray and RNAseq data (lecture)&lt;/li&gt;
+&lt;li&gt;Expression Browser and Map&lt;/li&gt;
+&lt;li&gt;Expression tracks (from the track hub registry) in the Genome Browser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Variation and Population data&lt;/h3&gt;
+2:00-3:00 pm: 
+&lt;ul&gt; 
+&lt;li&gt;Introductory Concepts: Single Nucleotide Polymorphisms (SNPs), insertions and deletions (INDELs) and microsatellites (lecture)&lt;/li&gt;
+&lt;li&gt;Finding and browsing variation data&lt;/li&gt;
+&lt;/ul&gt;
+    
+&lt;p&gt;3:00-3:20 pm: &lt;strong&gt;Coffee Break&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Population biology&lt;/h3&gt;
+3:20-4:20 apm: 
+&lt;ul&gt;
+&lt;li&gt;Map-based search and analysis of insecticide resistance (IR) data&lt;/li&gt;   
+&lt;/ul&gt;
+
+&lt;p&gt;4:20-5:30 pm: Teams will improve the proposed experimental strategy based on what has been learned during the workshop. Preliminary results should be obtained. &lt;/p&gt;
+
+&lt;/br&gt;
+&lt;p&gt;&lt;h2&gt;Day 3, 8:30 am – 4:00 pm&lt;/h2&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p&gt;8:30 - 10:30 am: classroom discussion: 
+&lt;ul&gt; 
+&lt;li&gt;summary of major learning outcomes&lt;/li&gt; 
+&lt;li&gt;review of critical thinking handout exercises&lt;/li&gt;
+&lt;li&gt;Q&amp;A using registration submitted questions, to be answered by each participant&lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;p&gt;10:30-10:50 am: &lt;strong&gt;Coffee Break&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;10:30-12:00 am: Teams to finish project. A maximum of 10 slides should be prepared to present project in the classroom. Slides must be sent to instructor by noon, 12:00 pm.&lt;/p&gt;
+
+&lt;p&gt;12:00-1:00 pm: &lt;strong&gt;Lunch&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1:00-3:00 pm: Teams to present projects. Instructor will randomly select a member from each team to do a ~10 min presentation. &lt;/p&gt;
+
+&lt;p&gt;3:00-3:20 pm: &lt;strong&gt;Coffee Break&lt;/strong&gt;&lt;/p&gt;
+                                                                                             
+&lt;h3&gt;Wrap up&lt;/h3&gt;
+
+&lt;p&gt;3:20 – 4:00 pm: 
+&lt;ul&gt; 
+&lt;li&gt;Group photo&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSdiO__jiwWKFp3r08QRSOvWBDKCqp5fJVCB35LDRo9zSDYegQ/viewform&quot;&gt;&lt;u&gt;Exit questionnaire&lt;/u&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;Workshop certificates: will be provided in digital format, no later than Monday, June 10th.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt; 
+ 
+&lt;/br&gt;
+&lt;h1&gt;Computer and Internet access&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;A room with computers will be provided. If you bring your own laptop, it should have the latest Firefox, Google Chrome, Safari or Internet Explorer version installed.&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;h1&gt;Registration&lt;/h1&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;Number of course participants: maximum 30 people&lt;/li&gt;
+
+&lt;li&gt;Applications will open on February 21, 2019&lt;/li&gt;
+
+&lt;li&gt;Applications may be made via &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSeweo6xIqbckKcQdz7B0WNu6-_Qa2-o67fO-2eFjhlTHBNCCg/viewform&quot;&gt;&lt;u&gt;this web form&lt;/u&gt;&lt;/a&gt;. This (Google) registration form is used to customize the workshop agenda and examples to the participants research interest. This information is confidential. &lt;/li&gt;   
+
+&lt;li&gt;Application deadline: While there is no deadline for registration, registrations will be taken on a first-register, first-pay basis until we fill the workshop at 30 people. We do expect the workshop to fill up quickly.&lt;/li&gt;
+
+&lt;li&gt;Who should apply: The ideal candidate should have a need to learn how to use VectorBase and presumably has a research question that involves this database to help to solve it&lt;/li&gt;
+
+
+
+&lt;/ul&gt; 
+&lt;/br&gt;
+
+&lt;h1&gt;Costs and fees&lt;/h1&gt; 
+
+&lt;p&gt;The registration fee is $35 US dollars for attendees coming from developing countries and $150 for attendees from developed countries; after May 3, cost increases to $50 and $200 respectively. Payments should be made directly to the host, not to VectorBase. All payments, including paying the first day of the workshop, will be made in US Dollars through &lt;a href=&quot;https://secure.touchnet.com/C20125_ustores/web/classic/store_main.jsp?STOREID=102&amp;SINGLESTORE=true&quot;&gt;&lt;u&gt;this link&lt;/u&gt;&lt;/a&gt;; the link also has information about the cancellation policy. If you register in the form above but do not make a payment, we will assume that you are unable to attend and will award your place to another applicant.
+
+The registration fee includes all workshop sessions, materials, computer access, morning and afternoon coffee breaks and lunches.&lt;/p&gt;
+
+&lt;p&gt;You are responsible for your own transportation, lodging and other meals (breakfast and dinner). At your request, we can email to you a letter to facilitate the solicitation of outside travel funds or scholarships. &lt;/p&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;Hotel Accommodations&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt;If you are accepted to participate and need a hotel, let us know to provide you with recommendations.
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;h1&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;Please direct inquiries or comments to &lt;a href=&quot;https://www.vectorbase.org/contact &quot;&gt;&lt;u&gt;info@vectorbase.org&lt;/u&gt;&lt;/a&gt; &lt;/p&gt;
+&lt;/br&gt;
+
+
+&lt;h1&gt;Sponsored and organized by:&lt;/h1&gt;
+
+&lt;p&gt;Dr. &lt;a href=&quot;http://cas.loyno.edu/biology/bios/patricia-l-dorn&quot;&gt;&lt;u&gt;Patricia L. Dorn&lt;/u&gt;&lt;/a&gt;, William and Audrey Hutchinson Distinguished Professor of Biological Sciences. Loyola University New Orleans. &lt;/p&gt;
+
+VectorBase, Bioinformatics Resource for Invertebrate Vectors of Human Pathogens. VectorBase have been funded in whole or in part with Federal funds from the National Institute of Allergy and Infectious Diseases and National Institutes of Health, NIAID/NIH&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Guatemala city, Guatemala&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-images field-type-image field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Attached or inlined images:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/guatemalalogos2019.png&quot; width=&quot;635&quot; height=&quot;900&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-files field-type-file field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Attached files:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;PDF icon&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/Guatemala%20flyer%20v1.pdf&quot; type=&quot;application/pdf; length=606698&quot;&gt;Guatemala flyer v1.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;PDF icon&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/Guatemala%20flyer%20v2.pdf&quot; type=&quot;application/pdf; length=2438293&quot;&gt;Guatemala flyer v2.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;PDF icon&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://legacy.vectorbase.org/sites/default/files/ftp/GuatemalaPeru%20flyer_0.pdf&quot; type=&quot;application/pdf; length=1559554&quot;&gt;GuatemalaPeru flyer.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 18 Jan 2019 02:03:45 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771147 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/vectorbase-hands-workshop-0#comments</comments>
+</item>
+<item>
+ <title>Webinar: Pediculus</title>
+ <link>https://legacy.vectorbase.org/workshops/webinar-pediculus</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+September 10, 2019, 1-2 pm Eastern/10-11 am Pacific (USA time): Notice this is not the third Tuesday of the month. You can &lt;a href=&quot;https://www.timeanddate.com/worldclock/converter.html?iso=20190910T170000&amp;p1=tz_et&quot;&gt;&lt;u&gt;click here&lt;/u&gt;&lt;/a&gt; for a link to the webinar start time in your timezone. 
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Sequenced genomes available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; &lt;li&gt;There is one assembly and gene set for &lt;em&gt;Pediculus humanus&lt;/em&gt; (Kirkness et al. &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/20566863&quot;&gt;&lt;u&gt;2010&lt;/u&gt;&lt;/a&gt;).&lt;/ul&gt; &lt;/li&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Other data types available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;There are no additional data sets.&lt;/ul&gt;&lt;/li&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&lt;p align=&quot;justify&quot;&gt;webinar materials: &lt;u&gt;slides&lt;/u&gt;. 
+
+&lt;p align=&quot;justify&quot;&gt;Sign up is required but
+attendance is free. Registration ends the day before each webinar session. Each registered participant will receive an email with connection details. Follow &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSc9nZtkQMOhj2Ye1duB3yqqbsEFeDQ-brDYS_VNJxz-PDgLVA/viewform&quot;&gt;&lt;u&gt;this link&lt;/u&gt;&lt;/a&gt; to sign up (or &lt;a href=&quot;https://www.surveymonkey.com/r/G9C9M2D&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; if Google products are blocked in your location). &lt;/p&gt;
+&lt;br&gt;
+
+For more details &lt;a href=&quot;/workshops/vectorbase-2019-webinar-series-speciesgroup-specific&quot;&gt;&lt;u&gt;follow this link&lt;/u&gt;.&lt;/a&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;online&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 18 Jan 2019 01:21:44 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771146 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/webinar-pediculus#comments</comments>
+</item>
+<item>
+ <title>Webinar: Ixodes and Sarcoptes</title>
+ <link>https://legacy.vectorbase.org/workshops/webinar-ixodes-and-sarcoptes</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+August 20, 2019, 1-2 pm Eastern/10-11 am Pacific (USA time): You can &lt;a href=&quot;https://www.timeanddate.com/worldclock/converter.html?iso=20190820T170000&amp;p1=tz_et&quot;&gt;&lt;u&gt;click here&lt;/u&gt;&lt;/a&gt; for a link to the webinar start time in your timezone. 
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Sequenced genomes available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;The tick &lt;em&gt;Ixodes scapularis&lt;/em&gt; has one genome with assembly and gene set (Gulia-Nuss et al. &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/26856261&quot;&gt;&lt;u&gt;2016&lt;/u&gt;&lt;/a&gt;), and a newly sequenced one with just an assembly (Nuss et al. &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/392126v1&quot;&gt;&lt;u&gt;2018&lt;/u&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;The mite &lt;em&gt;Sarcoptes scabiei var. canis&lt;/em&gt; has one assembly and gene set (Rider et al &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/26555130/&quot;&gt;&lt;u&gt;2015&lt;/u&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt; 
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Other data types available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;&lt;em&gt;Ixodes scapularis&lt;/em&gt; has two experiments showing differential expression and two transcriptomes, a proteome, population biology and variation (SNP and INDEL calls) data. Additionally, there are also four &lt;em&gt;in vivo&lt;/em&gt; transcriptomes from &lt;em&gt;Ix. ricinus&lt;/em&gt;.&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;Sarcoptes scabiei var. canis&lt;/em&gt; has one transcriptome.&lt;/li&gt;
+&lt;/ul&gt; &lt;/li&gt;
+ 
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&lt;p align=&quot;justify&quot;&gt;webinar materials: &lt;u&gt;slides&lt;/u&gt;.  
+
+&lt;p align=&quot;justify&quot;&gt;Sign up is required but
+attendance is free. Registration ends the day before each webinar session. Each registered participant will receive an email with connection details. Follow &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSc9nZtkQMOhj2Ye1duB3yqqbsEFeDQ-brDYS_VNJxz-PDgLVA/viewform&quot;&gt;&lt;u&gt;this link&lt;/u&gt;&lt;/a&gt; to sign up (or &lt;a href=&quot;https://www.surveymonkey.com/r/G9C9M2D&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; if Google products are blocked in your location). &lt;/p&gt;
+&lt;br&gt;
+
+For more details &lt;a href=&quot;/workshops/vectorbase-2019-webinar-series-speciesgroup-specific&quot;&gt;&lt;u&gt;follow this link&lt;/u&gt;.&lt;/a&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;online&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 18 Jan 2019 01:12:41 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771145 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/webinar-ixodes-and-sarcoptes#comments</comments>
+</item>
+<item>
+ <title>Webinar: Lutzomyia and Phlebotomus</title>
+ <link>https://legacy.vectorbase.org/workshops/webinar-lutzomyia-and-phlebotomus</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+July 23, 2019, 1-2 pm Eastern/10-11 am Pacific (USA time): Notice this is not the third Tuesday of the month, due to a schedule conflict with the ISOPS meeting &lt;a href=&quot;/workshops/10th-international-symposium-phlebotomine-sandflies&quot;&gt;-&lt;u&gt;click here for details&lt;/u&gt;&lt;/a&gt;. You can &lt;a href=&quot;https://www.timeanddate.com/worldclock/converter.html?iso=20190723T170000&amp;p1=tz_et&quot;&gt;&lt;u&gt;click here&lt;/u&gt;&lt;/a&gt; for a link to the webinar start time in your timezone. 
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Sequenced genomes available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; &lt;li&gt;These two sandflies, &lt;em&gt;Lutzomyia longipalpis&lt;/em&gt; and &lt;em&gt;Phlebotomus papatasi&lt;/em&gt;, each have one genome strain sequenced (unpublished data).&lt;/ul&gt; &lt;/li&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Other data types available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; &lt;li&gt;&lt;em&gt;Phlebotomus papatasi&lt;/em&gt; and &lt;em&gt;Lutzomyia longipalpis&lt;/em&gt; have nine and eight experiments, respectively, per transcriptome. &lt;em&gt;Phlebotomus papatasi&lt;/em&gt; also has population biology data.&lt;/ul&gt; &lt;/li&gt;
+
+
+&lt;p align=&quot;justify&quot;&gt;&lt;p align=&quot;justify&quot;&gt;webinar materials: &lt;u&gt;slides&lt;/u&gt;. 
+
+&lt;p align=&quot;justify&quot;&gt;Sign up is required but
+attendance is free. Registration ends the day before each webinar session. Each registered participant will receive an email with connection details. Follow &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSc9nZtkQMOhj2Ye1duB3yqqbsEFeDQ-brDYS_VNJxz-PDgLVA/viewform&quot;&gt;&lt;u&gt;this link&lt;/u&gt;&lt;/a&gt; to sign up (or &lt;a href=&quot;https://www.surveymonkey.com/r/G9C9M2D&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; if Google products are blocked in your location). &lt;/p&gt;
+&lt;br&gt;
+
+For more details &lt;a href=&quot;/workshops/vectorbase-2019-webinar-series-speciesgroup-specific&quot;&gt;&lt;u&gt;follow this link&lt;/u&gt;.&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;online&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 18 Jan 2019 01:10:37 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771144 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/webinar-lutzomyia-and-phlebotomus#comments</comments>
+</item>
+<item>
+ <title>Webinar: Glossina, Musca and Stomoxys</title>
+ <link>https://legacy.vectorbase.org/workshops/webinar-glossina-musca-and-stomoxys</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+June 25, 2019, 1-2 pm Eastern/10-11 am Pacific (USA time): Notice this is not the third Tuesday of the month, due to a schedule conflict with the VectorBiTE RCN meeting &lt;a href=&quot;/workshops/vector-behavior-transmission-ecology-research-coordination-network-vectorbite-rcn&quot;&gt;&lt;u&gt;-click here for details&lt;/u&gt;&lt;/a&gt;. You can &lt;a href=&quot;https://www.timeanddate.com/worldclock/converter.html?iso=20190625T170000&amp;p1=tz_et&quot;&gt;&lt;u&gt;click here&lt;/u&gt;&lt;/a&gt; for a link to the webinar start time in your timezone. 
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Sequenced genomes available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;There is one strain sequenced for each one of the six &lt;em&gt;Glossina&lt;/em&gt; species available, but only the one from &lt;em&gt;G. morsitans&lt;/em&gt; has been published (International Glossina Genome Initiative &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/24763584&quot;&gt;&lt;u&gt;2014&lt;/u&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;There is one strain per genome sequenced of &lt;em&gt;Musca domestica&lt;/em&gt; (Scott et al. &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/25315136&quot;&gt;&lt;u&gt;2014&lt;/u&gt;&lt;/a&gt;) and &lt;em&gt;Stomoxys calcitrans&lt;/em&gt; (genome paper currently being written)&lt;/li&gt;
+&lt;/ul&gt; 
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Other data types available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;&lt;em&gt;G. morsitans&lt;/em&gt; has three experiments showing differential expression and &lt;em&gt;G. palpalis&lt;/em&gt; has one. &lt;em&gt;G. morsitans&lt;/em&gt;, &lt;em&gt;G. austeni, G. breviplapis, G. fuscipes,&lt;/em&gt;, &lt;em&gt;G. pallidipes&lt;/em&gt; and &lt;em&gt;G. palpalis&lt;/em&gt; have transcriptomes.   
+&lt;li&gt;&lt;em&gt;Musca domestica&lt;/em&gt; has two experiments showing transcripts under differential expression and four transcriptomes.&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;Stomoxys calcitrans&lt;/em&gt; has three transcriptomes. &lt;/li&gt;
+&lt;/ul&gt; 
+
+&lt;p align=&quot;justify&quot;&gt;&lt;p align=&quot;justify&quot;&gt;webinar materials: &lt;u&gt;slides&lt;/u&gt;. 
+
+&lt;p align=&quot;justify&quot;&gt;Sign up is required but
+attendance is free. Registration ends the day before each webinar session. Each registered participant will receive an email with connection details. Follow &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSc9nZtkQMOhj2Ye1duB3yqqbsEFeDQ-brDYS_VNJxz-PDgLVA/viewform&quot;&gt;&lt;u&gt;this link&lt;/u&gt;&lt;/a&gt; to sign up (or &lt;a href=&quot;https://www.surveymonkey.com/r/G9C9M2D&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; if Google products are blocked in your location). &lt;/p&gt;
+&lt;br&gt;
+
+For more details &lt;a href=&quot;/workshops/vectorbase-2019-webinar-series-speciesgroup-specific&quot;&gt;&lt;u&gt;follow this link&lt;/u&gt;.&lt;/a&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;online&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 18 Jan 2019 01:07:32 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771143 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/webinar-glossina-musca-and-stomoxys#comments</comments>
+</item>
+<item>
+ <title>Webinar: Rhodnius and Cimex</title>
+ <link>https://legacy.vectorbase.org/workshops/webinar-rhodnius-and-cimex</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+May 21, 2019, 1-2 pm Eastern/10-11 am Pacific (USA time): You can &lt;a href=&quot;https://www.timeanddate.com/worldclock/converter.html?iso=20190521T170000&amp;p1=tz_et&quot;&gt;&lt;u&gt;click here&lt;/u&gt;&lt;/a&gt; for a link to the webinar start time in your timezone. 
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Sequenced genomes available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; &lt;li&gt;There is one assembly and gene set for &lt;em&gt;Rhodnius prolixus&lt;/em&gt; (Mesquita et al. &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/26627243&quot;&gt;&lt;u&gt;2015&lt;/u&gt;&lt;/a&gt;) and &lt;em&gt;Cimex lectularius&lt;/em&gt; (Rosenfeld et al. &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/?term=26836631&quot;&gt;&lt;u&gt;2016&lt;/u&gt;&lt;/a&gt;), both members from the Hemiptera order. &lt;/li&gt; &lt;/ul&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Other data types available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In addition to &lt;em&gt;Rhodnius prolixus&lt;/em&gt; &lt;em&gt;in vivo&lt;/em&gt; transcriptome, there are also seven &lt;em&gt;in vivo&lt;/em&gt; transcriptomes from three &lt;em&gt;Triatoma&lt;/em&gt; species. There is data for one PopBio study too.&lt;/li&gt;   
+&lt;li&gt;For &lt;em&gt;Cimex lectularius&lt;/em&gt;, there are two experiments showing differential expression and two transcriptomes.&lt;/li&gt; 
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&lt;p align=&quot;justify&quot;&gt;webinar materials: &lt;u&gt;slides&lt;/u&gt;. 
+
+&lt;p align=&quot;justify&quot;&gt;Sign up is required but
+attendance is free. Registration ends the day before each webinar session. Each registered participant will receive an email with connection details. Follow &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSc9nZtkQMOhj2Ye1duB3yqqbsEFeDQ-brDYS_VNJxz-PDgLVA/viewform&quot;&gt;&lt;u&gt;this link&lt;/u&gt;&lt;/a&gt; to sign up (or &lt;a href=&quot;https://www.surveymonkey.com/r/G9C9M2D&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; if Google products are blocked in your location). &lt;/p&gt;
+&lt;br&gt;
+
+For more details &lt;a href=&quot;/workshops/vectorbase-2019-webinar-series-speciesgroup-specific&quot;&gt;&lt;u&gt;follow this link&lt;/u&gt;.&lt;/a&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;online&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 18 Jan 2019 01:05:43 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771142 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/webinar-rhodnius-and-cimex#comments</comments>
+</item>
+<item>
+ <title>Webinar: Biomphalaria</title>
+ <link>https://legacy.vectorbase.org/workshops/webinar-biomphalaria</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+April 16, 2019, 1-2 pm Eastern/10-11 am Pacific (USA time): You can &lt;a href=&quot;https://www.timeanddate.com/worldclock/converter.html?iso=20190416T170000&amp;p1=tz_et&quot;&gt;&lt;u&gt;click here&lt;/u&gt;&lt;/a&gt; for a link to the webinar start time in your timezone. 
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Sequenced genomes available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; &lt;li&gt;There is one assembly and gene set for &lt;em&gt;Biomphalaria glabrata&lt;/em&gt; (Adema et al. &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/28508897&quot;&gt;&lt;u&gt;2017&lt;/u&gt;&lt;/a&gt;). &lt;/li&gt; &lt;/ul&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Other data types available in VectorBase&lt;/strong&gt;
+
+&lt;ul&gt; &lt;li&gt;Two differential expression experiments and two transcriptomes and variation data.&lt;/li&gt; &lt;/ul&gt;
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&lt;p align=&quot;justify&quot;&gt;webinar materials: &lt;a href=&quot;https://docs.google.com/presentation/d/1EzN2B2Tjr1dqv8Y5ylqEqqDZzmi7WH8cJvzI7FRmKV8/edit?usp=sharing&quot;&gt;&lt;u&gt;slides&lt;/u&gt;&lt;/a&gt;. 
+
+&lt;p align=&quot;justify&quot;&gt;Sign up is required but
+attendance is free. Registration ends the day before each webinar session. Each registered participant will receive an email with connection details. Follow &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSc9nZtkQMOhj2Ye1duB3yqqbsEFeDQ-brDYS_VNJxz-PDgLVA/viewform&quot;&gt;&lt;u&gt;this link&lt;/u&gt;&lt;/a&gt; to sign up (or &lt;a href=&quot;https://www.surveymonkey.com/r/G9C9M2D&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; if Google products are blocked in your location). &lt;/p&gt;
+&lt;br&gt;
+
+For more details &lt;a href=&quot;/workshops/vectorbase-2019-webinar-series-speciesgroup-specific&quot;&gt;&lt;u&gt;follow this link&lt;/u&gt;.&lt;/a&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-workshop-location field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;online&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/meeting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 18 Jan 2019 01:01:55 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771141 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/workshops/webinar-biomphalaria#comments</comments>
+</item>
+</channel>
+</rss>

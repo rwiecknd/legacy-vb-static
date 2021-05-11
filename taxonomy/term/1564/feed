@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - sense_intronic</title>
+ <link>https://legacy.vectorbase.org/glossary/senseintronic</link>
+ <description>A non-coding transcript found within an intron of a coding or non-coding gene, with no overlap of exonic sequence. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0002131</description>
+ <language>en</language>
+</channel>
+</rss>

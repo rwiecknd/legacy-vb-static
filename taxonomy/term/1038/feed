@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - InterPro</title>
+ <link>https://legacy.vectorbase.org/glossary/interpro</link>
+ <description> InterPro is an integrated resource for protein families, domains and sites, combining information from several different protein signature databases. InterPro IDs are linked to the summary of information about that domain or family. InterPro is managed by EBI. A number of databases (SwissProt, TrEMBL, PROSITE, PRINTS, Pfam, and ProDom, SMART, TIGRFAMs, PIR SuperFamilies and SUPERFAMILY) with different approaches to biological information are used to derive protein signatures. ProteinView, GeneView and DomainView provide links to the relevant InterPro entries.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

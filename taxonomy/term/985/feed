@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Cosmid</title>
+ <link>https://legacy.vectorbase.org/glossary/cosmid</link>
+ <description> DNA from a bacterial virus spliced with a small fragment of a genome (up to 50 kb) to be amplified and sequenced.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

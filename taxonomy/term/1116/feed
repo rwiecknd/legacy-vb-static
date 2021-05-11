@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - snoRNA</title>
+ <link>https://legacy.vectorbase.org/glossary/snorna</link>
+ <description> Small nucleolar RNA, involved in modifications of other RNAs. A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000275
+ </description>
+ <language>en</language>
+</channel>
+</rss>

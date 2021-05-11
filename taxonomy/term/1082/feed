@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Pre-release site</title>
+ <link>https://legacy.vectorbase.org/glossary/pre-release-site</link>
+ <description> Initial annotations of upcoming Ensembl genomes, usually without gene predictions or validation, are regularly made available on the pre-release site, pre.ensembl.org
+ </description>
+ <language>en</language>
+</channel>
+</rss>

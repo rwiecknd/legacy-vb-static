@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Linkage</title>
+ <link>https://legacy.vectorbase.org/glossary/linkage</link>
+ <description> A measure of how often features (genes, specific sequences) on a chromosome are inherited together.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

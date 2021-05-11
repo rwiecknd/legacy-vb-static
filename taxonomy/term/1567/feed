@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Community manual annotation with Apollo (faqs)</title>
+ <link>https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>How to upload BLAST hits to Apollo?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-upload-blast-hits-apollo</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Run a BLAST job. In the results page for chromosomes, scaffolds, or contigs, click on &#039;GFF file for Apollo&#039;. Save this file for later.&lt;/p&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/blast1_gff.png&quot; height=&quot;50&quot; width=&quot;700&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+Select the best hit&lt;/p&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/blast2_gff.png&quot; height=&quot;45&quot; width=&quot;700&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+In the pop-out window click on &#039;Browse Genome&#039;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/blast3_gff.png&quot; height=&quot;100&quot; width=&quot;450&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+There are three panels in the Genome Browser, scroll to the bottom one. The BLAST hit can be seen in bright green and with a track called *.gff. Click on the area you wish to annotate and in the new pop-out window select &#039;click here to annotate&#039;. This will take you to the corresponding region in Apollo.&lt;/p&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/blast5_gff.png&quot; height=&quot;350&quot; width=&quot;700&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+Login to Apollo. Click on File &gt; Open track file or URL &lt;/p&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/blast6_gff.png&quot; height=&quot;150&quot; width=&quot;300&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+Click on Local files &gt; Select files&lt;/p&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/blast7_gff.png&quot; height=&quot;150&quot; width=&quot;200&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 21 Jun 2018 11:55:48 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9770899 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-upload-blast-hits-apollo#comments</comments>
+</item>
+<item>
+ <title>Automatic emails explained </title>
+ <link>https://legacy.vectorbase.org/faqs/automatic-emails-explained</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;center&gt;&lt;/p&gt; 
+&lt;div style=&quot;width: 70%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt; 
+&lt;p&gt;Top tip: If you are splitting a gene model, you need to account for all children, tidy up after yourself!
+&lt;/p&gt;&lt;/div&gt;&lt;/center&gt;&lt;/h2&gt;
+&lt;/br&gt;
+
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;h2&gt;Error in Gene Annotation&lt;/h2&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;strong&gt;Q1.&lt;/strong&gt; How to mark genes with no stop and/or no start codon? &lt;/p&gt;
+&lt;/br&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;With a right click select the gene of interest and the option &#039;Edit information&#039;&lt;/li&gt; 
+
+&lt;img src=&quot;/sites/default/files/ftp/informationeditor.png&quot; height=&quot;100&quot; width=&quot;300&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;li&gt;In the mRNA column select &gt; Attributes &gt; Add &gt; Tag&lt;/li&gt; 
+
+&lt;img src=&quot;/sites/default/files/ftp/Apollo2.png&quot; height=&quot;600&quot; width=&quot;700&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;/ul&gt;
+
+
+&lt;strong&gt;Q2.&lt;/strong&gt; How to mark genes with an insertion, deletion or substitution? &lt;/p&gt;
+&lt;/br&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;Create the edition with a right click directly on the genomic sequence, not in the gene manual annotation. Any of these types of editions, changes the manual annotation open reading frame (ORF), but not the gene assembly &lt;em&gt;per se&lt;/em&gt;&lt;/li&gt; 
+
+&lt;img src=&quot;/sites/default/files/ftp/genomicseq.png&quot; height=&quot;150&quot; width=&quot;250&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;li&gt;With a right click select the gene of interest and the option &#039;Edit information&#039;. Select &#039;Set Readthrough Stop Codon&#039;&lt;/li&gt; 
+
+&lt;img src=&quot;/sites/default/files/ftp/readthrough2.png&quot; height=&quot;100&quot; width=&quot;250&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;li&gt;With a right click select the gene of interest and the option &#039;Edit information&#039;. In the mRNA column select &gt; Attributes &gt; Add &gt; Tag &gt; type: Internal stop codon&lt;/li&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/internalstop.png&quot; height=&quot;150&quot; width=&quot;350&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;/ul&gt;
+
+&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;h2&gt;VectorBase Apollo monthly summary&lt;/h2&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;strong&gt;Q3.&lt;/strong&gt; How to mark a gene manual annotation as finished or unfinished?&lt;/p&gt;
+&lt;/br&gt;
+
+With a right click select the gene of interest and the option &#039;Edit information&#039;. In booth the gene and mRNA columns select the appropriate status. 
+
+&lt;img src=&quot;/sites/default/files/ftp/status.png&quot; height=&quot;150&quot; width=&quot;350&quot;&gt;&lt;/p&gt;
+&lt;/br&gt;
+
+&lt;strong&gt;Q4.&lt;/strong&gt; What is &#039;strand_not identical&#039;? &lt;/p&gt;
+&lt;/br&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;There is a bug in Apollo whereby if you flip the strand of the prediction, &lt;em&gt;e.g.,&lt;/em&gt; if you started with an RNAseq read alignment, then it does not reverse the strand for the gene, only the underlying exons. Hence, a gff3 export of this locus will result in features mapped to both strands. VectorBase has reported to Apollo developers this bug.  A temporary solution is to select the locus and make a duplicate, then delete the original. This does seem to resolve it. You can check by visualizing the gff3 file for the locus from the drop down menu using the &#039;Get GFF3&#039; option.
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 10 May 2018 20:24:05 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9770828 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/automatic-emails-explained#comments</comments>
+</item>
+<item>
+ <title>Why don&#039;t you accept unmodified gene models?</title>
+ <link>https://legacy.vectorbase.org/faqs/why-dont-you-accept-unmodified-gene-models</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;We only use &lt;strong&gt;Apollo&lt;/strong&gt; to receive your submissions of modification to gene structure, &lt;em&gt;i.e.&lt;/em&gt;, changes to the &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Exon&quot; title=&quot;The part of the genomic sequence that remains in the transcript (mRNA) after introns have been spliced out.&quot; class=&quot;lexicon-term&quot;&gt;exon&lt;/a&gt;/&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Intron&quot; title=&quot;The part of the genomic sequence that is transcribed and then spliced out of the transcript (mRNA). Noncoding.&quot; class=&quot;lexicon-term&quot;&gt;intron&lt;/a&gt; structure, because the program merging manual and automatic annotation cannot differentiate if a gene submitted by the community hasn&#039;t been modified because it didn&#039;t need to, or because the user didn&#039;t check it (but modified the neighboring gene, for example.). &lt;/p&gt;
+&lt;p&gt;If you inspected a gene and decided you approve its gene structure, &lt;em&gt;i.e.&lt;/em&gt;, confirm that a gene prediction is correct and does not require any modifications, please use the &quot;Gene Metadata&quot; form (&lt;a href=&quot;/content/metadata-web-forms&quot;&gt;following this link&lt;/a&gt;) and select the option &quot;Approve gene structure&quot; and type a short justification.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/pseudogene.png&quot; height=&quot;300&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 13:46:10 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767492 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/why-dont-you-accept-unmodified-gene-models#comments</comments>
+</item>
+<item>
+ <title>I just submitted my gene annotation. When will I see my submission incorporated in VectorBase?</title>
+ <link>https://legacy.vectorbase.org/faqs/i-just-submitted-my-gene-annotation-when-will-i-see-my-submission-incorporated-vectorbase</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;ul&gt;&lt;li&gt;VectorBase &lt;a href=&quot;/apollo&quot;&gt;Apollo&lt;/a&gt; captures community gene annotations (&lt;em&gt;i.e.&lt;/em&gt;, corrections of gene structures) and other gene information such as metadata (for a few or group gene submissions), links your publications to the relevant gene(s) in the genome browser, allows gene deletions and &lt;a href=&quot;https://legacy.vectorbase.org/glossary#repeat&quot; title=&quot;Repetitive DNA in which the same sequence occurs multiple times.&quot; class=&quot;lexicon-term&quot;&gt;repeat&lt;/a&gt; submissions too, &lt;a href=&quot;/content/submit-data&quot;&gt;follow this&lt;/a&gt; link for instructions.&lt;/li&gt;
+&lt;li&gt;Integration of these data with existing gene sets has greatly improved reference gene sets and has led to a new &lt;strong&gt;‘patch’ build&lt;/strong&gt; system that uses heuristics to merge manual and automated gene predictions to allow more frequent &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt; updates.&lt;/li&gt;
+&lt;li&gt;Apollo allows for immediate display of the new gene models in the &quot;User-created annotations track&quot;. In addition, all community manual annotation data are also made available as a track within VectorBase genome browser, but please note that this is a weekly update not inmidiate. &lt;/li&gt;
+&lt;p&gt;&lt;strong&gt;VectorBase Apollo&lt;/strong&gt;&lt;br /&gt;&lt;img src=&quot;/sites/default/files/ftp/apollo_faq.png&quot; height=&quot;200&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VectorBase Genome Browser &amp;gt; location tab &amp;gt; Configure this page &amp;gt; Genes and transcripts &amp;gt; Apollo gene models: current Apollo annotation&lt;/strong&gt;&lt;br /&gt;&lt;img src=&quot;/sites/default/files/ftp/gb_faq.png&quot; height=&quot;200&quot; width=&quot;450&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/gb_apollo3.png&quot; height=&quot;400&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;li&gt;A VectorBase curator will accumulate community submissions and make patches once a year or even less frequently, it all depends on the amount of submissions for each organism/genome. &lt;/li&gt;
+&lt;li&gt;Please contact us providing your organism or interest and gene location (&lt;em&gt;i.e.&lt;/em&gt;, chromosome, &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Supercontig&quot; title=&quot;Supercontigs or scaffolds are sets of ordered, oriented contigs. They are longer sequences than contigs, but shorter than full chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;supercontig&lt;/a&gt; or &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Scaffold&quot; title=&quot;Supercontigs or scaffolds are sets of ordered, oriented contigs. They are longer sequences than contigs, but shorter than full chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;scaffold&lt;/a&gt; and base pair range), and inquire about our schedule for the next gene set update/patch build release.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Permanent display in VectorBase:&lt;/strong&gt; Once patch builds are performed the community is informed in our release notes, follow this link for an example of such an announcement: &lt;a href=&quot;/release/release-vb-2018-02&quot;&gt;Release VB-2018-02&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;center&gt;
+&lt;div style=&quot;width: 40%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt;
+After you submit a gene annotation the gene ID of that gene will change. &lt;a href=&quot;https://www.vectorbase.org/faqs/why-do-vectorbase-gene-ids-change-finding-missing-gene-ids&quot;&gt;Follow this link to learn&lt;/a&gt; Why do VectorBase gene IDs change and how to find them? &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/center&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 13:42:17 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767913 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/i-just-submitted-my-gene-annotation-when-will-i-see-my-submission-incorporated-vectorbase#comments</comments>
+</item>
+<item>
+ <title>How do I set a gene to pseudogene?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-do-i-set-gene-pseudogene</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Use VectorBase web form called Gene Metadata &lt;a href=&quot;/content/gene-metadata-form&quot;&gt;following this link&lt;/a&gt; and select &quot;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Pseudogene&quot; title=&quot;A noncoding sequence similar to an active protein. A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &amp;quot;normal&amp;quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &amp;quot;normal&amp;quot; paralog). Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000336&quot; class=&quot;lexicon-term&quot;&gt;pseudogene&lt;/a&gt;&quot; as the action to perform on this gene and explain in a few words why you think it is a pseudogene (not need for details).&lt;/p&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/pseudogene.png&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 13:27:36 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767501 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-do-i-set-gene-pseudogene#comments</comments>
+</item>
+<item>
+ <title>How do I decide on a gene name (symbol)?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-do-i-decide-gene-name-symbol</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;
+&lt;ul&gt; 
+&lt;li&gt;Gene names (symbols) are few letters (such as &quot;W&quot; for the white gene, &quot;INR&quot; for insulin receptor, &quot;SRPN18&quot; for serpin 18 in &lt;em&gt;Anopheles&lt;/em&gt;) and should be unique for each gene.&lt;/li&gt; 
+&lt;li&gt;Gene descriptions are the &quot;spelt out&quot; version of the name (symbol), so &quot;white&quot;, &quot;insulin receptor&quot; or &quot;serpin 18&quot; respectively, and are also unique for each gene.&lt;/li&gt;
+&lt;li&gt;If you want to give a gene name (symbol), we recommend you pick up a meaningful one (&lt;em&gt;e.g.&lt;/em&gt; &quot;SRPN&quot;, for consistency with &lt;em&gt;Anopheles&lt;/em&gt;) and since it&#039;s a gene family, add a number (&lt;em&gt;e.g.&lt;/em&gt;&quot;SRPN11&quot;). The gene description would be &quot;serpin1&quot;.&lt;/li&gt;
+&lt;/p&gt;
+
+&lt;center&gt;
+&lt;div style=&quot;width: 40%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt; 
+Please &lt;a href=&quot;https://www.vectorbase.org/faqs/rules-and-conventions-naming-genetic-features-mosquitoes-and-other-arthropod-vectors&quot;&gt;follow this link&lt;/a&gt; for the FAQ &quot;Rules and conventions for naming genetic features in mosquitoes (and other arthropod vectors)&quot; for more details about this topic.&lt;/div&gt;&lt;/center&gt;  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 13:17:40 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767497 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-do-i-decide-gene-name-symbol#comments</comments>
+</item>
+<item>
+ <title>How do I annotate a gene?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-do-i-annotate-gene</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Apollo working space has the &quot;User-created annotation tracks&quot; on top and, below that an area were you can add evidence tracks. Activate the &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt; track.  Select, hold and drag a partial or full &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;transcript&lt;/a&gt; or gene, from the evidence area to the user area, to change &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Intron&quot; title=&quot;The part of the genomic sequence that is transcribed and then spliced out of the transcript (mRNA). Noncoding.&quot; class=&quot;lexicon-term&quot;&gt;intron&lt;/a&gt;/&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Exon&quot; title=&quot;The part of the genomic sequence that remains in the transcript (mRNA) after introns have been spliced out.&quot; class=&quot;lexicon-term&quot;&gt;exon&lt;/a&gt; boundaries.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 13:11:27 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767491 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-do-i-annotate-gene#comments</comments>
+</item>
+<item>
+ <title>How do I batch submit annotation metadata to VectorBase?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-do-i-batch-submit-annotation-metadata-vectorbase</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;If you are submitting in batch, &lt;em&gt;e.g.&lt;/em&gt;, when you are annotating a gene family, you can fill an spreadsheet (e.g., Excel), rather than the web form for one gene at the time. Once you are done please send the file to &lt;a href=&quot;https://www.vectorbase.org/contact&quot;&gt;info@vectorbase.org&lt;/a&gt;. Use the following 12 columns headings in the spreadsheet: &lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Timestamp: dd/mm/yyyy&lt;/li&gt;
+&lt;li&gt;Species&lt;/li&gt;
+&lt;li&gt;VectorBase gene ID: e.g, AGAP000002. In the absence of a VectorBase gene ID give &lt;a href=&quot;https://pre.vectorbase.org/glossary#Scaffold&quot; title=&quot;Supercontigs or scaffolds are sets of ordered, oriented contigs. They are longer sequences than contigs, but shorter than full chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;scaffold&lt;/a&gt; and base pair coordinates, e.g. scaffold_1:1010-4549. &lt;/li&gt;
+&lt;li&gt;Gene status: Use this section to confirm the gene structure, mark as a &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Pseudogene&quot; title=&quot;A noncoding sequence similar to an active protein. A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &amp;quot;normal&amp;quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &amp;quot;normal&amp;quot; paralog). Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000336&quot; class=&quot;lexicon-term&quot;&gt;pseudogene&lt;/a&gt; or delete the prediction completely.
+&lt;ul&gt;&lt;li&gt;Approve gene structure&lt;/li&gt;
+&lt;li&gt;Set as pseudogene&lt;/li&gt;
+&lt;li&gt;Delete&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Justification: Indicate in a few words why you think this gene should be deleted/set as pseudogene or which evidences helped you decide its structure is correct (e.g. &quot;Supported by RNA-seq data&quot;, &quot;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Similarity&quot; title=&quot;How well one sequence matches another determined by calculation by an alignment program of identical and conserved residues.&quot; class=&quot;lexicon-term&quot;&gt;similarity&lt;/a&gt; with Drosophila protein XYZ&quot;)
+&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Gene symbol: Indicate the gene symbol. It should be short and unique to each gene (e.g. &quot;SRPN18&quot; for serpin18).&lt;/li&gt;
+&lt;p&gt;Justification: Indicate in a few words how you&#039;ve attributed this gene symbol (e.g. &quot;Based on similarity to Drosophila Female sterile (2) Ketel (Fs(2)Ket) gene&quot;)&lt;/p&gt;
+&lt;li&gt;Gene synonyms: Indicated any synonyms for the locus&lt;/li&gt;
+&lt;li&gt;Description: If should be relatively short (e.g. &quot;Serpin&quot;, &quot;Ion channel receptor&quot;).&lt;/li&gt;
+&lt;p&gt;Justification: Indicate in a few words how you&#039;ve attributed this description (e.g. &quot;Based on similarity to topless Drosophila gene&quot;)&lt;/p&gt;
+&lt;li&gt;PubMed ID: &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/25510499&quot;&gt;e.g., 25510499&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Submitter Name&lt;/li&gt;
+&lt;li&gt;Email&lt;/li&gt;
+&lt;li&gt;Review: Use Review to state that the prediction is not correct but the submitter does not have enough information/time/inclination to correct it at this time, this can be a ToDo list for interested parties.&lt;/li&gt;
+&lt;li&gt;Comments/Notes: Leave any other comments you have about this gene (e.g. &quot;Truncated gene, other part on scaffold scfxxxxxx&quot;, split GMOY123456[1/2] or, merge GMOY123456-GMOY123457).&lt;/li&gt;
+&lt;/ol&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 13:05:16 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9769243 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-do-i-batch-submit-annotation-metadata-vectorbase#comments</comments>
+</item>
+<item>
+ <title>How do I add a comment to a gene?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-do-i-add-comment-gene</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Please type your comments in the &quot;Gene Metadata&quot; web form &lt;a href=&quot;/content/gene-metadata-form&quot;&gt;following this link.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/comments.png&quot; height=&quot;200&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 12:29:06 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767500 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-do-i-add-comment-gene#comments</comments>
+</item>
+<item>
+ <title>Annotation Editors: Artemis and Apollo</title>
+ <link>https://legacy.vectorbase.org/faqs/annotation-editors-artemis-and-apollo</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;There are a few annotation editors including &lt;a href=&quot;http://genomearchitect.github.io/&quot;&gt;Apollo&lt;/a&gt; and &lt;a href=&quot;http://www.sanger.ac.uk/science/tools/artemis&quot;&gt;Artemis&lt;/a&gt;. Currently we only support &lt;a href=&quot;/apollo&quot;&gt;Apollo&lt;/a&gt; for the VectorBase genome communities, which is also the tool of choice of the &lt;a href=&quot;https://i5k.nal.usda.gov/&quot;&gt;i5k community&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;If you have a question about Apollo please refer to its &lt;a href=&quot;/tutorials/community-annotation-tutorials/apollo&quot;&gt;tutorial page&lt;/a&gt; which includes two sandboxes for you to practice (and play!), a tutorial in pdf, and annotation sample cases from from the @VBannotator.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/community-manual-annotation-apollo-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Community manual annotation with Apollo (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Apr 2018 12:09:30 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767507 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/annotation-editors-artemis-and-apollo#comments</comments>
+</item>
+</channel>
+</rss>

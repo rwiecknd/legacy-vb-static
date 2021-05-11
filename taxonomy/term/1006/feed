@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - EST genes</title>
+ <link>https://legacy.vectorbase.org/glossary/est-genes</link>
+ <description> Set of Ensembl gene predictions solely based on EST evidence. The process of EST gene prediction uses a combination of Exonerate, BLAST and Est2Genome to map ESTs onto the genomic sequence. Redundant ESTs are merged, before GenomeWise is used to assign 5&#039; and 3&#039; UTRs to the longest found ORF. See Eyras et al. for a more complete explanation of the EST gene prediction process.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

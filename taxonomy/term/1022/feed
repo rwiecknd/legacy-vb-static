@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Haplotype</title>
+ <link>https://legacy.vectorbase.org/glossary/haplotype</link>
+ <description> Known variations to the primary assembly, due to variability in the human genome sequence (eg. the highly variable MHC locus containing halpotypes HSCHR6_MHC_COX, HSCHR6_MHC_SSTO, HSCHR6_MHC_APD, HSCHR6_MHC_DBB, HSCHR6_MHC_MANN, HSCHR6_MHC_MCF, and HSCHR6_MHC_QBL). In Region in Detail, the haplotype regions are coloured with a red background.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

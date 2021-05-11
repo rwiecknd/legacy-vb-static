@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - scaRNA</title>
+ <link>https://legacy.vectorbase.org/glossary/scarna</link>
+ <description>A ncRNA, specific to the Cajal body, that has been demonstrated to function as a guide RNA in the site-specific synthesis of 2&#039;-O-ribose-methylated nucleotides and pseudouridines in the RNA polymerase II-transcribed U1, U2, U4 and U5 spliceosomal small nuclear RNAs (snRNAs). Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0002095</description>
+ <language>en</language>
+</channel>
+</rss>

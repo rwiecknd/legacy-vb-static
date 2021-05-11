@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Golden path length</title>
+ <link>https://legacy.vectorbase.org/glossary/golden-path-length</link>
+ <description> The golden path is the length of the reference assembly. It consists of the sum of all top-level sequences in the seq_region table, omitting any redundant regions such as haplotypes and PARs (pseudoautosomal regions).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

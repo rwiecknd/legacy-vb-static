@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - tandem repeats</title>
+ <link>https://legacy.vectorbase.org/glossary/tandem-repeats</link>
+ <description> Multiple copies of the same base sequence on a chromosome; used as markers in physical mapping.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

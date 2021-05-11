@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - RefSeq</title>
+ <link>https://legacy.vectorbase.org/glossary/refseq</link>
+ <description> NCBI&#039;s Reference Sequences (RefSeq) database is a curated database of Genbank&#039;s genomes, mRNAs and proteins. RefSeq attempts to provide a comprehensive, integrated, non-redundant set of sequences, including genomic DNA, tRNA, and protein products, providing a stable reference for gene identification and characterization, mutation analysis, expression studies, polymorphism discovery, and comparative analyses.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

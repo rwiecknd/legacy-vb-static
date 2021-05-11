@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - ncRNA (non-coding RNA)</title>
+ <link>https://legacy.vectorbase.org/glossary/ncrna-non-coding-rna</link>
+ <description> Short non-coding RNAs such as rRNA, scRNA, snTNA, snoRNA and miRNA are annotated by the Ensembl ncRNA pipeline (see article). To view these short ncRNAs, go to Region In Detail and open the Configure This Page window. Select ncRNA from the Genes menu.    Transfer RNAs (tRNAs) are identified by tRNAscan. To view tRNAs, go to Region In Detail and open the Configure This Page window. Select tRNA from the Simple Feature menu.    Long intergenic ncRNAs have only been annotated for human and mouse. To view long ncRNAs, go to Region In Detail and open the Configure This Page window. Select lincRNA from the Genes menu. An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000655
+ </description>
+ <language>en</language>
+</channel>
+</rss>

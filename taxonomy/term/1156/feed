@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - VEP (Variant Effect Predictor)</title>
+ <link>https://legacy.vectorbase.org/glossary/vep-variant-effect-predictor</link>
+ <description> Ensembl Tool that allows users to provide a list of variants and export a results file containing consequence types.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Dotter</title>
+ <link>https://legacy.vectorbase.org/glossary/dotter</link>
+ <description> Ensembl DotterView is based on the program Dotter, a dot-matrix program with dynamic threshold control suited for genomic DNA and protein sequence analysis. The Dotter tool provides a visual display of the sequence alignment it represents. The dotplot displays detailed comparison of two sequences. Every residue in one sequence is compared to every residue in the other sequence. The first sequence runs along the x-axis and the second sequence along the y-axis. In regions where the two sequences are similar to each other, a row of high scores will run diagonally across the dot matrix. If you&#039;re comparing a sequence against itself to find internal repeats, you&#039;ll notice that the main diagonal scores maximally, since it&#039;s the 100% perfect self-match. To make the score matrix more intelligible, the pairwise scores are averaged over a sliding window that runs diagonally. The averaged score matrix forms a three-dimensional landscape, with the two sequences in two dimensions and the height of the peaks in the third. This landscape is projected onto two dimensions by aid of grayscales - higher peaks are indicated by darker grays. Dotter was written by Erik L.L. Sonnhammer and Richard Durbin Gene 167: GC1-10 (1995)
+ </description>
+ <language>en</language>
+</channel>
+</rss>

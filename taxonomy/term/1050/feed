@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Low-complexity region</title>
+ <link>https://legacy.vectorbase.org/glossary/low-complexity-region</link>
+ <description> A region in the sequence with a biased composition (i.e. repeated sequences or residues.)
+ </description>
+ <language>en</language>
+</channel>
+</rss>

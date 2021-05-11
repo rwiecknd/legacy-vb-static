@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - STS markers</title>
+ <link>https://legacy.vectorbase.org/glossary/sts-markers</link>
+ <description> STS markers are short sequences of genomic DNA that can be uniquely amplified by the polymerase chain reaction (PCR) using a pair of primers. Because each is unique, STSs are often used in linkage and radiation hybrid mapping techniques. STSs serve as landmarks on the physical map of the human genome.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - SEG</title>
+ <link>https://legacy.vectorbase.org/glossary/seg</link>
+ <description> Seg divides sequences into contrasting segments of low-complexity and high-complexity. Low-complexity segments defined by the algorithm represent &quot;simple sequences&quot; or &quot;compositionally-biased regions&quot;. Segment lengths and the number of segments per sequence are determined automatically by the algorithm.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

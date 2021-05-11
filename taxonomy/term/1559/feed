@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - pre_miRNA</title>
+ <link>https://legacy.vectorbase.org/glossary/premirna</link>
+ <description>The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0001244</description>
+ <language>en</language>
+</channel>
+</rss>

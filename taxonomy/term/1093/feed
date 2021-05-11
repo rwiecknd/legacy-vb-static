@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Reference SNP (Reference Single Nucleotide Polymorphism)</title>
+ <link>https://legacy.vectorbase.org/glossary/reference-snp-reference-single-nucleotide-polymorphism</link>
+ <description> A SNP assigned to eliminate redundancy in the NCBI dbSNP database. All SNPs submitted at the position of a reference SNP are given the reference SNP identifier (a number preceded by &#039;rs&#039;).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - DDBJ (DNA Data Bank of Japan)</title>
+ <link>https://legacy.vectorbase.org/glossary/ddbj-dna-data-bank-japan</link>
+ <description> DDBJ is the sole DNA data bank in Japan, which is officially certified to collect DNA sequences from researchers and to issue the internationally recognized accession number to data submitters. Data is exchanged with EMBL/EBI and GenBank/NCBI on a daily basis, and the three data banks share virtually the same data at any given time.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

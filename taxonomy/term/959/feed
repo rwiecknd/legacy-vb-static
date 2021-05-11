@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Antisense</title>
+ <link>https://legacy.vectorbase.org/glossary/antisense</link>
+ <description> Non-coding transcript believed to be an antisense product used in the regulation of the gene to which it belongs.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

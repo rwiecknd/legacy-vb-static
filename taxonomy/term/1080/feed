@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Polymorphic pseudogene</title>
+ <link>https://legacy.vectorbase.org/glossary/polymorphic-pseudogene</link>
+ <description> Pseudogene owing to a polymorphism in the reference genome, translated in other individuals/haplotypes/strains.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

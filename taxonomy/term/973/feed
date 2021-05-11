@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - CDS (Coding sequence)</title>
+ <link>https://legacy.vectorbase.org/glossary/cds-coding-sequence</link>
+ <description> The portion of a gene or an mRNA that codes for a protein. Introns are not coding sequences, nor are the 5&#039; or 3&#039; UTR. The coding sequence in a cDNA or mature mRNA includes everything from the start codon through to the stop codon, inclusive.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

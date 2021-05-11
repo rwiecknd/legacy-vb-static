@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - ATV (A Tree Viewer)</title>
+ <link>https://legacy.vectorbase.org/glossary/atv-tree-viewer</link>
+ <description> An application (Java tool) for the visualisation of phylogenetic trees. Allows the possibility to edit and export data. See Zmasek et al.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

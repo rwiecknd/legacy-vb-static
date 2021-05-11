@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Length (aa)</title>
+ <link>https://legacy.vectorbase.org/glossary/length-aa</link>
+ <description> The number of amino acids in, for example, a protein.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

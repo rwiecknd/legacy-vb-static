@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - In-del (Insertion-deletion)</title>
+ <link>https://legacy.vectorbase.org/glossary/del-insertion-deletion</link>
+ <description> A mutation or polymorphism in which one or more base pairs have been inserted into or removed from a genomic sequence.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

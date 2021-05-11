@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - YAC (Yeast Artificial Chromosome)</title>
+ <link>https://legacy.vectorbase.org/glossary/yac-yeast-artificial-chromosome</link>
+ <description> Originated from a bacterial plasmid, a YAC contains a yeast centromeric region (CEN), a yeast origin of DNA replication, a cluster of unique rectriction sites and a selectable marker and a telomere region at the en of each arm. YACs are capable of cloning extremely large segments of DNA (over 1 megabase long) into a host cell, where the DNA is propagated along with the other chromosomes of the yeast cell.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

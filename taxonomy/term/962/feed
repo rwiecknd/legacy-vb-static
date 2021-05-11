@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Assembly</title>
+ <link>https://legacy.vectorbase.org/glossary/assembly</link>
+ <description> When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

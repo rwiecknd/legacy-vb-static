@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - help</title>
+ <link>https://legacy.vectorbase.org/tags/help</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Microarray experiments</title>
+ <link>https://legacy.vectorbase.org/documentation/submission-guidelines-expression-data/microarray-experiments</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;/p&gt;
+&lt;div id=&quot;globalWrapper&quot;&gt;
+&lt;div id=&quot;column-content&quot;&gt;
+&lt;div class=&quot;thumb tright&quot;&gt;
+&lt;div class=&quot;thumbinner&quot; style=&quot;width:301px;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;/sites/default/files/ftp/Vbgelogo_1.png&quot; width=&quot;299&quot; height=&quot;86&quot; border=&quot;0&quot; class=&quot;thumbimage&quot; /&gt;&lt;br /&gt;&lt;div class=&quot;thumbcaption&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;We will need your raw data files (e.g. GenePix .gpr and Affymetrix .cel files) and information which tells us which samples are used in which hybridizations (and with which labels).  We&#039;ll also need to know more about your samples (for example which timepoint they represent).
+&lt;/p&gt;
+&lt;table id=&quot;toc&quot; class=&quot;toc&quot; summary=&quot;Contents&quot;&gt;&lt;tr&gt;&lt;td&gt;
+&lt;div id=&quot;toctitle&quot;&gt;
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;/div&gt;
+&lt;ul&gt;&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Sample_IDs_and_sample_annotations&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Sample IDs and sample annotations&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Hybridization_information&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Hybridization information&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Spot_quality&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Spot quality&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Send_your_files&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Send your files&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Next_steps&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Next steps&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot;&gt;Sample IDs and sample annotations&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;The file format described below is a simplified subset (Biomaterials only) of the &lt;a href=&quot;http://tab2mage.sourceforge.net/docs/sdrf.html&quot; class=&quot;external text&quot; title=&quot;http://tab2mage.sourceforge.net/docs/sdrf.html&quot; rel=&quot;nofollow&quot;&gt;MAGE-TAB SDRF file format&lt;/a&gt;.  If you have already generated SDRF, or wish to generate it, you may do so.  This will speed up your ArrayExpress submission slightly.
+&lt;/p&gt;
+&lt;p&gt;Please prepare a tab-delimited text file with the following columns:
+&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;
+&lt;dl&gt;&lt;dt&gt;Column 1 (heading &#039;Sample ID&#039;)&lt;/dt&gt;
+&lt;dd&gt; Please create an ID for each of your samples following this scheme if possible: &lt;tt&gt;lab_experiment_sample&lt;/tt&gt;.  Each replicate should be given a different sample ID (e.g. ending with 1,2,3...). Use extra underscore characters if you need them.  Each biological replicate should have a different ID, for example: &lt;tt&gt;bob_mf_male1, bob_mf_male2&lt;/tt&gt;.  There are no hard and fast rules, but keep them as short as possible, since more complete information will be held elsewhere.  The &lt;tt&gt;lab_experiment&lt;/tt&gt; part should be the same throughout the experiment.&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Column 2 (heading &#039;Material Type&#039;)&lt;/dt&gt;
+&lt;dd&gt; e.g. whole_organism or organism_part (see &lt;a href=&quot;http://mged.sourceforge.net/ontologies/MGEDontology.php#MaterialType&quot; class=&quot;external text&quot; title=&quot;http://mged.sourceforge.net/ontologies/MGEDontology.php#MaterialType&quot; rel=&quot;nofollow&quot;&gt;MGED notes&lt;/a&gt;)&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Column 3 (heading &#039;Characteristics[Organism]&#039;)&lt;/dt&gt;
+&lt;dd&gt; Please provide the Latin species name here&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Column 4 (heading &#039;Characteristics[StrainOrLine]&#039;)&lt;/dt&gt;
+&lt;dd&gt; Please provide the strain name here&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Column 5...&lt;/dt&gt;
+&lt;dd&gt; More &#039;Characteristics[xxx]&#039; columns relevant to your experiment (e.g. Sex, Age, DevelopmentalStage, OrganismPart, DiseaseState, GeneticModification, GrowthCondition, Compound, Dose).  If possible please follow the MGED guidelines &lt;a href=&quot;http://mged.sourceforge.net/ontologies/MGEDontology.php&quot; class=&quot;external autonumber&quot; title=&quot;http://mged.sourceforge.net/ontologies/MGEDontology.php&quot; rel=&quot;nofollow&quot;&gt;[1]&lt;/a&gt;, but since this is a rather complex document, we are happy for you to submit sample annotations using your own self-explanatory column headings.&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Last column(s) (heading &#039;Factor Value[xxx]&#039;)&lt;/dt&gt;
+&lt;dd&gt; Where xxx is the factor you are varying in the experiment, e.g. DevelopmentalStage for a developmental study.  The contents of the column can be an exact copy of the existing Characteristics column.  More than one Factor Value column is needed for multi-factor experiments.&lt;br /&gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Do not forget to add your control or standard reference sample(s) to this file.  If certain columns do not apply to some samples, leave them empty.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;/sites/default/files/ftp/Example_samples.txt&quot; title=&quot;Example_samples.txt&quot;&gt;EXAMPLE SAMPLES FILE&lt;/a&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;Hybridization_information&quot; id=&quot;Hybridization_information&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Hybridization information&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Please prepare a tab-delimited text file with the&lt;br /&gt;
+following columns.   Each line represents one hybridization.
+&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;
+&lt;dl&gt;&lt;dt&gt;Column 1 (heading &#039;Experimental sample&#039;)&lt;/dt&gt;
+&lt;dd&gt; the sample ID (see previous section) of the experimental sample&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Column 2 (heading &#039;Experimental label&#039;)&lt;/dt&gt;
+&lt;dd&gt; the dye used for the experimental sample (i.e. Cy5 or Cy3)&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Column 3 (heading &#039;Control sample&#039;)&lt;/dt&gt;
+&lt;dd&gt; the sample ID (see previous section) of the control sample.  &lt;b&gt;Optional&lt;/b&gt; for single channel data.&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Column 4 (heading &#039;Control label&#039;)&lt;/dt&gt;
+&lt;dd&gt; the dye used for the control sample (i.e. Cy5 or Cy3). &lt;b&gt;Optional&lt;/b&gt; for single channel data.&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Column 5 (heading &#039;Data file&#039;)&lt;/dt&gt;
+&lt;dd&gt; the filename of the raw data file for this hybridization. If you are using Imagene software and have two files per hybridisation, please use a comma to separate the two filenames, and put them in Cy5 Cy3 order (even for dye swaps).  We do not currently accept normalized or manipulated data, however if you would like spots to be filtered base on your own criteria, please provide suitable values in the &#039;Flags&#039; column (see also &lt;a href=&quot;#Spot_quality&quot; title=&quot;&quot;&gt;#Spot quality&lt;/a&gt; below).&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Optional column (heading &#039;Normalized file&#039;)&lt;/dt&gt;
+&lt;dd&gt; the filename of the per-hyb normalised data file.  It should follow the &lt;a href=&quot;http://tab2mage.sourceforge.net/docs/datafiles.html#normalized&quot; class=&quot;external text&quot; title=&quot;http://tab2mage.sourceforge.net/docs/datafiles.html#normalized&quot; rel=&quot;nofollow&quot;&gt;MAGE-TAB format guidelines for normalized data files&lt;/a&gt;.&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Optional column (heading &#039;Data matrix file&#039;)&lt;/dt&gt;
+&lt;dd&gt; the filename of the (usually) per-experiment file containing one row per reporter and one or more columns per condition (e.g. with final values such as fold-changes and p-values).  It should follow the &lt;a href=&quot;http://tab2mage.sourceforge.net/docs/magetab_docs.html#datamatrix&quot; class=&quot;external text&quot; title=&quot;http://tab2mage.sourceforge.net/docs/magetab_docs.html#datamatrix&quot; rel=&quot;nofollow&quot;&gt;MAGE-TAB format guidelines for data matrices&lt;/a&gt;.&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Optional column (heading &#039;Image file&#039;)&lt;/dt&gt;
+&lt;dd&gt; We do not currently promise to load spot images into the database, but you can send them anyway if you like.&lt;br /&gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Note that in order for us to make a fully MIAME compliant ArrayExpress submission for you, you must submit either Normalized files or a Data matrix file (or both).
+&lt;/p&gt;
+&lt;p&gt;Note that the experimental and control samples are always in the same order.  If you have performed dye swaps, just put the dyes in the opposite order.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;/sites/default/files/ftp/Example_hybs.txt&quot; title=&quot;Example_hybs.txt&quot;&gt;EXAMPLE HYBS FILE&lt;/a&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;Spot_quality&quot; id=&quot;Spot_quality&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Spot quality&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;We don&#039;t want to serve gene expression data to the community which comes from poor quality spots (low intensity, scratches, etc) so we need &lt;i&gt;one of the following&lt;/i&gt; from you:
+&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt; A text file containing the reporter IDs (one per line) which pass your quality control filters
+&lt;/li&gt;
+&lt;li&gt; Flag the poor quality spots in your raw data files (e.g. in the Flags column).  We then need to know how to handle the flags (please send details by email).  We currently handle simple procedures like: &quot;reporters which have good spots in at least M out of N hybridisations&quot;.
+&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a name=&quot;Send_your_files&quot; id=&quot;Send_your_files&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Send your files&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Large attachments may fail to reach us, so please &#039;zip&#039; or &#039;tar&#039; up your files into a single file and send it to &lt;a href=&quot;mailto:r.maccallum@imperial.ac.uk&quot;&gt;r.maccallum@imperial.ac.uk&lt;/a&gt; using &lt;a href=&quot;https://fileexchange.imperial.ac.uk/&quot; class=&quot;external text&quot; title=&quot;https://fileexchange.imperial.ac.uk/&quot; rel=&quot;nofollow&quot;&gt;Imperial College&#039;s file exchange service&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;Checklist:
+&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt; Sample annotation file
+&lt;/li&gt;
+&lt;li&gt; Hybridization file
+&lt;/li&gt;
+&lt;li&gt; Raw data files
+&lt;/li&gt;
+&lt;li&gt; Normalized files and/or data matrix file (optional)
+&lt;/li&gt;
+&lt;li&gt; Spot quality information
+&lt;/li&gt;
+&lt;li&gt; Image files (optional)
+&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a name=&quot;Next_steps&quot; id=&quot;Next_steps&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Next steps&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;We will perform the standard VectorBase normalisation and analysis steps on your data, and prepare a preview website for you to check that we are representing your data correctly.  When your data is published in a journal, we then make your data public on VectorBase.  We can also assist with ArrayExpress submission.
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Jul 2012 12:48:21 +0000</pubDate>
+ <dc:creator>ttiirikk</dc:creator>
+ <guid isPermaLink="false">9766629 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/documentation/submission-guidelines-expression-data/microarray-experiments#comments</comments>
+</item>
+<item>
+ <title>Submission guidelines for expression data</title>
+ <link>https://legacy.vectorbase.org/documentation/submission-guidelines-expression-data</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;p&gt;&lt;a name=&quot;Why_submit_your_data.3F&quot; id=&quot;Why_submit_your_data.3F&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Why submit your data?&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Nobody likes submitting data to repositories, so let&#039;s start by outlining the benefits of submitting your gene expression data to &lt;a href=&quot;http://funcgen.vectorbase.org/ExpressionData&quot; class=&quot;external text&quot; title=&quot;http://funcgen.vectorbase.org/ExpressionData&quot; rel=&quot;nofollow&quot;&gt;VectorBase&#039;s Gene Expression Resource&lt;/a&gt;:
+&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt; When your data is fully loaded, we will be able to take care of the ArrayExpress submission for you.  We are aiming to make the submission process as easy as possible, and tailor it to the insect vector community.
+&lt;/li&gt;
+&lt;li&gt; While you are waiting for a publication date, you may analyse your data (and share with selected other labs if you wish) using BASE&#039;s powerful and expandable web-based user interface.
+&lt;/li&gt;
+&lt;li&gt; If your array&#039;s reporters have been mapped to the genome (we aim to do this within a few months of receiving your array design), you can make your data available through the VectorBase and Ensembl genome browsers.  Some examples:
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;http://www.vectorbase.org/Anopheles_gambiae/Location/View?db=core;h=3r;r=3R:47574000-47583999;contigviewbottom=oligo_funcgen_NIMBLEGEN__ND_65K_V1=normal&quot; class=&quot;external text&quot; title=&quot;Genome browser with microarray track&quot;&gt;VectorBase contigview&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://funcgen.vectorbase.org/expression-browser/gene/AGAP011612&quot; class=&quot;external text&quot; title=&quot;gene expression summary&quot;&gt;Gene-based expression summary&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://funcgen.vectorbase.org/expression-browser/&quot; class=&quot;external text&quot; title=&quot;Expression Browser&quot; rel=&quot;nofollow&quot;&gt;Main entry point&lt;/a&gt; for gene expression data
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt; We (and eventually ArrayExpress) will have a secure off-site copy of your data.
+&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;a name=&quot;Data_submission_policy&quot; id=&quot;Data_submission_policy&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Data submission policy&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;VectorBase currently considers for inclusion all publication quality microarray experiments that have been submitted to a global repository, such as GEO or ArrayExpress and are fully MIAME-compliant (raw unprocessed data is required: quantified scans, not scan images).  By publication quality, we mean that sufficient replicates and controls have been performed, the samples have suitable meta-data (including, but not limited to strain, age, sex, developmental stage) and that some differential expression is detected.  We regret that we may not have the resources to process all file formats and technology platforms.
+&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;Data_submission_outline&quot; id=&quot;Data_submission_outline&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Data submission outline&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Please follow each of the links below for more details of the submission process.
+&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt; &lt;a href=&quot;/content/microarray-design&quot; title=&quot;ExpressionData:MicroarrayDesign&quot;&gt;Array design&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;/content/microarray-experiments&quot; title=&quot;ExpressionData:MicroarrayExperiments&quot;&gt;Experimental data&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Here is a &lt;a href=&quot;/content/microarray-data-checklist&quot; title=&quot;ExpressionData:MicroarrayDataChecklist&quot;&gt;checklist&lt;/a&gt; of things you&#039;ll need.
+&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;Or..._submit_direct_to_GEO.2FArrayExpress&quot; id=&quot;Or..._submit_direct_to_GEO.2FArrayExpress&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Or... submit direct to GEO/ArrayExpress&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;If you prefer, just submit straight to GEO or ArrayExpress, including raw data files in the submission and as much information about each sample as possible.  Then just let us know when we can pick up the data from there.
+&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;Curator_contact_details&quot; id=&quot;Curator_contact_details&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;Curator contact details&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Please email &lt;tt&gt;r.maccallum at imperial.ac.uk&lt;/tt&gt; regarding any aspect of data submission.
+&lt;/p&gt;
+&lt;p&gt;Please note that large files should be sent using &lt;a href=&quot;https://fileexchange.imperial.ac.uk/&quot; class=&quot;external text&quot; title=&quot;https://fileexchange.imperial.ac.uk/&quot; rel=&quot;nofollow&quot;&gt;Imperial College&#039;s file exchange service&lt;/a&gt;.
+&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Jul 2012 12:10:21 +0000</pubDate>
+ <dc:creator>ttiirikk</dc:creator>
+ <guid isPermaLink="false">9766627 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/documentation/submission-guidelines-expression-data#comments</comments>
+</item>
+<item>
+ <title>Microarrays</title>
+ <link>https://legacy.vectorbase.org/content/microarrays</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;/Help/skins/common/ajax.js?164&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://yui.yahooapis.com/2.5.1/build/utilities/utilities.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://yui.yahooapis.com/2.5.1/build/tabview/tabview-min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://yui.yahooapis.com/2.5.1/build/event/event-min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://yui.yahooapis.com/2.5.1/build/history/history-min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/Help/extensions/HeaderTabs/skins/headertabs.js&quot;&gt;&lt;/script&gt;&lt;p&gt;	&lt;br /&gt;&lt;/p&gt;
+&lt;div id=&quot;globalWrapper&quot;&gt;
+&lt;div id=&quot;column-content&quot;&gt;
+&lt;div id=&quot;content&quot;&gt;
+&lt;p&gt;The arrays listed below are either
+&lt;/p&gt;
+&lt;dl&gt;&lt;dt&gt;Currently mapped&lt;/dt&gt;
+&lt;dd&gt;Mapped to the current genome &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Assembly&quot; title=&quot;When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;assembly&lt;/a&gt; and available as &quot;permanent&quot; contigview tracks in the VectorBase genome browser and also through BioMart.&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;Not yet mapped&lt;/dt&gt;
+&lt;dd&gt;VectorBase is aware of the array and is attempting to incorporate it.&lt;br /&gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;p&gt;You can also &lt;a href=&quot;http://funcgen.vectorbase.org/ExpressionData/microarray&quot; class=&quot;external text&quot; title=&quot;http://funcgen.vectorbase.org/ExpressionData/microarray&quot; rel=&quot;nofollow&quot;&gt;browse the microarrays&lt;/a&gt; in the &lt;a href=&quot;http://funcgen.vectorbase.org/ExpressionData&quot; class=&quot;external text&quot; title=&quot;http://funcgen.vectorbase.org/ExpressionData&quot; rel=&quot;nofollow&quot;&gt;Expression Data browser&lt;/a&gt;.
+&lt;/p&gt;
+&lt;table id=&quot;toc&quot; class=&quot;toc&quot; summary=&quot;Contents&quot;&gt;&lt;tr&gt;&lt;td&gt;
+&lt;div id=&quot;toctitle&quot;&gt;
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;/div&gt;
+&lt;ul&gt;&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Anopheles_gambiae&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Anopheles gambiae&lt;/span&gt;&lt;/a&gt;
+&lt;ul&gt;&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Currently_mapped&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;1.1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Currently mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Not_yet_mapped&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;1.2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Aedes_aegypti&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Aedes aegypti&lt;/span&gt;&lt;/a&gt;
+&lt;ul&gt;&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Currently_mapped_2&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;2.1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Currently mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Not_yet_mapped_2&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;2.2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Culex_quinquefasciatus&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Culex quinquefasciatus&lt;/span&gt;&lt;/a&gt;
+&lt;ul&gt;&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Currently_mapped_3&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;3.1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Currently mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Not_yet_mapped_3&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;3.2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
+ if (window.showTocToggle) { var tocShowText = &quot;show&quot;; var tocHideText = &quot;hide&quot;; showTocToggle(); } 
+//--&gt;&lt;!]]&gt;
+&lt;/script&gt;&lt;p&gt;&lt;a name=&quot;Anopheles_gambiae&quot; id=&quot;Anopheles_gambiae&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;&lt;i&gt;Anopheles gambiae&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a name=&quot;Currently_mapped&quot; id=&quot;Currently_mapped&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Currently mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;pre&gt;
++----------------------------------+------------+-------+------------+-------------------------------+----------+-------------+
+| name                             | format     | type  | class      | description                   | n_probes | n_probesets |
++----------------------------------+------------+-------+------------+-------------------------------+----------+-------------+
+| AFFY:Plasmodium_Anopheles        | EXPRESSION | OLIGO | AFFY_UTR   | NULL                          |   250758 |       22769 |
+| AGILENT:020449_D                 | EXPRESSION | OLIGO | AGILENT    | NULL                          |    43603 |           0 |
+| AGILENT:IC_GenImmunity_4x44k_v1  | EXPRESSION | OLIGO | AGILENT    | NULL                          |    23269 |           0 |
+| CUSTOM_EST:EMBL_MMC1_20k_v1      | EXPRESSION | OLIGO | CUSTOM_EST | EMBL A. gambiae MMC1 20k v1.0 |     7068 |           0 |
+| CUSTOM_EST:EMBL_MMC2_12k_v1      | EXPRESSION | OLIGO | CUSTOM_EST | EMBL A. gambiae MMC2 12k v1.0 |    10241 |           0 |
+| CUSTOM_EST:LIV_GAMDETOX_0.25k_v1 | EXPRESSION | OLIGO | CUSTOM_EST | LIV A. gambiae DETOX 0.25k v1 |      234 |           0 |
+| CUSTOM_EST:LIV_GAMDETOX_0.25k_v2 | EXPRESSION | OLIGO | CUSTOM_EST | LIV A. gambiae DETOX 0.25k v2 |      259 |           0 |
++----------------------------------+------------+-------+------------+-------------------------------+----------+-------------+
+&lt;/pre&gt;&lt;p&gt;&lt;a name=&quot;Not_yet_mapped&quot; id=&quot;Not_yet_mapped&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL9246&quot; class=&quot;external text&quot; title=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL9246&quot; rel=&quot;nofollow&quot;&gt;GPL9246&lt;/a&gt; - &lt;b&gt;OXFORD Anopheles gambiae Agilent 13k v1&lt;/b&gt; - Agilent (aging dataset available)
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=PhysicalArrayDesign&amp;amp;aAccession=A-MEXP-1878&quot; class=&quot;external text&quot; title=&quot;http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=PhysicalArrayDesign&amp;amp;aAccession=A-MEXP-1878&quot; rel=&quot;nofollow&quot;&gt;A-MEXP-1878&lt;/a&gt; - Agilent array from University of Queensland.  Integration may be delayed due to reporter ID issues.
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a name=&quot;Aedes_aegypti&quot; id=&quot;Aedes_aegypti&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;&lt;i&gt;Aedes aegypti&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a name=&quot;Currently_mapped_2&quot; id=&quot;Currently_mapped_2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Currently mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;pre&gt;
++---------------------------------+------------+-------+------------+---------------------------------------+----------+
+| name                            | format     | type  | class      | description                           | n_probes |
++---------------------------------+------------+-------+------------+---------------------------------------+----------+
+| AGILENT:OXFORD_AGILENT_44k_v1   | EXPRESSION | OLIGO | AGILENT    | NULL                                  |    43803 |
+| LIV:LIV_AEGDETOX_0.25k_v1       | EXPRESSION | OLIGO | LIV        | NULL                                  |      231 |
+| LIV:LIV_AEGDETOX_0.25k_v2       | EXPRESSION | OLIGO | LIV        | NULL                                  |      312 |
+| APOGENT:WISC_HEMOCYTE_2K_v1_v2  | EXPRESSION | OLIGO | APOGENT    | NULL                                  |     1928 |
+| CUSTOM_EST:ND_TIGRTC_9_6K_v1    | EXPRESSION | OLIGO | CUSTOM_EST | ND A. aegypti TIGRTC 9.6K v1          |     7625 |
+| CUSTOM_EST:UCR_GillMgMT_0.2K_v2 | EXPRESSION | OLIGO | CUSTOM_EST | UCR Gill A. aegypti midgut MT 0.2K v2 |     2206 |
++---------------------------------+------------+-------+------------+---------------------------------------+----------+
+&lt;/pre&gt;&lt;p&gt;&lt;a name=&quot;Not_yet_mapped_2&quot; id=&quot;Not_yet_mapped_2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10542&quot; class=&quot;external text&quot; title=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10542&quot; rel=&quot;nofollow&quot;&gt;GPL10542&lt;/a&gt; - &lt;b&gt;UCI Aedes aegypti Agilent 16k v1&lt;/b&gt; - Agilent (blood meal time course data available)
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE23039&quot; class=&quot;external text&quot; title=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE23039&quot; rel=&quot;nofollow&quot;&gt;GSE23039&lt;/a&gt; - a Nimblegen array, which unfortunately poses some technical issues for us.
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;Culex_quinquefasciatus&quot; id=&quot;Culex_quinquefasciatus&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;&lt;i&gt;Culex quinquefasciatus&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a name=&quot;Currently_mapped_3&quot; id=&quot;Currently_mapped_3&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Currently mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;none
+&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;Not_yet_mapped_3&quot; id=&quot;Not_yet_mapped_3&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL8743&quot; class=&quot;external text&quot; title=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL8743&quot; rel=&quot;nofollow&quot;&gt;GPL8743&lt;/a&gt; - &lt;b&gt;NIID Culex quinquefasciatus detox 2.5k v1&lt;/b&gt; - Detox array from NIID Japan
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Jul 2012 11:59:31 +0000</pubDate>
+ <dc:creator>ttiirikk</dc:creator>
+ <guid isPermaLink="false">9766626 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/content/microarrays#comments</comments>
+</item>
+<item>
+ <title>Microarrays</title>
+ <link>https://legacy.vectorbase.org/content/microarrays-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt; 				&lt;script type=&quot;text/javascript&quot; src=&quot;/Help/skins/common/ajax.js?164&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;http://yui.yahooapis.com/2.5.1/build/utilities/utilities.js&quot;&gt;&lt;/script&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;http://yui.yahooapis.com/2.5.1/build/tabview/tabview-min.js&quot;&gt;&lt;/script&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;http://yui.yahooapis.com/2.5.1/build/event/event-min.js&quot;&gt;&lt;/script&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;http://yui.yahooapis.com/2.5.1/build/history/history-min.js&quot;&gt;&lt;/script&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;/Help/extensions/HeaderTabs/skins/headertabs.js&quot;&gt;&lt;/script&gt;	&lt;/head&gt;
+&lt;body  class=&quot;mediawiki ns-0 ltr&quot;&gt;
+	&lt;div id=&quot;globalWrapper&quot;&gt;
+		&lt;div id=&quot;column-content&quot;&gt;
+	&lt;div id=&quot;content&quot;&gt;
+			&lt;p&gt;The arrays listed below are either 
+&lt;/p&gt;
+&lt;dl&gt;&lt;dt&gt;Currently mapped&lt;/dt&gt;&lt;dd&gt;Mapped to the current genome &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Assembly&quot; title=&quot;When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;assembly&lt;/a&gt; and available as &quot;permanent&quot; contigview tracks in the VectorBase genome browser and also through BioMart.
+&lt;/dd&gt;&lt;dt&gt;Not yet mapped&lt;/dt&gt;&lt;dd&gt;VectorBase is aware of the array and is attempting to incorporate it.
+&lt;/dd&gt;&lt;/dl&gt;
+&lt;p&gt;You can also &lt;a href=&quot;http://funcgen.vectorbase.org/expression-browser/microarray&quot; class=&quot;external text&quot; title=&quot;http://funcgen.vectorbase.org/expression-browser/microarray&quot; rel=&quot;nofollow&quot;&gt;browse the microarrays&lt;/a&gt; in the &lt;a href=&quot;http://funcgen.vectorbase.org/expression-browser&quot; class=&quot;external text&quot; title=&quot;http://funcgen.vectorbase.org/expression-browser/&quot; rel=&quot;nofollow&quot;&gt;Expression Data browser&lt;/a&gt;.
+&lt;/p&gt;
+&lt;table id=&quot;toc&quot; class=&quot;toc&quot; summary=&quot;Contents&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;div id=&quot;toctitle&quot;&gt;&lt;h2&gt;Contents&lt;/h2&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Anopheles_gambiae&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Anopheles gambiae&lt;/span&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Currently_mapped&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;1.1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Currently mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Not_yet_mapped&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;1.2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Aedes_aegypti&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Aedes aegypti&lt;/span&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Currently_mapped_2&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;2.1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Currently mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Not_yet_mapped_2&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;2.2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;toclevel-1&quot;&gt;&lt;a href=&quot;#Culex_quinquefasciatus&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Culex quinquefasciatus&lt;/span&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Currently_mapped_3&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;3.1&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Currently mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;toclevel-2&quot;&gt;&lt;a href=&quot;#Not_yet_mapped_3&quot;&gt;&lt;span class=&quot;tocnumber&quot;&gt;3.2&lt;/span&gt; &lt;span class=&quot;toctext&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;script type=&quot;text/javascript&quot;&gt; if (window.showTocToggle) { var tocShowText = &quot;show&quot;; var tocHideText = &quot;hide&quot;; showTocToggle(); } &lt;/script&gt;
+&lt;a name=&quot;Anopheles_gambiae&quot;&gt;&lt;/a&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;&lt;i&gt;Anopheles gambiae&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;a name=&quot;Currently_mapped&quot;&gt;&lt;/a&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Currently mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;pre&gt;
++----------------------------------+------------+-------+------------+-------------------------------+----------+-------------+
+| name                             | format     | type  | class      | description                   | n_probes | n_probesets |
++----------------------------------+------------+-------+------------+-------------------------------+----------+-------------+
+| AFFY:Plasmodium_Anopheles        | EXPRESSION | OLIGO | AFFY_UTR   | NULL                          |   250758 |       22769 |
+| AGILENT:020449_D                 | EXPRESSION | OLIGO | AGILENT    | NULL                          |    43603 |           0 |
+| AGILENT:IC_GenImmunity_4x44k_v1  | EXPRESSION | OLIGO | AGILENT    | NULL                          |    23269 |           0 |
+| CUSTOM_EST:EMBL_MMC1_20k_v1      | EXPRESSION | OLIGO | CUSTOM_EST | EMBL A. gambiae MMC1 20k v1.0 |     7068 |           0 |
+| CUSTOM_EST:EMBL_MMC2_12k_v1      | EXPRESSION | OLIGO | CUSTOM_EST | EMBL A. gambiae MMC2 12k v1.0 |    10241 |           0 |
+| CUSTOM_EST:LIV_GAMDETOX_0.25k_v1 | EXPRESSION | OLIGO | CUSTOM_EST | LIV A. gambiae DETOX 0.25k v1 |      234 |           0 |
+| CUSTOM_EST:LIV_GAMDETOX_0.25k_v2 | EXPRESSION | OLIGO | CUSTOM_EST | LIV A. gambiae DETOX 0.25k v2 |      259 |           0 |
++----------------------------------+------------+-------+------------+-------------------------------+----------+-------------+
+&lt;/pre&gt;
+&lt;a name=&quot;Not_yet_mapped&quot;&gt;&lt;/a&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL9246&quot; class=&quot;external text&quot; title=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL9246&quot; rel=&quot;nofollow&quot;&gt;GPL9246&lt;/a&gt; - &lt;b&gt;OXFORD Anopheles gambiae Agilent 13k v1&lt;/b&gt; - Agilent (aging dataset available)
+&lt;/li&gt;&lt;li&gt; &lt;a href=&quot;http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=PhysicalArrayDesign&amp;amp;aAccession=A-MEXP-1878&quot; class=&quot;external text&quot; title=&quot;http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=PhysicalArrayDesign&amp;amp;aAccession=A-MEXP-1878&quot; rel=&quot;nofollow&quot;&gt;A-MEXP-1878&lt;/a&gt; - Agilent array from University of Queensland.  Integration may be delayed due to reporter ID issues.
+&lt;/li&gt;&lt;/ul&gt;
+&lt;a name=&quot;Aedes_aegypti&quot;&gt;&lt;/a&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;&lt;i&gt;Aedes aegypti&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;a name=&quot;Currently_mapped_2&quot;&gt;&lt;/a&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Currently mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;pre&gt;
++---------------------------------+------------+-------+------------+---------------------------------------+----------+
+| name                            | format     | type  | class      | description                           | n_probes |
++---------------------------------+------------+-------+------------+---------------------------------------+----------+
+| AGILENT:OXFORD_AGILENT_44k_v1   | EXPRESSION | OLIGO | AGILENT    | NULL                                  |    43803 |
+| LIV:LIV_AEGDETOX_0.25k_v1       | EXPRESSION | OLIGO | LIV        | NULL                                  |      231 |
+| LIV:LIV_AEGDETOX_0.25k_v2       | EXPRESSION | OLIGO | LIV        | NULL                                  |      312 |
+| APOGENT:WISC_HEMOCYTE_2K_v1_v2  | EXPRESSION | OLIGO | APOGENT    | NULL                                  |     1928 |
+| CUSTOM_EST:ND_TIGRTC_9_6K_v1    | EXPRESSION | OLIGO | CUSTOM_EST | ND A. aegypti TIGRTC 9.6K v1          |     7625 |
+| CUSTOM_EST:UCR_GillMgMT_0.2K_v2 | EXPRESSION | OLIGO | CUSTOM_EST | UCR Gill A. aegypti midgut MT 0.2K v2 |     2206 |
++---------------------------------+------------+-------+------------+---------------------------------------+----------+
+&lt;/pre&gt;
+&lt;a name=&quot;Not_yet_mapped_2&quot;&gt;&lt;/a&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10542&quot; class=&quot;external text&quot; title=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10542&quot; rel=&quot;nofollow&quot;&gt;GPL10542&lt;/a&gt; - &lt;b&gt;UCI Aedes aegypti Agilent 16k v1&lt;/b&gt; - Agilent (blood meal time course data available)
+&lt;/li&gt;&lt;li&gt; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE23039&quot; class=&quot;external text&quot; title=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE23039&quot; rel=&quot;nofollow&quot;&gt;GSE23039&lt;/a&gt; - a Nimblegen array, which unfortunately poses some technical issues for us.
+&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;a name=&quot;Culex_quinquefasciatus&quot;&gt;&lt;/a&gt;&lt;h2&gt; &lt;span class=&quot;mw-headline&quot;&gt;&lt;i&gt;Culex quinquefasciatus&lt;/i&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;a name=&quot;Currently_mapped_3&quot;&gt;&lt;/a&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Currently mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;none
+&lt;/p&gt;
+&lt;a name=&quot;Not_yet_mapped_3&quot;&gt;&lt;/a&gt;&lt;h3&gt; &lt;span class=&quot;mw-headline&quot;&gt;Not yet mapped&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL8743&quot; class=&quot;external text&quot; title=&quot;http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL8743&quot; rel=&quot;nofollow&quot;&gt;GPL8743&lt;/a&gt; - &lt;b&gt;NIID Culex quinquefasciatus detox 2.5k v1&lt;/b&gt; - Detox array from NIID Japan
+&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Jul 2012 11:59:31 +0000</pubDate>
+ <dc:creator>ttiirikk</dc:creator>
+ <guid isPermaLink="false">9767020 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/content/microarrays-0#comments</comments>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Flanking sequence</title>
+ <link>https://legacy.vectorbase.org/glossary/flanking-sequence</link>
+ <description> Sequence 5&#039; or 3&#039; to a DNA or RNA sequence of interest (for example gene, transcript, SNP or repeat).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

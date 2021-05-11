@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Contig</title>
+ <link>https://legacy.vectorbase.org/glossary/contig</link>
+ <description> A contig is a contiguous stretch of DNA sequence without gaps that has been assembled solely based on direct sequencing information.    Short sequences (reads) from a fragmented genome are compared against one another, and overlapping reads are merged to produce one long sequence. This merging process is iterative: overlapping reads are added to the merged sequence whenever possible and so the merged sequence becomes even longer. When no further reads overlap the long merged sequence, then this sequence - called a contig - has reached its maximum length.    Contig can be used in other contexts: A contig can be the sequence corresponding to only one clone. A contig map shows the regions of a chromosome where contiguous DNA segments overlap.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - QTL (Quantitative Trait Locus)</title>
+ <link>https://legacy.vectorbase.org/glossary/qtl-quantitative-trait-locus</link>
+ <description> Genetic loci where allelic variation is associated with variation in a quantitative trait (e.g. blood pressure). The presence of QTL is inferred from genetic mapping. Total variation is partitioned into components linked to a number of discrete, mapped chromosome markers described by statistical association to quantitative variation in a particular phenotypic trait that is thought to be controlled by the cumulative action of alleles at multiple loci.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

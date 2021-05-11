@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Start phase</title>
+ <link>https://legacy.vectorbase.org/glossary/start-phase</link>
+ <description> In protein-coding exons, the start phase is the place where the intron lands inside the codon : 0 between codons, 1 between the 1st and second base, 2 between the second and 3rd base. Exons therefore have a start phase and an end phase, but introns have just one phase.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - BLAST</title>
+ <link>https://legacy.vectorbase.org/glossary/blast</link>
+ <description> BLAST (Basic Local Alignment Search Tool) is a sequence comparison algorithm optimised for speed which is used to search sequence databases for optimal local alignments to a query. (Altschul et al., J Mol Biol 215:403-410; 1990)
+ </description>
+ <language>en</language>
+</channel>
+</rss>

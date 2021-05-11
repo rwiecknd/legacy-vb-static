@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - supercontigs</title>
+ <link>https://legacy.vectorbase.org/glossary/supercontigs</link>
+ <description> Assemblies consist of sequence contigs combined into scaffolds, also known as supercontigs. Supercontigs are combined and ordered according to their orientation and linking information provided by mated sequences from the ends of genomic sub-clones. For some species, supercontigs are combined into ultracontigs, in which neighboring supercontigs are organized into their proper order and orientation using linking information provided by the physical map of BAC clones independently assembled using restriction fragment patterns and the FPC program.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

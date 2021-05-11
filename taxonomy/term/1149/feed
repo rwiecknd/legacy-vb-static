@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - UniProt/TrEMBL</title>
+ <link>https://legacy.vectorbase.org/glossary/uniprottrembl</link>
+ <description> SPTrEMBL is a subset of TrEMBL (Translated EMBL database) containing the computer-annotated protein translations of all coding sequences (CDS) present in the EMBL EMBL nucleotides that are not yet incorporated into the UniProt/SwissProt database.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

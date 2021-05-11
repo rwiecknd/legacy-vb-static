@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Site usage (faqs)</title>
+ <link>https://legacy.vectorbase.org/tags/site-usage-faqs</link>
+ <description>FAQ category.
+</description>
+ <language>en</language>
+<item>
+ <title>Gene identifiers or gene IDs (e.g., AGAP + 6 digit number)</title>
+ <link>https://legacy.vectorbase.org/faqs/gene-identifiers-or-gene-ids-eg-agap-6-digit-number</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;Gene nomenclature for VectorBase organisms&lt;/h3&gt;
+&lt;p&gt;Gene identifiers or gene IDs in VectorBase follow a similar format to the FlyBase &lt;em&gt;Drosophila&lt;/em&gt; gene nomenclature. We use a 4-character species designation and a 6-digit ordinal number to uniquely identify a gene locus and then &#039;-RA&#039; or &#039;-PA&#039; suffices for the associated &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;transcript&lt;/a&gt; or peptide respectively.&lt;/p&gt;
+&lt;h3&gt;Species identification&lt;/h3&gt;
+&lt;p&gt;The species prefix consists of four characters consisting of three-characters for the species and one available for strain information where appropriate. Having set the field length to four we must use four and so any projects which do not have an appropriate strain/isolate we will assign the fourth letter arbitrarily.&lt;/p&gt;
+&lt;p&gt;Project examples:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;AAEL&lt;/strong&gt; &lt;em&gt;Aedes aegypti&lt;/em&gt; Liverpool
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;AGAP&lt;/strong&gt; &lt;em&gt;Anopheles gambiae&lt;/em&gt; PEST
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;CPIJ&lt;/strong&gt; &lt;em&gt;Culex quinquefasciatus&lt;/em&gt; JHB (gene identifiers were assigned when the species had a previous scientific name, &lt;em&gt;Cx. pipiens quinquefasciatus&lt;/em&gt;)
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;GMOY&lt;/strong&gt; &lt;em&gt;Glossina morsitans&lt;/em&gt; Yale
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ISCW&lt;/strong&gt; &lt;em&gt;Ixodes scapularis&lt;/em&gt; Wikel
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;MDOA&lt;/strong&gt; &lt;em&gt;Musca domestica&lt;/em&gt; Aabys
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;PHUM&lt;/strong&gt; &lt;em&gt;Pediculus humanus&lt;/em&gt; USDA
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;RPRC&lt;/strong&gt; &lt;em&gt;Rhodnius prolixus&lt;/em&gt; CDC
+&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Gene number&lt;/h3&gt;
+&lt;p&gt;A six digit ordinal number is assigned to each locus. This assignment is done in an arbitary manner and no location information is inherent in the name (i.e. AGAP004053 is not necessarily 5&#039; of AGAP004054). Subsequent re-annotations of a genome will utilise the next available ordinal number for that species. Once a number has been used it will not be re-used.&lt;/p&gt;
+&lt;h3&gt;Transcript and Peptide suffices&lt;/h3&gt;
+&lt;p&gt;We have used the FlyBase style nomenclature (&#039;-RA&#039; and &#039;-PA&#039;) for describing the transcripts and protein-products of the gene. One important consideration here was to make explicit links between the gene and it&#039;s transcripts/peptides. In this nomenclature these all share the same root and this makes it more intuitive for the user, compare the &lt;a href=&quot;/content/agamp34new-ids-anopheles&quot;&gt;old-style Ensembl identifiers&lt;/a&gt; used in &lt;em&gt;Anopheles&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Alternative transcripts from the same gene are descibed within the suffix using the letters of the alphabet i.e. the first transcript is labelled as the &#039;A&#039; form, the next as the &#039;B&#039; form and so forth. This system has the caveat of only dealng with 26 isoforms in a neat manner.&lt;/p&gt;
+&lt;p&gt;Example&lt;/p&gt;
+&lt;p&gt;The following is a worked example for &lt;em&gt;Aedes aegypti&lt;/em&gt; Liverpool strain&lt;/p&gt;
+&lt;p&gt;Gene/Locus name:       AAEL100007&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt; Isoform #1 &lt;/td&gt;
+&lt;td&gt;Transcript:  AAEL100007-RA &lt;/td&gt;
+&lt;td&gt;Translation: AAEL100007-PA&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt; Isoform #2&lt;/td&gt;
+&lt;td&gt; Transcript:  AAEL100007-RB&lt;/td&gt;
+&lt;td&gt;Translation: AAEL100007-PB&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;These identifiers will be used as the systematic name for a gene/locus, submitted to GenBank/EMBL as the /locus_tag qualifier and the name in VectorBase search database.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 16:38:40 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767499 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/gene-identifiers-or-gene-ids-eg-agap-6-digit-number#comments</comments>
+</item>
+<item>
+ <title>How do different gene metadata, symbol (name) and description (function), works for the same gene?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-do-different-gene-metadata-symbol-name-and-description-function-works-same-gene</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt; &lt;br /&gt;
+The gene metadata are symbol (name), e.g., rpl2 or gprop5 and description (function), e.g., ribosomal protein L2 or long wavelength sensitive opsin. The choice of a gene name where there are alternative transcripts with their own names is made on the basis of which is the &#039;best&#039; name, where &#039;best&#039; is a ranking of &#039;species-specific name resource&#039; &amp;gt; SwissProt &amp;gt; other stuff. Where there are 2 &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;transcript&lt;/a&gt; names with the same rank ... it&#039;s random.&lt;/p&gt;
+&lt;p&gt;Note that some genes (or multigene families) are confusing because some community gene models may have been named differently by different scientist/labs - these different gene names can be found in the synonyms section of the gene page.&lt;/p&gt;
+
+&lt;p&gt;More information about the &lt;a href=&quot;/faqs/&quot;&gt;rules and conventions for naming genetic features in mosquitoes (and other arthropod vectors)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/synonyms.png&quot; height=&quot;200&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.vectorbase.org/Anopheles_gambiae/Gene/Summary?g=AGAP009412;r=3R:32338771-32354233&amp;lt;br /&amp;gt;&amp;#10;&quot;&gt;https://www.vectorbase.org/Anopheles_gambiae/Gene/Summary?g=AGAP009412;r=3R:32338771-32354233&lt;br /&gt;&lt;/a&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 12:57:20 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">9764064 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-do-different-gene-metadata-symbol-name-and-description-function-works-same-gene#comments</comments>
+</item>
+<item>
+ <title>What can BioMart do for me?</title>
+ <link>https://legacy.vectorbase.org/faqs/what-can-biomart-do-me</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Here are some examples of what you can do with &lt;a href=&quot;http://biomart.vectorbase.org/biomart/martview/&quot;&gt;VectorBase&#039;s BioMart&lt;/a&gt;:&lt;/p&gt;
+&lt;h3&gt;Gene location and structure&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Count the number of genes on chromosome 2L (&lt;em&gt;Anopheles gambiae&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Download the cDNA sequences of all genes with annotated 5&#039; and 3&#039; UTRs and two or more transcripts&lt;/li&gt;
+&lt;li&gt;Get genes with non-synonymous coding SNPs&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Gene function&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Download the protein sequences of all GTPase activator proteins (GO:0005096)&lt;/li&gt;
+&lt;li&gt;Display the GO terms for all genes with reporters on the Anopheles/Plasmodium Affymetrix microarray&lt;/li&gt;
+&lt;li&gt;Display the &lt;a href=&quot;https://legacy.vectorbase.org/glossary#InterPro&quot; title=&quot;InterPro is an integrated resource for protein families, domains and sites, combining information from several different protein signature databases. InterPro IDs are linked to the summary of information about that domain or family. InterPro is managed by EBI. A number of databases (SwissProt, TrEMBL, PROSITE, PRINTS, Pfam, and ProDom, SMART, TIGRFAMs, PIR SuperFamilies and SUPERFAMILY) with different approaches to biological information are used to derive protein signatures. ProteinView, GeneView and DomainView provide links to the relevant InterPro entries.&quot; class=&quot;lexicon-term&quot;&gt;InterPro&lt;/a&gt; domains assigned to genes which are associated with a list of coordinately expressed microarray reporters (e.g. &lt;em&gt;Anopheles gambiae&lt;/em&gt; array EMBL_MMC1_20k_v1, reporters 4A3A-AAT-A-10 4A3B-AAG-E-03 4A3B-AAC-D-03 4A3B-AAH-D-09)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Multi-species comparisons&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Get a list of &lt;em&gt;Anopheles gambiae&lt;/em&gt; genes with orthologues in &lt;em&gt;Aedes aegypti&lt;/em&gt; and the corresponding percent identities (from protein-protein alignments)&lt;/li&gt;
+&lt;li&gt;Find the &lt;em&gt;Aedes aegypti&lt;/em&gt; genes represented on the ND TIGRTC microarray which have orthologues in &lt;em&gt;Anopheles gambiae&lt;/em&gt; which are represented on the EMBL MMC1 array (this is an example of a BioMart query made on two databases/species simultaneously).&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;It is important to remember that nearly all of the restrictions (e.g. on chromosome 2L, with function GO:0005096) can be combined with &quot;AND&quot; to create more specific queries.&lt;/p&gt;
+&lt;p&gt;For more sample queries follow this link to the &lt;a href=&quot;/tutorials/tools-and-resources-tutorials/biomart&quot;&gt;BioMart tutorial&lt;/a&gt;. &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 10:33:31 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9764066 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/what-can-biomart-do-me#comments</comments>
+</item>
+<item>
+ <title>What are these AGAPxxx identifiers and where are the old ENSANGxxx IDs?</title>
+ <link>https://legacy.vectorbase.org/faqs/what-are-these-agapxxx-identifiers-and-where-are-old-ensangxxx-ids</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p style=&quot;text-align:justify&quot;&gt;The annotation of the &lt;i&gt;Anopheles gambiae&lt;/i&gt; genome has been undertaken by a number of groups since the PEST publication in 2002. Currently, VectorBase provides &lt;a href=&quot;/apollo&quot;&gt;Apollo&lt;/a&gt; to all members of the community that would like to contribute with manual annotations. VectorBase assumed responsibility for integrating the users manual annotations submited via Apollo to the official &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt;. VectorBase decided to move away from the Ensembl stable identifier nomenclature in favor of a more FlyBase style system. In line with this the identifiers for &lt;i&gt;Anopheles&lt;/i&gt; were changed to the VectorBase gene identifiers from &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Genebuild&quot; title=&quot;The Ensembl gene annotation system is used to annotate genome assemblies. This process is called the genebuild.&quot; class=&quot;lexicon-term&quot;&gt;genebuild&lt;/a&gt; 4. All VectorBase identifiers for &lt;i&gt;An. gambiae&lt;/i&gt; begin with the 4 letters &lt;b&gt;AGAP&lt;/b&gt;. The same numeric value is used for a gene and all its products (transcripts and proteins). Alternate products of a single gene have suffixes ending A, B, C etc.&lt;/p&gt;
+&lt;h3&gt;Links&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; &lt;span class=&quot;plainlinks&quot; style=&quot;border-bottom:1px dotted&quot;&gt;&lt;a href=&quot;/faqs/gene-identifiers-or-gene-ids-eg-agap-6-digit-number&quot;&gt;Gene identifiers or gene IDs (e.g., AGAP + 6 digit number)&lt;/a&gt;&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Convert &lt;i&gt;Anopheles gambiae&lt;/i&gt; IDs&lt;/h3&gt;
+&lt;p&gt;Go to &lt;em&gt;A. gambiae&lt;/em&gt; Genome Browser front page and click on &lt;a href=&quot;https://www.vectorbase.org/Anopheles_gambiae/Info/Index&quot;&gt;&#039;Update your old Ensembl IDs&#039;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/convertids.png&quot; height=&quot;200&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;More details can be found about the &lt;span class=&quot;plainlinks&quot; style=&quot;border-bottom:1px dotted&quot;&gt;&lt;a href=&quot;/organisms/anopheles-gambiae/pest/AgamP3.4&quot;&gt;AgamP3.4 gene build&lt;/a&gt;&lt;/span&gt; and there is also further &lt;span class=&quot;plainlinks&quot; style=&quot;border-bottom:1px dotted&quot;&gt;&lt;a href=&quot;/content/agamp34new-ids-anopheles&quot;&gt;practical guidance  for conversion between identifiers&lt;/a&gt;&lt;/span&gt; available.
+&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 10:02:15 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9764065 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/what-are-these-agapxxx-identifiers-and-where-are-old-ensangxxx-ids#comments</comments>
+</item>
+<item>
+ <title>Rules and conventions for naming molluscan genes</title>
+ <link>https://legacy.vectorbase.org/faqs/rules-and-conventions-naming-molluscan-genes</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;/p&gt;&lt;center&gt;
+&lt;div style=&quot;width: 40%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt;
+&lt;p&gt;Paraphrasing from the Zebrafish Book, Chapter 7, “It is very important that all members of the community adopt one set of conventions in order to minimize confusion and maximize the usefulness of the nomenclature and the ease with which everyone can follow the field”.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;We strongly encourage the &lt;em&gt;Biomphalaria glabrata&lt;/em&gt; community to follow Bayne 2012 rules (an abbreviated version shown below). These rules establish a clear process and a rational naming system for molluscan genes. These recommendations are also intended to simplify automatic computer searches and other such analyses inside and outside VectorBase. This Table provides examples.&lt;br /&gt;&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td colspan=&quot;5&quot;&gt;&lt;b&gt;Table 1.&lt;/b&gt; Examples illustrating the application of the proposed convention.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;5&quot; height=&quot;5&quot;&gt;
+&lt;hr /&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Gene name&lt;/b&gt;
+&lt;p&gt;(VectorBase description)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Abbreviation&lt;/b&gt;
+&lt;p&gt;(VectorBase name or symbol)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Allele&quot; title=&quot;An allele is an alternative form of a nucleotide sequence, a gene or a locus in the genome. The term was originally used to describe variation among protein coding genes, but it also refers to variation among non-coding genes or DNA sequences.&quot; class=&quot;lexicon-term&quot;&gt;Allele&lt;/a&gt;&lt;/b&gt;
+&lt;p&gt;(VectorBase transcripts or splice variants)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Mutant&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Protein name&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;5&quot; height=&quot;5&quot;&gt;
+&lt;hr /&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;em&gt;actin&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;act&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;actA&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;actA&lt;sup&gt;1&lt;/sup&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Actin&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;em&gt;guanosine binding protein&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;gnb&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;gnbA&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;gnbA&lt;sup&gt;1&lt;/sup&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Guanosine Binding Protein&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;em&gt;superoxide dismutase 1&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;sod1&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;sod1A&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;sod1A&lt;sup&gt;1&lt;/sup&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Superoxide Dismutase 1&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;em&gt;glucose-6-phosphate dehydrogenase&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;g6pdh&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;g6pdhA&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;g6pdhA&lt;sup&gt;1&lt;/sup&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Glucose-6-phosphate Dehydrogenase&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;5&quot; height=&quot;5&quot;&gt;
+&lt;hr /&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;strong&gt;Genes&lt;/strong&gt;&lt;br /&gt;
+The name should reflect the (putative) function of the product, if known or suspected (for example based on sequence &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Similarity&quot; title=&quot;How well one sequence matches another determined by calculation by an alignment program of identical and conserved residues.&quot; class=&quot;lexicon-term&quot;&gt;similarity&lt;/a&gt; to a gene that has been identified with certainty and whose function(s) is/are known in another organism). &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abbreviations&lt;/strong&gt;&lt;br /&gt;
+An abbreviation should be provided, with an optimum of three letters and a maximum of 6. The letters should be all lower case. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Alleles&lt;/strong&gt;&lt;br /&gt;
+These should be the gene name followed sequentially by italicized A, B, C, D etc., in capitals and placed with no space or hyphen immediately after the gene name. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mutants&lt;/strong&gt;&lt;br /&gt;
+Mutants will be indicated by italicized superscript numeral(s) following the gene/allele name. Until consensus can be reached, it is left to the discretion of the individual scientist to decide if a variant with one or more non-synonymous substitutions is to be given a unique allele designation without mutant indicated, or be considered a mutant of an already named allele. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proteins&lt;/strong&gt;&lt;br /&gt;
+The name is the same as the full name of the gene, &lt;b&gt;except it is not &lt;em&gt;italicized&lt;/em&gt;&lt;/b&gt;, and the first letter is capitalized. In cases where a single name is used for several homologous proteins with the same functions (and encoded at distinct loci), the genes may be numbered in accordance with the protein nomenclature (&lt;em&gt;e.g.&lt;/em&gt; Superoxide dismutase 1, Superoxide dismutase 2 and Superoxide dismutase 3).&lt;/p&gt;
+&lt;p&gt;*If in doubt please consult the complete/original document from:&lt;br /&gt;
+Bayne CJ. 2012. A convention for naming molluscan genes. In: Current Topics in Genetics, vol. 5. Trivandrum, India: Research Trends. p. 45-48.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;center&gt;How do we name genes, transcripts and proteins in VectorBase?&lt;/center&gt;&lt;/h2&gt;
+&lt;p&gt;We use identifiers or IDs. All VectorBase identifiers begin with 4 letters. The same numeric value is used for a gene and all its products (transcripts and proteins). Alternate products of a single gene have suffixes ending A, B, C etc. For example, for &lt;em&gt;&lt;strong&gt;An&lt;/strong&gt;opheles &lt;strong&gt;ga&lt;/strong&gt;mbiae&lt;/em&gt; &lt;strong&gt;P&lt;/strong&gt;EST it is AGAP + 6 digits for a gene, this is called the gene identifier or &lt;strong&gt;gene ID&lt;/strong&gt;. The gene ID plus -RA is used for transcripts and is called the &lt;strong&gt;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript_ID&quot; title=&quot;Ensembl transcript identifiers are unique for each splice variant.&quot; class=&quot;lexicon-term&quot;&gt;transcript ID&lt;/a&gt;&lt;/strong&gt;. The gene ID plus –PA is used for proteins and is called the &lt;strong&gt;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Protein_ID&quot; title=&quot;Ensembl protein IDs are unique for differing translations.&quot; class=&quot;lexicon-term&quot;&gt;protein ID&lt;/a&gt;&lt;/strong&gt;. Alternative transcripts and proteins will be –RB and –PB, etc.  For &lt;em&gt;Biomphalaria glabrata&lt;/em&gt; BB02 the gene ID is &lt;strong&gt;BGLTMP&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Follow these links for examples of genes with and without metadata (gene description and name/symbol): &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.vectorbase.org/Anopheles_gambiae/Gene/Summary?g=AGAP004707;r=2L:2358158-2431617&quot;&gt;Gene with metadata from &lt;em&gt;An. gambiae&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.vectorbase.org/Biomphalaria_glabrata/Gene/Summary?g=BGLB003659;r=LGUN_random_Scaffold1:627524-636631;t=BGLB003659-RB&quot;&gt;Gene with &quot;no&quot; metadata from &lt;em&gt;B. glabrata&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 09:50:36 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9768020 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/rules-and-conventions-naming-molluscan-genes#comments</comments>
+</item>
+<item>
+ <title>Rules and conventions for naming genetic features in mosquitoes (and other arthropod vectors)</title>
+ <link>https://legacy.vectorbase.org/faqs/rules-and-conventions-naming-genetic-features-mosquitoes-and-other-arthropod-vectors</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;strong&gt;NOTE: We encourage the mosquito community and other vector communities to follow these same rules. Most of the recommendations that follow are intended to simplify automatic computer searches and other such analyses.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Introduction&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;The following rules for the genetic and molecular nomenclature of all mosquitoes are proposed. These are based on the equivalent set of rules developed for &lt;em&gt;Anopheles gambiae&lt;/em&gt; and other anophelines that were adopted by an International &lt;em&gt;Anopheles&lt;/em&gt; Genome Executive Committee after the publication of the complete genome sequence data (Holt et al. 2002: &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12364791&quot;&gt; PMID 12364791)&lt;/a&gt;. Part of these rules were published in the supplementary material of the paper by Christophides et al. &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed?term=12364793&quot;&gt;(2002: PMID 12364793)&lt;/a&gt;, while additional rules were adapted, in a simplified form, from those governing the nomenclature of &lt;a href=&quot;http://flybase.org&quot;&gt;&lt;em&gt;Drosophila&lt;/em&gt;&lt;/a&gt;. Should authors realize that they need more detailed instructions, they should contact the VectorBase (&lt;a href=&quot;https://www.vectorbase.org/contact&quot;&gt;info@vectorbase.org&lt;/a&gt;) and discuss the matter.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Authors are urged to use these rules when naming genes or other genetic structures to avoid unsystematic and duplicate names. VectorBase will be curating gene names through the &lt;a href=&quot;/content/gene-metadata-form&quot;&gt;&lt;strong&gt;metadata web submission form&lt;/strong&gt;&lt;/a&gt;, which encourages naming that uses these conventions. Batch submissions can be made using an spread sheet as described in &lt;a href=&quot;/faqs/how-do-i-batch-submit-annotation-metadata-vectorbase&quot;&gt;this FAQ&lt;/a&gt;. Should a name be identified, which does not agree with the rules, the author will be contacted by VectorBase and alternatives will be suggested. In case of a continued disagreement, VectorBase will keep the &quot;incorrect&quot; name as a synonym, while a valid name will be assigned to the gene or genetic structure.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Genes&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Gene names are to be modeled on those recommended by the Human Genome Organization (HUGO) for naming human genes. The rules are as follows:&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.1. &lt;/strong&gt;The names are mnemonic symbols, designed for easy recall. They do not aim to summarize all current information (orthology, function, chromosomal location), which in any case is incomplete and subject to errors.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.2. &lt;/strong&gt;To avoid errors in electronic communication, all names consist exclusively of capital letters of the Latin alphabet and Arabic numerals; no punctuation marks, dashes etc. are used.&lt;/p&gt; 
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.3.&lt;/strong&gt;The role of species designations in gene names: To minimize the length of gene names, the formal names do not include taxonomic initials. If similarly named genes of two organisms are being compared, taxonomic initials can be added for convenience, but do not constitute part of the name (e.g. &lt;strong&gt;AgamTEP&lt;/strong&gt; to be easily distinguished from &lt;strong&gt;DmelTep&lt;/strong&gt;). This prefix has the form &lt;strong&gt;Nnnn\&lt;/strong&gt;, where &lt;strong&gt;N&lt;/strong&gt; is the initial letter of the genus (i.e., A for &lt;em&gt;Anopheles&lt;/em&gt;, B for &lt;em&gt;Bironella&lt;/em&gt; and C for &lt;em&gt;Chagasia&lt;/em&gt;) and &lt;strong&gt;nnn&lt;/strong&gt; is a unique code, usually the first three letters of the species name (e.g., ara for &lt;em&gt;A. arabiensis&lt;/em&gt;). The same &lt;strong&gt;Nnnn&lt;/strong&gt; prefix can be used to designate species from different mosquito genera. For example &lt;strong&gt;AgamXDH&lt;/strong&gt; could be distinguished from &lt;strong&gt;AaegXDH&lt;/strong&gt; in text describing the &lt;strong&gt;XDH&lt;/strong&gt; genes from &lt;em&gt;Anopheles gambiae&lt;/em&gt; and &lt;em&gt;Aedes aegypti&lt;/em&gt;. The prefix is a qualifying designator of convenience, not a formal part of the gene name. The format of the taxonomic prefix is a recommendation only.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.4.&lt;/strong&gt;Roman letters and numerals indicate protein, &lt;em&gt;italics&lt;/em&gt; indicate gene or RNA.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.5.&lt;/strong&gt;The name can be based on sequence similarities, and thus need not carry a functional implication, which must be determined experimentally. Alternatively, where gene function is known, the name can be based on gene function.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.6.&lt;/strong&gt;The name consists of two to three contiguous fields, as follows:&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt;The first field includes three to five letters and is an abbreviations of the highest sequence grouping used, usually a protein family, e.g. &lt;strong&gt;CLIP&lt;/strong&gt; (for Clip-&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Domain&quot; title=&quot;A region of special biological interest within a single protein sequence. However, a domain may also be defined as a region within the three-dimensional structure of a protein that may encompass regions of several distinct protein sequences that accomplishes a specific function. A domain class is a group of domains that share a common set of well-defined properties or characteristics.&quot; class=&quot;lexicon-term&quot;&gt;domain&lt;/a&gt; serine protease), or &lt;strong&gt;SCR&lt;/strong&gt; (for Scavenger Receptor)&lt;/li&gt; 
+&lt;li&gt;The second field, if present, includes one or more letters identifying a subgroup such as subfamily (e.g. &lt;strong&gt;CLIPD&lt;/strong&gt;), or class (e.g. &lt;strong&gt;SCRB&lt;/strong&gt;).&lt;/li&gt; 
+&lt;li&gt;The third field enumerates each gene by using consecutive numerals (e.g. &lt;strong&gt;SCRB1&lt;/strong&gt;,...&lt;strong&gt;12&lt;/strong&gt;).&lt;/li&gt; 
+&lt;li&gt;Sometimes the third field numeral can be preceded by letter(s) indicating gene types within a subgroup (e.g. &lt;strong&gt;SCRBQ1&lt;/strong&gt;, for a gene belonging to the &lt;strong&gt;SCRB&lt;/strong&gt; Class, and to the croquemort type).&lt;/li&gt; 
+&lt;li&gt;For historical reasons, in certain families, the third field can also enumerate by letters rather than numerals (e.g. &lt;strong&gt;PGRPLA&lt;/strong&gt;, for gene A of the Long subfamily in the &lt;strong&gt;PGRP&lt;/strong&gt; family).&lt;/li&gt; &lt;/ul&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.7.&lt;/strong&gt;It is recommended that names previously used in the literature or in database submissions be gradually replaced by systematic names, following consultation with the original author. Historical names or names that may be developed eventually to indicate experimentally verified function or orthology can be used as synonyms.&lt;p/&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.8.&lt;/strong&gt;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Allele&quot; title=&quot;An allele is an alternative form of a nucleotide sequence, a gene or a locus in the genome. The term was originally used to describe variation among protein coding genes, but it also refers to variation among non-coding genes or DNA sequences.&quot; class=&quot;lexicon-term&quot;&gt;Allele&lt;/a&gt; names and symbols&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.8.1. &lt;/strong&gt;Superscripts. Alleles of a particular gene are designated by the same name and symbol, but they may be differentiated by distinguishing superscripts. In written text the allele designation may be separated from that of the gene by a hyphen, e.g., white-apricot.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;2.8.2. &lt;/strong&gt;Symbols. Allele symbols should be short, preferably no more than three characters long, and cannot contain spaces, superscripts, or subscripts.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt;Whenever possible superscript characters should be limited to the following set: a-z A-Z 0-9 - + : .&lt;/li&gt; 
+&lt;li&gt;The + symbol is reserved for the wild-type allele. Consecutive allele numbers should be used wherever possible.&lt;/li&gt; 
+&lt;li&gt;Greek characters should NOT be used.&lt;/li&gt; 
+&lt;li&gt;The character \ is reserved in all gene symbol contexts for species identification.&lt;/li&gt; 
+&lt;li&gt;The character / is reserved as a homologue separator in genotypes and cannot be used in allele symbols.&lt;/li&gt; 
+&lt;li&gt;In text in which superscripting is not possible, such as ASCII files, superscripted text should be enclosed between the characters [ and ].&lt;/li&gt; &lt;/ul&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;3. Cytogenetic descriptions (applicable only to species with polytene chromosomes)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Breakpoints should be according to the polytene chromosome maps for the species. Where maps are being created, we recommend that both a photographic reproduction of the map, as well as a schematic representation be produced. VectorBase will display these maps or refer to their publications. For example, see &lt;strong&gt;Figure 1&lt;/strong&gt; and &lt;a href=&quot;https://vectorbase.org/faqs/how-find-triad-bacs-situ-images-divisions-and-photomaps&quot;&gt;this link&lt;/a&gt; for access to BAC photographs.  
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Range designations. For the location of a single object (breakpoint of aberration, gene position, site of transposon insertion, etc.) the range is given as &quot;(d1)(S1)-(d2)(S2)&quot;, where:&lt;/p&gt;
+
+&lt;p&gt;d = numbered division (1 to N)&lt;/p&gt;
+&lt;p&gt;S = lettered subdivision (A to X)&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;If the range encompasses two different numbered divisions (i.e., d1 does not equal d2), then the full designations for both the left end and the right end of the range will be used, e.g., 32A-33A.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;If the range is within a single numbered division (i.e., d1=d2) but within different subdivisions (i.e., S1 does not equal S2), then the numbered division designation is not repeated to the right of the hyphen, e.g., 32A-D.&lt;/p&gt;
+&lt;a href=&quot;/sites/default/files/ftp/1471-2148-8-309-s2.jpg&quot;&gt;
+&lt;img src=&quot;/sites/default/files/ftp/1471-2148-8-309-s2.jpg&quot; height=&quot;100%&quot; width=&quot;100%&quot;&gt; &lt;/a&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Figure 1:  &lt;a href=&quot;https://legacy.vectorbase.org/glossary#cytogenetic_map&quot; title=&quot;A banding pattern on a chromosome resulting from staining and examination by microscopy. Cytogenetic abnormalities such as deletions or inverted nucleotide sequences may be detected by examining and comparing banding patterns.&quot; class=&quot;lexicon-term&quot;&gt;Cytogenetic map&lt;/a&gt; of the Anopheles gambiae sensu stricto ovarian polytene complement indicating numbered divisions, lettered subdivisions, and ten infradivisions per subdivision &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+19000304&quot;&gt;(Pombi et al., BMC Evolutionary Biology 2008, 8:309 )&lt;/a&gt; &lt;b&gt;Click above for higher resolution version.&lt;/b&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;4. Chromosomal aberrations / Inversions&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;At this time the primary natural chromosomal aberrations described in mosquitoes are inversions. The corresponding bibliography is relatively long, and the data are very crucial. Most inversions have been named using a semi-systematic way. The following paragraphs will give instructions for the naming of new inversions, as well as for the &quot;renaming&quot; of the old ones. VectorBase will continue listing the existing names as synonyms, such that the database will be searchable once curation has been initiated.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;4.1. &lt;/strong&gt;Inversions have the symbol &lt;strong&gt;In(nA)m&lt;/strong&gt;, where &lt;strong&gt;n&lt;/strong&gt; indicates the number of the chromosome involved, &lt;strong&gt;A&lt;/strong&gt; the arm or arms involved and m is a specific designator. In the case of multiple-break intrachromosomal rearrangements, the distinction between inversions and transpositions often becomes ambiguous. An intrachromosomal rearrangement that can be partitioned into a duplicated and a deficient product by exchange with a normal-sequence chromosome is designated a transposition even though it may carry an inverted segment; otherwise, it is designated an inversion.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;4.2. &lt;/strong&gt;If it is not known whether or not an inversion is paracentric (does not include the centromere) or pericentric (includes the centromere) then the indicator of chromosome arm(s) is omitted, i.e., In(n)m.&lt;/p&gt;
+
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;5. Representation of gene, allele and aberration names and symbols in text&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;5.1. &lt;/strong&gt;Italic. Gene, allele, aberration and transposon/transgene-construct names and symbols are italicized in printed text.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;5.2.&lt;/strong&gt;Non-italic. When a full gene name or gene symbol is used to indicate phenotype, rather than &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Genotype&quot; title=&quot;Specific alleles present in an individual&amp;#039;s genome, or the genetic makeup of one organism.&quot; class=&quot;lexicon-term&quot;&gt;genotype&lt;/a&gt;, then that name or symbol is printed in roman (non-italic) type; i.e., white indicates a genotype and white a phenotype.&lt;/p&gt; 
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;5.3.&lt;/strong&gt;Superscripts and subscripts. In ASCII text the characters [ and ] are used to enclose superscripted characters, and [[ and ]] used to enclose subscripts.&lt;/p&gt; 
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;5.4.&lt;/strong&gt;Cytogenetic terms. Cytogenetic designations are not italicized except when part of an aberration symbol.&lt;/p&gt; 
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;5.5.&lt;/strong&gt;Reserved characters. The following characters are reserved for special use in gene, allele, and aberration names and symbols:&lt;/p&gt; 
+
+&lt;ul&gt; &lt;li&gt;\ reserved for use in symbols of genes from species other than A. gambiae&lt;/li&gt;
+&lt;li&gt;{ } reserved for use in transposon and transgene construct symbols&lt;/li&gt;
+&lt;li&gt;&lt; &gt; reserved for use in transgene construct names and for cytotype designation in stocks&lt;/li&gt;
+&lt;li&gt;[] reserved for indicating superscripts in ASCII text&lt;/li&gt;
+&lt;li&gt;[[ ]] reserved for indicating subscripts in ASCII text&lt;/li&gt;
+&lt;li&gt;( ) reserved for use in compound gene names and symbols (e.g., l(1)) and for aberration symbols, and for the indication of ambiguous genotypes&lt;/li&gt;
+&lt;li&gt;; reserved as a separator of chromosome (chromosome arm) numbers in aberration names and symbols, and to separate markers or aberrations on non-homologous chromosomes in stock genotypes&lt;/li&gt;
+&lt;li&gt;: reserved for use in symbols of defined classes, i.e., transgene constructs, genes encoding special RNAs (tRNAs, snRNAs), fusion genes and mitochondrial genes, and, in stock genotypes, to indicate the association between markers on reciprocol components of translocations, or arms of compound chromosomes.&lt;/li&gt; &lt;/ul&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;6. Gene products&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;6.1.&lt;/strong&gt;Proteins. Protein products that are named for the gene may be symbolically designated in text by the gene symbol, but this symbol is all in roman capital letters.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;6.2.&lt;/strong&gt;RNAs. There is no convention for symbolically designating RNA products of genes in text. An italicised gene name can also serve to refer to its mRNA where this is unambiguous.&lt;/p&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 09:33:24 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9766760 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/rules-and-conventions-naming-genetic-features-mosquitoes-and-other-arthropod-vectors#comments</comments>
+</item>
+<item>
+ <title>How to find a triad of BACs in situ images, divisions and photomaps?</title>
+ <link>https://legacy.vectorbase.org/faqs/how-find-triad-bacs-situ-images-divisions-and-photomaps</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;/br&gt;
+&lt;p&gt;Click on Advanced Search&lt;/p&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/advsearch.png&quot; height=&quot;100&quot; width=&quot;350&quot;&gt;
+
+&lt;/br&gt;
+&lt;p&gt;Select the BACs &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Domain&quot; title=&quot;A region of special biological interest within a single protein sequence. However, a domain may also be defined as a region within the three-dimensional structure of a protein that may encompass regions of several distinct protein sequences that accomplishes a specific function. A domain class is a group of domains that share a common set of well-defined properties or characteristics.&quot; class=&quot;lexicon-term&quot;&gt;domain&lt;/a&gt;, this has three subdomains, &lt;em&gt;in situ&lt;/em&gt; images, photomaps, and divisions&lt;/p&gt;
+
+&lt;img src=&quot;/sites/default/files/ftp/bacs.png&quot; height=&quot;250&quot; width=&quot;250&quot;&gt;
+
+&lt;/br&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;For information about where these images are located in &lt;em&gt;Anopheles gambiae&lt;/em&gt; chromosomes, please contact Dr. Maria V. Sharakhova (msharakh@vt.edu) in the &lt;a href=&quot;https://www.ento.vt.edu/people/Faculty0/SharakhovI.html&quot;&gt;Sharakhov lab&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Note:&lt;/h2&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;If you go to a location in the genome browser, &lt;em&gt;e.g.&lt;/em&gt;, &lt;a href=&quot;/Anopheles_gambiae/Location/View?db=core&amp;t=AGAP006864-RA&amp;g=AGAP006864&amp;r=2L%3A46523702-46773701&quot;&gt;2L:46523702-46773701&lt;/a&gt;, a &#039;BAC&#039; track is available to activate selecting &#039;Configure this page&#039; and &#039;Sequence and &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Assembly&quot; title=&quot;When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;assembly&lt;/a&gt;&#039;. This track will display in gray and represents &lt;em&gt;in silico&lt;/em&gt; (&lt;em&gt;i.e.&lt;/em&gt; computationally) alignments to chromosomes, these do not have images associated. There was an old &lt;strong&gt;“BAC map”&lt;/strong&gt; track associated with images and you were able to use the BAC names, &lt;em&gt;e.g.&lt;/em&gt;, 27D19* (for &lt;em&gt;in situ&lt;/em&gt; image and photomap) or *27D* (for the division image), in the site Search.  &lt;/p&gt; 
+
+
+
+
+
+
+
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 08:13:09 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9766958 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-find-triad-bacs-situ-images-divisions-and-photomaps#comments</comments>
+</item>
+<item>
+ <title>Why do VectorBase gene IDs change? (finding missing gene IDs)</title>
+ <link>https://legacy.vectorbase.org/faqs/why-do-vectorbase-gene-ids-change-finding-missing-gene-ids</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Change is inevitable. As gene predictions are improved based on new evidence some will have a modified &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Exon&quot; title=&quot;The part of the genomic sequence that remains in the transcript (mRNA) after introns have been spliced out.&quot; class=&quot;lexicon-term&quot;&gt;exon&lt;/a&gt; structure, new predictions will be created, old ones will be deleted, some will be split into multiple separate predictions and some will be merged together into a single new prediction. During this process the annotation identifiers can change. So how can you find out about these changes and how do you go about finding the new IDs for your genes?&lt;/p&gt;
+&lt;p&gt;First, lets deal with what kind of identifiers may be used for a given locus:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt; A gene symbol, &lt;em&gt;e.g&lt;/em&gt;., &lt;a href=&quot;/search/site/CPR148&quot;&gt;CPR148&lt;/a&gt;. Symbols are assigned by the community and used as the common name for a locus. This name should be stable and maintained between releases. There are times when the name can change but that will not be initiated by us. We will usually keep the old name as a synonym in cases where genes are renumbered or renamed.&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/AGAP010102.png&quot; height=&quot;250&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt; An annotation ID e.g. &lt;a href=&quot;/search/site/AGAP010102&quot;&gt;AGAP010102&lt;/a&gt;. These are defined during (VectorBase) the annotation process and form the basic identifier for the locus onto which all other information is associated. So external database references, or citations will be associated with the AGAP identifier and not with the symbol.&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;Manual annotations from the community via &lt;a href=&quot;https://www.vectorbase.org/apollo&quot;&gt;Apollo&lt;/a&gt; are given a new gene ID by VectorBase. These identifiers will be updated when a &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt; update happens at release.
+&lt;p&gt;&lt;strong&gt;Note 1:&lt;/strong&gt;The new six digit ordinal number assigned to the locus is done arbitrarily, no location information is inherent in the name (i.e. AGAP004053 is not necessarily 5&#039; of AGAP004054). Subsequent re-annotations of a genome will utilise the next available ordinal number for that species. Once a number has been used it will not be re-used.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note 2:&lt;/strong&gt; A locus can have multiple Apollo submissions from the community which will show as multiple gene model annotations, that is why we advice to name models with your last name in the Apollo Information Editor.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/giraldocalderon.png&quot; height=&quot;200&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;So an example.&lt;/p&gt;
+&lt;h2&gt;&quot;Why when I search for KIBRLG, I get AGAP000002. This gene used to be AGAP000001.&quot;&lt;/h2&gt;
+&lt;p&gt;This result shows the annotation ID AGAP000002. When the updated gene prediction was integrated into a new geneset the ID was changed from AGAP000001 to AGAP000002 as a consequence of the modification to the predicted exon structure. The gene symbol KIBRLG has been maintained.&lt;/p&gt;
+&lt;p&gt;Notification of updated geneset for your species can be found via &lt;a href=&quot;https://www.vectorbase.org/news&quot;&gt;news items&lt;/a&gt; and in the &lt;a href=&quot;/releases&quot;&gt;release notes.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For a visualization of both the current canonical and pending new gene models you can go to the &lt;a href=&quot;https://www.vectorbase.org/Anopheles_gambiae/Location/View?db=core;g=AGAP028126;r=3R:10909961-10910346;t=AGAP028126-RA&quot;&gt;Genome Browser&lt;/a&gt;. Go to the location tab, select the page &#039;Region in detail&#039; and click on &#039;Configure this page&#039;. Under the category &quot;Genes and transcripts&quot; activate the track called &quot;Current Apollo annotation&quot;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Follow &lt;a href=&quot;https://www.vectorbase.org/faqs/i-just-submitted-my-gene-annotation-when-will-i-see-my-submission-incorporated-vectorbase&quot;&gt;this link&lt;/a&gt; for a step by step process with images, to activate this Apollo track in the Genome Browser.&lt;/p&gt;
+&lt;h3&gt;How to find a gene that has changed?&lt;/h3&gt;
+&lt;p&gt;You have four options, we recommend to try the one on top first and follow the other ones in order:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;If you type your &quot;old&quot; gene ID on VectorBase &lt;a href=&quot;/search/site/%2A?as=True&quot;&gt;Search&lt;/a&gt;, the results page should give you the &quot;current/new&quot; gene ID.&lt;/li&gt;
+&lt;li&gt;Type the genomic coordinates, &lt;em&gt;i.e.&lt;/em&gt;, &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Scaffold&quot; title=&quot;Supercontigs or scaffolds are sets of ordered, oriented contigs. They are longer sequences than contigs, but shorter than full chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;scaffold&lt;/a&gt; (or &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Supercontig&quot; title=&quot;Supercontigs or scaffolds are sets of ordered, oriented contigs. They are longer sequences than contigs, but shorter than full chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;supercontig&lt;/a&gt;) or chromosome and base pair range on the &lt;a href=&quot;/Anopheles_gambiae/Info/Index&amp;quot;&quot;&gt;genome browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Use the nucleotide or protein sequence for a &lt;a href=&quot;/blast&quot;&gt;BLAST&lt;/a&gt; search.&lt;/li&gt;
+&lt;li&gt;Note: This may not be available for all organisms gene sets. Use the lists of identifier changes presented in some gene set pages, &lt;a href=&quot;/organisms/culex-quinquefasciatus/johannesburg-jhb/CpipJ1.3&quot;&gt;follow this link&lt;/a&gt; for the latest one of &lt;em&gt;Culex quinquefasciatus.&lt;/em&gt;&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;
+&lt;div style=&quot;width: 40%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt;
+How can I cite a specific &lt;strong&gt;gene set&lt;/strong&gt; on my thesis/paper? Follow the link to this &lt;a href=&quot;/faqs/how-cite-vectorbase&quot;&gt;FAQ&lt;/a&gt;.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/center&gt;
+&lt;/ul&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/site-usage-faqs&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Site usage (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 18 Jun 2018 10:43:06 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9767049 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/why-do-vectorbase-gene-ids-change-finding-missing-gene-ids#comments</comments>
+</item>
+</channel>
+</rss>

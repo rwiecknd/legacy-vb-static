@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Coordinate system</title>
+ <link>https://legacy.vectorbase.org/glossary/coordinate-system</link>
+ <description> In VectorBase, the term &quot;coordinate system&quot; or &quot;coord_system&quot; identifies which level of the assembly we are working on. A genome assembly imported into VectorBase has up to three coordinate systems defined in the coord_system table: contigs, scaffolds or chromosomes.    We define one additional coordinate system: toplevel. Toplevel sequences are tagged in the seq_region_attrib table. Most gene annotation is done on toplevel sequence.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

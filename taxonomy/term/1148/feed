@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - UniProt/Swiss-Prot</title>
+ <link>https://legacy.vectorbase.org/glossary/uniprotswiss-prot</link>
+ <description> (Universal Protein Resource) is the world&#039;s most comprehensive catalogue of information on proteins. UniProt/Swiss-Prot is a curated protein sequence database that provides a high level of annotation, a minimal level of redundancy and high level of integration with other databases. SwissProt is maintained collaboratively by the Swiss Institute for Bioinformatics (SIB) and the European Bioinformatics Institute (EBI).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

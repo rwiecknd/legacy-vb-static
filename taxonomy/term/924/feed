@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - General (faqs)</title>
+ <link>https://legacy.vectorbase.org/tags/general-0</link>
+ <description>FAQ category.
+</description>
+ <language>en</language>
+<item>
+ <title>How to cite VectorBase</title>
+ <link>https://legacy.vectorbase.org/faqs/how-cite-vectorbase</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt; &lt;br /&gt;&lt;big&gt;&lt;b&gt;Cite VectorBase most recent paper&lt;/b&gt;&lt;/big&gt;
+&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;If you use VectorBase data, tools or resources, we invite you to please cite our most recent paper:&lt;/p&gt;
+&lt;div style=&quot;width: 60%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Giraldo-Calderón, G. I., Emrich, S. J., MacCallum, R. M., Maslen, G., Dialynas, E., Topalis, P., … Lawson, D. (2015). &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/25510499&quot;&gt;&lt;u&gt;VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases.&lt;/u&gt;&lt;/a&gt; &lt;em&gt;Nucleic acids research&lt;/em&gt;, 43(Database issue), D707–D713. doi:10.1093/nar/gku1117.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;big&gt;&lt;b&gt;Reference a species genome or geneset&lt;/b&gt;&lt;/big&gt;
+&lt;/p&gt;
+&lt;p&gt;VectorBase, &lt;a href=&quot;https://www.vectorbase.org/&quot;&gt;www.vectorbase.org&lt;/a&gt; (VectorBase most recent paper), &amp;lt;Species_name&amp;gt;&amp;lt;isolate/strain&amp;gt;  &amp;lt;&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Assembly&quot; title=&quot;When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;Assembly&lt;/a&gt;, &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;Gene set&lt;/a&gt;&amp;gt;.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Worked example&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;For example if you want to reference your usage of the &lt;i&gt;Anopheles gambiae&lt;/i&gt; AgamP4.12 set of predictions you would use:
+&lt;/p&gt;
+&lt;div style=&quot;width: 60%; background: #f5f5f5; border: 1px solid #ccc; padding: 4px 6px 4px 6px; -moz-border-radius: 10px;-webkit-border-radius: 10px;&quot;&gt;
+&lt;p&gt;VectorBase, &lt;a href=&quot;https://www.vectorbase.org/&quot;&gt;www.vectorbase.org&lt;/a&gt; (Giraldo-Calderón et al 2015), &lt;i&gt;Anopheles gambiae&lt;/i&gt; PEST, AgamP4.12.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;br /&gt;&lt;big&gt;&lt;b&gt;How to reference a VectorBase PopBio project ID, VBP*?&lt;/b&gt;&lt;/big&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/gloria_soria.png&quot; height=&quot;250&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Gloria-Soria, A., Lima, A., Lovin, D. D., Cunningham, J. M., Severson, D. W., &amp;amp; Powell, J. R. (2018). &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/29260658&quot;&gt;&lt;u&gt;Origin of a High-Latitude Population of &lt;em&gt;Aedes aegypti&lt;/em&gt; in Washington, DC.&lt;/u&gt;&lt;/a&gt;&lt;em&gt;The American journal of tropical medicine and hygiene&lt;/em&gt;, 98(2), 445–452. doi:10.4269/ajtmh.17-0676.&lt;/p&gt;
+&lt;p&gt; &lt;br /&gt;&lt;big&gt;&lt;b&gt;How to cite a gene?&lt;/b&gt;&lt;/big&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Follow &lt;a href=&quot;/faqs/how-cite-gene&quot;&gt;this link&lt;/a&gt; to the FAQ that describes how to cite a gene including manual annotations of new &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Intron&quot; title=&quot;The part of the genomic sequence that is transcribed and then spliced out of the transcript (mRNA). Noncoding.&quot; class=&quot;lexicon-term&quot;&gt;intron&lt;/a&gt;/&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Exon&quot; title=&quot;The part of the genomic sequence that remains in the transcript (mRNA) after introns have been spliced out.&quot; class=&quot;lexicon-term&quot;&gt;exon&lt;/a&gt; boundaries and metadata, links from your paper to VectorBase, and advantages of this practice.&lt;/p&gt;
+&lt;p&gt; &lt;br /&gt;&lt;big&gt;&lt;b&gt;How to submit data to VectorBase and obtain IDs?&lt;/b&gt;&lt;/big&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Follow &lt;a href=&quot;/content/submit-data&quot;&gt;this link&lt;/a&gt; to the page that describes all the possible data types and submission procedures.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/general-0&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;General (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 09 Sep 2019 08:00:52 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9764060 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-cite-vectorbase#comments</comments>
+</item>
+<item>
+ <title>How to cite a gene</title>
+ <link>https://legacy.vectorbase.org/faqs/how-cite-gene</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Gene annotations&lt;/h1&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Providing in your publication VectorBase gene IDs allows for the easiest, most convenient and unequivocal strategy to identify the genes of interest, allowing other users to find your genes with text searches &lt;a href=&quot;/tutorials/tools-and-resources-tutorials/search&quot;&gt;(&lt;u&gt;tutorial&lt;/u&gt;)&lt;/a&gt;. More information about the gene IDs can be found in this &lt;a href=&quot;https://www.vectorbase.org/faqs/gene-identifiers-or-gene-ids-eg-agap-6-digit-number&quot;&gt;&lt;u&gt;FAQ&lt;/u&gt;&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/fig2.png&quot; height=&quot;191&quot; width=&quot;721&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;The gene models (which are originally &lt;u&gt;automatically&lt;/u&gt; generated), are &lt;u&gt;manually&lt;/u&gt; annotated by the community using &lt;a href=&quot;https://www.vectorbase.org/apollo&quot;&gt;Apollo from VectorBase&lt;/a&gt;, as seen above in the &#039;user-created annotations&#039; track. This allows all other members of the community to visualize changes instantly. Once a sufficient number of gene annotations has been accumulated for an organism, these new gene models are included in the next revision of the official &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Gene_set&quot; title=&quot;The set of predicted genes which represent the reference for an assembly. Gene sets contain both protein-coding and ncRNA loci. &quot; class=&quot;lexicon-term&quot;&gt;gene set&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Cite a community gene or a manually annotated gene&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/fig4_apollo_0.png&quot; height=&quot;250&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;Apollo has a gene annotation track in the genome browsers to allow public display of ongoing Apollo edits. Apollo identifiers shown on the track are not stable identifiers and must not be used in publications referencing data as they will be deprecated without warning. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/fig3_0.png&quot; height=&quot;300&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;VectorBase generates gene IDs not only for new genes but also to genes with corrected &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Intron&quot; title=&quot;The part of the genomic sequence that is transcribed and then spliced out of the transcript (mRNA). Noncoding.&quot; class=&quot;lexicon-term&quot;&gt;intron&lt;/a&gt;/&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Exon&quot; title=&quot;The part of the genomic sequence that remains in the transcript (mRNA) after introns have been spliced out.&quot; class=&quot;lexicon-term&quot;&gt;exon&lt;/a&gt; boundaries. Once you are done with your manual annotations in Apollo, contact us at &lt;a href=&quot;mailto:info@vectorbase.org&quot;&gt;info@vectorbase.org&lt;/a&gt; and let us know when would you be submitting your paper with these new or corrected models. Please plan accordingly and contact us with as many months in advance of publication submission as possible. If we are not able to provide you with the new gene IDs in time for your publication, we strongly encourage you to provide the location of the gene, with chromosome or &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Supercontig&quot; title=&quot;Supercontigs or scaffolds are sets of ordered, oriented contigs. They are longer sequences than contigs, but shorter than full chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;supercontig&lt;/a&gt;/&lt;a href=&quot;https://legacy.vectorbase.org/glossary#Scaffold&quot; title=&quot;Supercontigs or scaffolds are sets of ordered, oriented contigs. They are longer sequences than contigs, but shorter than full chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;scaffold&lt;/a&gt; and, base pair start and end.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Gene metadata&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;The gene metadata, such as symbol (name), e.g., rpl2 or gprop5 and, a description (function), e.g., ribosomal protein L2 or long wavelength sensitive opsin, should also be mentioned in your paper. If you are not sure on how to name a gene please follow these links for &lt;a href=&quot;https://www.vectorbase.org/faqs/rules-and-conventions-naming-genetic-features-mosquitoes-and-other-arthropod-vectors&quot;&gt;mosquitoes and other arthropods&lt;/a&gt; and for &lt;a href=&quot;https://www.vectorbase.org/faqs/rules-and-conventions-naming-molluscan-genes&quot;&gt;molluscans&lt;/a&gt;. Follow &lt;a href=&quot;/content/submit-data&quot;&gt;this link&lt;/a&gt; for metadata submission instructions. &lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;For example, &lt;a href=&quot;https://doi.org/10.1186/s12862-017-0910-6&quot;&gt;Giraldo-Calderón et al. (2017)&lt;/a&gt;, deposited in VectorBase the manual annotations and metadata of 13 &lt;em&gt;Culex quinquefasciatus&lt;/em&gt;, 12 &lt;em&gt;Anopheles gambiae&lt;/em&gt; and 10 &lt;em&gt;Aedes aegypti&lt;/em&gt; opsin genes. In one of the paper&#039;s tables (Table 1), the genes were referenced with their metadata, INSDC accession, VectorBase gene ID and genome location, among other information details. &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Links from your paper to VectorBase&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;We also strongly encourage you to work with the journal to provide the genome browser gene page link for each gene ID as shown in these two papers, &lt;a href=&quot;https://bmcevolbiol.biomedcentral.com/articles/10.1186/s12862-017-0910-6&quot;&gt;Giraldo-Calderón et al. 2017&lt;/a&gt; (Table 1) and &lt;a href=&quot;http://www.pnas.org/content/108/32/E421.full&quot;&gt;Rund et al. 2011&lt;/a&gt; (embed within the text).&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;Why submit your genes to VectorBase?&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/ftp/fig5_2018.png&quot; height=&quot;400&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;VectorBase looks after the GenBank records of the genomic assemblies and their gene annotation, for all  &lt;a href=&quot;https://www.vectorbase.org/genomes&quot;&gt;VectorBase organisms&lt;/a&gt;. This means that when we update the official VectorBase gene set, we in turn submit this update to NCBI. Although the GenBank record will not directly cite the submitter of a gene, it will link to the VectorBase Gene page, which will show that submitter, as shown above in the Genome Browser &#039;Literature&#039; link (&lt;a href=&quot;/content/submit-data&quot;&gt;click here&lt;/a&gt; to learn how to submit your publication citation). &lt;/p&gt;
+&lt;p style=&quot;text-align:justify&quot;&gt;When people have &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Transcript&quot; title=&quot;Nucleotide sequence resulting from the transcription of the genomic DNA to mRNA. One gene can have different transcripts or splice variants resulting from the alternative splicing of different exons in genes.&quot; class=&quot;lexicon-term&quot;&gt;transcript&lt;/a&gt; sequences that are based on new sequencing, we anticipate that they will certainly want to submit that data directly to GenBank/EMBL/DDBJ; but we encourage them also to submit it to VB. Submission to VectorBase means that it will appear instantly in Apollo, and later in the corresponding gene page in the Genome Browser. &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;How to cite VectorBase?&lt;/h1&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Follow &lt;a href=&quot;/faqs/how-cite-vectorbase#&quot;&gt;this link&lt;/a&gt; to the FAQ that describes how to cite VectorBase, a gene and genome &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Assembly&quot; title=&quot;When the genome or transcriptome of a species is sequenced, typically many short random fragments are sequenced and reassembled by a computer algorithm into longer contiguous sequences called contigs. Genomic contigs may be assembled into longer sequences called scaffolds and sometimes, if the depth of sequencing is high enough, there may be enough information to assemble most of the scaffolds into chromosomes.&quot; class=&quot;lexicon-term&quot;&gt;assembly&lt;/a&gt; and gene set.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/general-0&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;General (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 20 Aug 2019 10:49:22 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9766702 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-cite-gene#comments</comments>
+</item>
+<item>
+ <title>CSIRO and VectorBase </title>
+ <link>https://legacy.vectorbase.org/faqs/csiro-and-vectorbase</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;/p&gt;
+&lt;/br&gt;
+&lt;h1&gt;What is VectorBase?&lt;/h1&gt;
+
+&lt;p align=”justify”&gt;VectorBase &lt;a href=&quot;https://www.vectorbase.org&quot;&gt;&lt;u&gt;(https://www.vectorbase.org)&lt;/u&gt;&lt;/a&gt;  is one of the US National Institutes of Health, Bioinformatics Resource Centers for Infectious Disease. Starting later this year, we will be merging with our sister Center EuPathDB (which is home to PlasmoDB, for example).
+
+&lt;p align=”justify”&gt;Our mandate is to make data from studies on vectors of human disease publically available, in such a way that it can be reused to make further advancements in human health. 
+
+&lt;p align=”justify”&gt;“Data” includes genomic, transcriptomic, and (most relevant for this project) field-collected surveillance data. Our PopBio Map allows for easy browsing of surveillance data, such as population surveillance species abundance data, for an example &lt;a href=&quot;https://www.vectorbase.org/popbio/map/?view=abnd&amp;zoom_level=11&amp;center=28.565225490654658,-81.27307891845705&amp;summarizeBy=Species&amp;markerID=djn4v&amp;panelID=swarm-plots&amp;grid=true&amp;shared_link=true&amp;limitTerms=true&amp;optimizeColors=true&amp;navDates=1325376000000,1507766400000&amp;resolution=Monthly&quot;&gt;&lt;u&gt;click here&lt;/u&gt;&lt;/a&gt;.
+
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;h1&gt;What is CSIRO?&lt;/h1&gt;
+
+&lt;p align=”justify”&gt;The Commonwealth Scientific and Industrial Research Organisation &lt;a href=&quot;https://www.csiro.au/&quot;&gt;&lt;u&gt;(CSIRO, https://www.csiro.au/)&lt;/u&gt;&lt;/a&gt; is Australia’s national science agency. The CSIRO collaborates with leading organisations around the world in the domains of human health, energy, food production, environmental sciences, manufacturing and astronomy. The &lt;a href=&quot;https://www.data61.csiro.au/&quot;&gt;&lt;u&gt;Data61&lt;/u&gt;&lt;/a&gt; unit of CSIRO specialises within data science, engineering and design. The Data61 Ecological and Environmental Risk Assessment &lt;a href=&quot;https://www.data61.csiro.au/en/Who-we-are/Our-programs/Expertise-Analytics/DEERA&quot;&gt;&lt;u&gt;(DEERA)&lt;/u&gt;&lt;/a&gt; team conducts probabilistic risk assessments in the environmental science disciplines, including risk assessments for the importation and controlled field release of genetically modified malaria vector mosquitoes &lt;a href=&quot;https://targetmalaria.org/resources/&quot;&gt;&lt;u&gt;(http://targetmalaria.org/resources/)&lt;/u&gt;&lt;/a&gt;.
+
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;h1&gt;What format do we need the data in?&lt;/h1&gt;
+
+&lt;p align=”justify”&gt;We do not require any particular format - as long as we can understand it -  but in general we need to be able to determine the following information:
+
+&lt;ol&gt; 
+&lt;li&gt;What mosquito (species and sex) was collected&lt;/li&gt;
+&lt;li&gt;How was species type identified (morphological? PCR test?)&lt;/li&gt; 
+&lt;li&gt;Where was it collected (GPS points are preferred, but if not, a landmark/town  reference) &lt;/li&gt;
+&lt;li&gt;When (set and collect data if possible) were traps set?&lt;/li&gt;
+&lt;li&gt;Who? How do we attribute this data? A publication ? &lt;/li&gt;  
+&lt;/ol&gt;
+
+&lt;p align=”justify”&gt;A ‘best practice guide, can be found &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1o4dCCEfnUZ4Sd2LxNHqiWaCX2IyW_D1sFXueOjYEFeU/edit#gid=1153009355&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; 
+
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;h1&gt;What are some details on the publication to be made?&lt;/h1&gt;
+
+&lt;p align=”justify”&gt;Our goal is to summarise the data contributions into a manuscript for consideration as a peer-reviewed, citable and open access paper to be published at the journal Scientific Data &lt;a href=&quot;https://www.nature.com/sdata/&quot;&gt;&lt;u&gt;(https://www.nature.com/sdata/&lt;/u&gt;&lt;/a&gt;. The contributing data custodians will be included as authors of the publication. VectorBase will lead the writing and provide the corresponding author and point of contact for the publication process. The proposed title for the article is “A public spatio-temporal database for the abundance of the Anopheles gambiae species complex: A dominant malaria vector of sub-Saharan Africa”.
+
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;h1&gt;How does VectorBase handle data attribution?&lt;/h1&gt;
+
+&lt;p align=”justify”&gt;VectorBase makes every effort to make data attributed to the original data generators, information on this can be found &lt;a href=&quot;https://www.dropbox.com/s/f7f2ejmb2gosxzo/HowVectorBiteDoesDataAttribution.pdf?dl=0&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt; 
+
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;h1&gt;Can I submit more kinds of data?&lt;/h1&gt;
+
+&lt;p align=”justify”&gt;Absolutely! VectorBase is always looking for additional high quality surveillance data such as trapping of non Anopheles gambiae s.l. species, pathogen status assays, and insecticide resistance assays.  Please contact us for more information. 
+
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;h1&gt;Where can I get more information?&lt;/h1&gt;
+
+&lt;p&gt;Please email &lt;a href=&quot;https://www.vectorbase.org/contact&quot;&gt;&lt;u&gt;info@vectorbase.org&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Meet staff in person at:&lt;/p&gt;
+
+&lt;ul&gt; 
+&lt;li&gt;EMBO Molecular and population biology of mosquitoes and other disease vectors July 22 – 26, Kolymbari, Crete&lt;/li&gt; 
+&lt;li&gt;The International Centers of Excellence for Malaria Research (ICEMR) annual meeting (July 23-26) and  / Data Resources Workshop -EuPathDB, ClinEpiDB, and VectorBase (July 29 - August 2),  both events in Nairobi, Kenya &lt;/li&gt;
+&lt;li&gt;PAMCA meeting in Yaoundé, Cameroon Sept 23-25&lt;/li&gt;  
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/general-0&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;General (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 17 Jul 2019 15:48:33 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9771366 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/csiro-and-vectorbase#comments</comments>
+</item>
+<item>
+ <title>Do you have workshops on using VectorBase?</title>
+ <link>https://legacy.vectorbase.org/faqs/do-you-have-workshops-using-vectorbase</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Host a workshop&lt;/h3&gt;
+&lt;p&gt;We invite labs and institutes to host VectorBase hands-on workshops. You are free to select the topics you would like us to cover, &lt;a href=&quot;/workshops/workshops_general&quot;&gt;follow this link&lt;/a&gt; for details. If you are interested, please contact us at &lt;a href=&quot;/contact&quot;&gt; info@vectorbase.org&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt; 
+&lt;/p&gt;
+&lt;h3&gt;Attend a workshop&lt;/h3&gt;
+&lt;p&gt;Follow &lt;a href=&quot;/workshops&quot;&gt;this link&lt;/a&gt; to the VectorBase calendar of outreach events and find a date and location that works for you. &lt;/p&gt;
+&lt;h3&gt;Webinars and other online help and documentation&lt;/h3&gt;
+&lt;p&gt;The webinar series (&lt;a href=&quot;/workshops/vectorbase-2018-webinar-series-toolresource-specific&quot;&gt;March to July&lt;/a&gt; and &lt;a href=&quot;/workshops/vectorbase-2018-webinar-series-speciesgroup-specific&quot;&gt;August to November&lt;/a&gt;) are another opportunity to learn how to use our data, tools and resources. In the page of each event, the slides and practice exercises (with answer key), are shared. The webinars are free but sign up is required. Our &lt;a href=&quot;/faqs&quot;&gt;FAQs&lt;/a&gt;, &lt;a href=&quot;/tutorials&quot;&gt;tutorials&lt;/a&gt; and &lt;a href=&quot;/about&quot;&gt;about page&lt;/a&gt; will give you an overview of how to use VectorBase.
+&lt;/p&gt;
+&lt;h3&gt;Ensembl&lt;/h3&gt;
+&lt;p&gt;Because in VectorBase we use the Ensembl Genome Browser and BioMart data mining tool, another option is to use Ensembl online material, or attend their webinars and workshops. Follow &lt;a href=&quot;http://www.ensembl.info/2018/06/01/training-in-low-middle-income-countries/#more-10077&quot;&gt;this link&lt;/a&gt; for more details about training and &lt;a href=&quot;https://www.ebi.ac.uk/training/online/course/ensembl-browser-webinar-series-2016&quot;&gt;this link&lt;/a&gt; for the previous webinar videos. &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/general-0&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;General (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 18:02:43 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9766697 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/do-you-have-workshops-using-vectorbase#comments</comments>
+</item>
+<item>
+ <title>How to subscribe to a mailing list</title>
+ <link>https://legacy.vectorbase.org/faqs/how-subscribe-mailing-list</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;An overview of the mailing lists hosted a VectorBase is available &lt;a href=&quot;/mailing-lists&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Not all three are open for subscription. &lt;/p&gt;
+&lt;p&gt;Most of the VectorBase users are more likely to be interested in:&lt;br /&gt;
+- news at vectorbase . org: subscribe to receive information about VectorBase &lt;a href=&quot;/releases&quot;&gt;releases, &lt;/a&gt; this means that you will receive six emails per year, and maybe one or two more, but only because of something very urgent or important that we may need to communicate. Other matters are only communicated via our social medial channels.&lt;br /&gt;
+- info at vectorbase . org: contact VectorBase to ask for help, information or provide feedback.&lt;/p&gt;
+&lt;p&gt;If you use Apollo to manually annotate genes, we strongly encourage you to subscribe to wa-user at vectorbase . org: Only if you are actively annotating genes you will receive two emails per month. &lt;a href=&quot;https://pre.vectorbase.org/faqs/automatic-emails-explained&quot;&gt;Click here&lt;/a&gt; for an FAQ of these automatic email messages.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/general-0&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;General (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 14:53:53 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9766699 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/how-subscribe-mailing-list#comments</comments>
+</item>
+<item>
+ <title>Do you have VectorBase introductory documentation or a tour?</title>
+ <link>https://legacy.vectorbase.org/faqs/do-you-have-vectorbase-introductory-documentation-or-tour</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Yes, we do. First, we suggest you go to VectorBase &lt;a href=&quot;https://www.vectorbase.org/about&quot;&gt;&#039;About&#039; page&lt;/a&gt;, which gives you a quick and complete overview of data types and resources, with a &lt;a href=&quot;https://www.vectorbase.org/tutorials/general-tutorials/tour&quot;&gt;Tour video&lt;/a&gt; and screen shots with sample queries and analyses, among other important information. If you want want to learn more, you may want to go to the &lt;a href=&quot;https://www.vectorbase.org/tutorials&quot;&gt;tutorials page&lt;/a&gt; (in the &lt;a href=&quot;https://www.vectorbase.org/navigation/help&quot;&gt;Help navigation tab&lt;/a&gt;) and take a to look at the available tutorials in the &#039;General&#039; category. If what you are looking for is more specific, we also have detailed tutorials for all our tools and resources, most with practice exercises and their corresponding answer keys.&lt;/p&gt;
+&lt;p&gt;Please, do not hesitate to email us to &lt;a href=&quot;mailto:info@vectorbase.org&quot;&gt;info@vectorbase.org&lt;/a&gt;, if you have any questions or would like to provide us with feedback.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/general-0&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;General (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 07:40:53 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9766698 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/do-you-have-vectorbase-introductory-documentation-or-tour#comments</comments>
+</item>
+<item>
+ <title>Can I use pictures posted in the Images section of VectorBase?</title>
+ <link>https://legacy.vectorbase.org/faqs/can-i-use-pictures-posted-images-section-vectorbase</link>
+ <description>&lt;div class=&quot;field field-name-field-answer field-type-text-with-summary field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Answer:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;VectorBase has curated all available &lt;a href=&quot;https://www.vectorbase.org/image-gallery&quot;&gt;&lt;strong&gt;images&lt;/strong&gt;&lt;/a&gt; and has included both the license and photographer into the image viewer on the site.&lt;/p&gt;
+&lt;p&gt;Nearly all of these images are in the public &lt;a href=&quot;https://legacy.vectorbase.org/glossary#Domain&quot; title=&quot;A region of special biological interest within a single protein sequence. However, a domain may also be defined as a region within the three-dimensional structure of a protein that may encompass regions of several distinct protein sequences that accomplishes a specific function. A domain class is a group of domains that share a common set of well-defined properties or characteristics.&quot; class=&quot;lexicon-term&quot;&gt;domain&lt;/a&gt; and freely available for non-commercial use.  Most images are from the &lt;a href=&quot;http://phil.cdc.gov/phil/home.asp&quot;&gt;CDC&#039;s Public Health Image Library &lt;/a&gt;  and were taken by &lt;a href=&quot;https://youtu.be/uIZtCWkJigU&quot;&gt;James Gathany&lt;/a&gt;, professional photographer for the US Centers for Disease Control and Prevention. The specimens were provided by Frank Collins (University of Notre Dame). Because these are US Government photographs, there are no copyright restrictions. However, if you use these photos, you should credit James Gathany as the photographer and directly contact him (&lt;a href=&quot;mailto:jdg1@cdc.gov&quot;&gt;jdg1@cdc.gov&lt;/a&gt;) if you wanted to use any photographs for a commercial use, e.g., a DVD or a documentary. For the few images that are not from CDC/Gathany details are included with the image via the viewer. &lt;/p&gt;
+&lt;p&gt;When using images from this image gallery we kindly ask you to please acknowledge the source as &#039;VectorBase, &lt;a href=&quot;http://www.vectorbase.org/&quot;&gt;www.vectorbase.org/&lt;/a&gt;&#039;.&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://legacy.vectorbase.org/tags/general-0&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;General (faqs)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 20 Jun 2018 07:23:14 +0000</pubDate>
+ <dc:creator>ggiraldo</dc:creator>
+ <guid isPermaLink="false">9766707 at https://legacy.vectorbase.org</guid>
+ <comments>https://legacy.vectorbase.org/faqs/can-i-use-pictures-posted-images-section-vectorbase#comments</comments>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - Pfam</title>
+ <link>https://legacy.vectorbase.org/glossary/pfam</link>
+ <description> Pfam is a large collection of multiple sequence alignments and hidden Markov models covering many common protein domains and families. Pfam can be used to view the domain organization of proteins, to view multiple alignments, protein domain architectures, protein structures, and species distributions.
+ </description>
+ <language>en</language>
+</channel>
+</rss>

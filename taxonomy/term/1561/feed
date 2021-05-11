@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - lncRNA</title>
+ <link>https://legacy.vectorbase.org/glossary/lncrna</link>
+ <description>A gene that encodes a long non-coding RNA. Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0002127</description>
+ <language>en</language>
+</channel>
+</rss>

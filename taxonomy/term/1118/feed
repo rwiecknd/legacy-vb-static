@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://legacy.vectorbase.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>VectorBase - SNP (Single Nucleotide Polymorphism)</title>
+ <link>https://legacy.vectorbase.org/glossary/snp-single-nucleotide-polymorphism</link>
+ <description> SNPs are common variations that occur in DNA with a 0.1% frequency. Ensembl displays SNPs obtained from dbSNP, (the SNP repository maintained by NCBI; The Human Genic Bi-Allelic Sequences Database (HGVBase) and The SNP Consortium Ltd.(TSC).
+ </description>
+ <language>en</language>
+</channel>
+</rss>

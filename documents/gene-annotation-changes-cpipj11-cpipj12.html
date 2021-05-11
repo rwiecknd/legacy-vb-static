@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 ie" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 ie" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 ie" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <!--<![endif]-->
+
+
+<!-- Mirrored from legacy.vectorbase.org/documents/gene-annotation-changes-cpipj11-cpipj12 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 May 2021 01:16:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="../node/9766949.html" />
+<link rel="canonical" href="gene-annotation-changes-cpipj11-cpipj12.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Gene annotation changes CpipJ1.1 to CpipJ1.2 | VectorBase</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/ftp/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/ftp/css/css_mxbvRAV0_YoXwGCXbsQzCkegc1pXHICzfd8PPQD9YE4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/ftp/css/css_PICr0GKGg7bWv71lKRa_OEkomgs62T8kc1nkoHGPaHQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/ftp/css/css_laEPd_V3LnHYzT5NkFPV8gclJ8AkmiBPbCKiY7Q1j3Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/ftp/css/css_cP6Vh1gUqUILwv-7MkMGbDM2EBjPjnFQHo4vhLrssf8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/ftp/css/css_rprouKRjRbkIKo9d6RXSljtPMncKZiBQLHESwU_LbNM.css" media="all" />
+    <script type="text/javascript" src="../sites/default/files/ftp/js/js_gabcqQuKQ3_nd37NqOuWd9WQRIYOjCKdKTvRCaIo06I.js"></script>
+<script type="text/javascript" src="../sites/default/files/ftp/js/js_zJeG4OGffO4aampI_xLmtj3WRIcE06V9UF8xhvTJKAM.js"></script>
+<script type="text/javascript" src="../sites/default/files/ftp/js/js_cLEvhoD3_g4lSZ6lfYzcDtmVdms3cZizAjb5jA3ABGQ.js"></script>
+<script type="text/javascript" src="../sites/default/files/ftp/js/js_08ByJhRYjSGp07AndqqBMgkJe1tY-8dUHOOO8Jy0NMY.js"></script>
+<script type="text/javascript" src="../sites/default/files/ftp/js/js_mw06s-gYd-ANxp8zZ_N-xVkvD8F3Tf5OMGUGwU-H6zY.js"></script>
+<script type="text/javascript" src="../sites/default/files/ftp/js/js_EXqXMFbvpy4r2fvHe4U7HNe5y1ZFdcqUrqUlbWUBfb4.js"></script>
+<script type="text/javascript" src="../sites/default/files/ftp/js/js_rsGiM5M1ffe6EhN-RnhM5f3pDyJ8ZAPFJNKpfjtepLk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-6417661-1", {"cookieDomain":".legacy.vectorbase.org"});// URL decode, just in case 
+var hrefResult=decodeURIComponent(window.location.href);
+var pathResult=decodeURIComponent(window.location.pathname);
+// check URL has search
+if (pathResult.includes("https://legacy.vectorbase.org/search/site/")) {
+	// split pathname with /, then take the last value as search/query parameter
+	var splitPathresult=pathResult.split("../index.html");
+	var searchValue=splitPathresult[splitPathresult.length-1];
+	//strip quotes from searchValue
+	searchValue=searchValue.replace(/['"]+/g, '');
+	// in case Category (?) exists - needs to check .href, not .pathname
+	if (hrefResult.includes("?")) {
+		// split pathname with /, then take the last value as search/query parameter
+		var splitPathresult=pathResult.split("../index.html");
+		var searchValue=splitPathresult[splitPathresult.length-1];
+		// split pathname with ?, then take the last value as GA (Google Analytics) category
+		var splitHref=hrefResult.split("?");
+		var categoryValue=splitHref[splitHref.length-1];				
+		// if the first character of Category is ampersand, &, remove it, just in case
+		if (categoryValue[0] == "&") {
+			categoryValue = categoryValue.substr(1);
+		}
+		//strip quotes from categoryValue		
+		categoryValue=categoryValue.replace(/['"]+/g, '');
+		// make ga command
+		var gaCommandUrl = '/search/site?search=' + searchValue + '&' + categoryValue;
+	    // set page instead of send pageview
+	    ga('set', 'page', gaCommandUrl);
+	} else {
+		var gaCommandUrl = '/search/site?search=' + searchValue;
+		// set page instead of send pageview
+	    ga('set', 'page', gaCommandUrl);
+	}
+}ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/default/files/ftp/js/js_Cv5tN7wsTPTtQjF3wZdxqcOLDGuxEFfWQy50Tyq9mEw.js"></script>
+<script type="text/javascript" src="../sites/default/files/ftp/js/js_tl9xHQ_hdQMKNylSuI2Op9wFOQu73kVboIrZvWiiTwY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"acquia_marina","theme_token":"OFn5B6F6LZ4x92MNLZOqzvgQUlsS3SthGlErYnzTvkw","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/added\/devel\/jquery-1.4.4-uncompressed.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.position.min.js":1,"misc\/ui\/jquery.ui.autocomplete.min.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/libraries\/jquery\/jquery-1.10.2.min.js":1,"sites\/all\/modules\/added\/jqmulti\/js\/switch.js":1,"sites\/all\/modules\/added\/attach\/attach.js":1,"sites\/all\/modules\/added\/google_analytics\/googleanalytics.js":1,"0":1,"misc\/progress.js":1,"modules\/file\/file.js":1,"sites\/all\/modules\/custom\/vbsearch\/js\/vbsearch_basic.js":1,"sites\/all\/modules\/custom\/vbsearch\/modules\/vbsearch_autocomplete\/vbsearch_autocomplete.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/added\/superfish\/superfish.js":1,"sites\/all\/themes\/fusion\/fusion_core\/js\/script.js":1,"sites\/all\/themes\/acquia_marina\/js\/jquery.browser.js":1,"sites\/all\/themes\/acquia_marina\/js\/advanced-search.js":1,"sites\/all\/themes\/acquia_marina\/js\/jquery.corner.js":1,"sites\/all\/themes\/acquia_marina\/js\/acquia-marina-script.js":1,"sites\/all\/themes\/acquia_marina\/js\/tablesorter\/jquery.tablesorter.js":1,"sites\/all\/themes\/acquia_marina\/js\/jquery.animate-shadow-min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"sites\/all\/modules\/added\/attach\/attach.css":1,"sites\/all\/modules\/added\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/custom\/cvbrowser\/css\/cvbrowser.css":1,"sites\/all\/modules\/added\/date\/date_api\/date.css":1,"sites\/all\/modules\/added\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/added\/views\/css\/views.css":1,"sites\/all\/modules\/added\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/error_log\/error_log.css":1,"sites\/all\/modules\/custom\/fast_gallery\/fast_gallery.css":1,"sites\/all\/modules\/custom\/iptc_editor\/iptc_editor.css":1,"sites\/all\/modules\/custom\/lexicon\/css\/lexicon.css":1,"sites\/all\/modules\/custom\/submenu_arrows\/submenu_arrows.css":1,"sites\/all\/modules\/custom\/rna_seq\/css\/rna_seq.css":1,"modules\/file\/file.css":1,"file":1,"sites\/all\/modules\/custom\/vbsearch\/css\/vbsearch.css":1,"sites\/all\/modules\/custom\/vbsearch\/modules\/vbsearch_autocomplete\/vbsearch_autocomplete.css":1,"sites\/all\/themes\/acquia_marina\/ds_layouts\/dsth_test\/dsth_test.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/themes\/fusion\/fusion_core\/css\/fusion-style.css":1,"sites\/all\/themes\/fusion\/fusion_core\/css\/fusion-typography.css":1,"sites\/all\/themes\/fusion\/fusion_core\/skins\/core\/fusion-core-skins.css":1,"sites\/all\/themes\/acquia_marina\/css\/search.css":1,"sites\/all\/themes\/acquia_marina\/css\/fusion-acquia-marina-style.css":1,"sites\/all\/themes\/acquia_marina\/css\/slideshow.css":1,"sites\/all\/themes\/fusion\/fusion_core\/css\/grid16-960.css":1,"sites\/all\/themes\/acquia_marina\/css\/local.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":1},"blast":{"blastPath":"sites\/all\/modules\/custom\/blast"},"clustalw":{"clustalwPath":"sites\/all\/modules\/custom\/clustalw"},"hmmer":{"hmmerPath":"sites\/all\/modules\/custom\/hmmer"},"xgrid":{"xgridPath":"sites\/all\/modules\/custom\/xgrid"},"file":{"elements":{"#edit-field-file-search-und-0-upload":"txt"}},"ajax":{"edit-field-file-search-und-0-upload-button":{"wrapper":"edit-field-file-search-und-0-ajax-wrapper","effect":"fade","progress":{"type":"throbber","message":null},"event":"mousedown","keypress":true,"prevent":"click","url":"https:\/\/legacy.vectorbase.org\/file\/ajax\/file_search\/field_file_search\/und\/0\/form-DitpHI-JQpAIQfJ0SEhori2hfuyfiYDvLFbpH6fSwlQ","submit":{"_triggering_element_name":"field_file_search_und_0_upload_button","_triggering_element_value":"Upload"}}},"urlIsAjaxTrusted":{"https:\/\/legacy.vectorbase.org\/file\/ajax\/file_search\/field_file_search\/und\/0\/form-DitpHI-JQpAIQfJ0SEhori2hfuyfiYDvLFbpH6fSwlQ":true,"\/documents\/gene-annotation-changes-cpipj11-cpipj12":true,"https:\/\/legacy.vectorbase.org\/user?destination=node\/9766949":true},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});
+//--><!]]>
+</script>
+</head>
+<body id="pid-documents-gene-annotation-changes-cpipj11-cpipj12" class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-9766949 node-type-document win gecko font-size-12 grid-type-960 grid-width-16 sidebars-split" >
+  <div id="skip-link">
+    <a href="#main-content-area">Skip to main content area</a>
+  </div>
+  
+<!-- page-top region -->
+  <div id="page-top" class="region region-page-top page-top">
+    <div id="page-top-inner" class="page-top-inner inner">
+      <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8WDMVJ" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript>    </div><!-- /page-top-inner -->
+  </div><!-- /page-top -->
+    <div id="page" class="page">
+    <div id="page-inner" class="page-inner">
+      
+      <!-- header-group region: width = grid_width -->
+      <div id="header-group-wrapper" class="header-group-wrapper full-width clearfix">
+        <div id="header-group" class="header-group region grid16-16">
+          <div id="header-group-inner" class="header-group-inner inner clearfix">
+
+                        <div id="header-site-info" class="header-site-info">
+              <div id="header-site-info-inner" class="header-site-info-inner gutter">
+                                <div id="logo">
+                  <a href="../index.html" title="Home"><img src="../sites/default/files/ftp/images/dot_ked_100_trans.png" alt="Home" /></a>
+                </div>
+                                                <div id="site-name-wrapper" class="clearfix">
+                                                          <div id="site-name"><a href="../index.html" title="Home" rel="home">VectorBase</a></div>
+                                                                          <span id="slogan">Bioinformatics Resource for Invertebrate Vectors of Human Pathogens</span>
+                                  </div><!-- /site-name-wrapper -->
+                              </div><!-- /header-site-info-inner -->
+            </div><!-- /header-site-info -->
+            
+            <div id="block-search-form" class="block block-search my_search first  odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+        <form enctype="multipart/form-data" action="https://legacy.vectorbase.org/documents/gene-annotation-changes-cpipj11-cpipj12" method="post" id="search-block-form" accept-charset="UTF-8"><div>
+<div id="search" class="container-inline">
+  <div id="search-inner">
+            <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Enter search terms" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="field-type-file field-name-field-file-search field-widget-file-generic form-wrapper" id="edit-field-file-search"><div id="edit-field-file-search-und-0-ajax-wrapper"><div class="form-item form-type-managed-file form-item-field-file-search-und-0">
+  <label for="edit-field-file-search-und-0-upload">File Search </label>
+ <div class="file-widget form-managed-file clearfix"><input type="file" id="edit-field-file-search-und-0-upload" name="files[field_file_search_und_0]" size="22" class="form-file" /><input type="submit" id="edit-field-file-search-und-0-upload-button" name="field_file_search_und_0_upload_button" value="Upload" class="form-submit" /><input type="hidden" name="field_file_search[und][0][fid]" value="0" />
+<input type="hidden" name="field_file_search[und][0][display]" value="1" />
+</div>
+<div class="description">Files must be less than <strong>5 KB</strong>.<br />Allowed file types: <strong>txt</strong>.</div>
+</div>
+</div></div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Go" class="form-submit" /><a href="https://legacy.vectorbase.org/search/site/%2A?as=True" id="advanced-search-link">Advanced Search</a><a href="# " id="edit-toggle-basic-search-type">Switch Search Type</a></div><input type="hidden" name="form_build_id" value="form-DitpHI-JQpAIQfJ0SEhori2hfuyfiYDvLFbpH6fSwlQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+  </div>
+</div>
+</div></form>      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block --><div id="block-login_block-login_block" class="block block-login-block  last even">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+        <form action="https://legacy.vectorbase.org/user?destination=node/9766949" method="post" id="login-block-form" accept-charset="UTF-8"><div><input type="hidden" name="form_build_id" value="form-Cc-jJyB7rMnqlOpPBwONiMaAuDQ79U6pYaBvPacfehc" />
+<input type="hidden" name="form_id" value="login_block_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Login" class="form-submit" /></div></div></form>      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block --><div id="content-messages-inner" class="content-messages-inner gutter"><div class="messages error" style="clear:both;">This legacy VectorBase site will be shut down at the end of May 2021. Please visit our <a rel="noreferrer" href="https://vectorbase.org/">new website</a> as part of VEuPathDB.</div></div>          </div><!-- /header-group-inner -->
+
+          
+<!-- main-menu region -->
+<div id="main-menu-wrapper" class="main-menu-wrapper full-width clearfix">
+  <div id="main-menu" class="region region-main-menu main-menu  grid16-16">
+    <div id="main-menu-inner" class="main-menu-inner inner">
+      <div id="block-superfish-1" class="block block-superfish first last odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+        <ul id="superfish-1" class="menu sf-menu sf-navigation sf-horizontal sf-style-default"><li id="menu-9388-1" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="../zika.html" title="Zika Resource Page link" class="sf-depth-1">Zika</a></li><li id="menu-1005-1" class="middle even sf-item-2 sf-depth-1 menuparent"><a href="../about.html" title="Information about this invertebrate vector Bioinformatics Resource Center (BRC) " class="sf-depth-1 menuparent">About</a><ul><li id="menu-3846-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../swg.html" title="Details of VectorBase Scientific Working Group" class="sf-depth-2">VectorBase Scientific Working Group</a></li><li id="menu-3847-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../sug.html" title="Details of VectorBase Scientific User Group" class="sf-depth-2">VectorBase Scientific User Group</a></li><li id="menu-3848-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../personnel.html" title="Details of Personnel" class="sf-depth-2">Personnel</a></li><li id="menu-14054-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="../privacy.html" class="sf-depth-2">Data Privacy</a></li></ul></li><li id="menu-962-1" class="middle odd sf-item-3 sf-depth-1 menuparent"><a href="../organisms.html" title="" class="sf-depth-1 menuparent">Organisms</a><ul><li id="menu-6928-1" class="first odd sf-item-1 sf-depth-2 menuparent"><a href="../taxonomy/aedes.html" title="" class="sf-depth-2 menuparent"><table class="menuarrow"><tr><td class="menuarrowtext"><i>Aedes</i> </td><td class="menuarrowicon"><img class="menuarrow" src="../sites/default/files/ftp/triang.png" alt="submenu arrow"></td></tr></table></a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper first odd sf-item-1 sf-depth-2 menuparent"><ol><li id="menu-781-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="../organisms/aedes-aegypti.html" title="" class="sf-depth-3"><i>Aedes aegypti</i></a></li><li id="menu-6929-1" class="last even sf-item-2 sf-depth-3 sf-no-children"><a href="../organisms/aedes-albopictus.html" class="sf-depth-3"><i>Aedes albopictus</i></a></li></ol></li></ul></li><li id="menu-3164-1" class="middle even sf-item-2 sf-depth-2 menuparent"><a href="../taxonomy/anopheles.html" title="" class="sf-depth-2 menuparent"><table class="menuarrow"><tr><td class="menuarrowtext"><i>Anopheles</i> </td><td class="menuarrowicon"><img class="menuarrow" src="../sites/default/files/ftp/triang.png" alt="submenu arrow"></td></tr></table></a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle even sf-item-2 sf-depth-2 menuparent"><ol><li id="menu-3156-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-albimanus.html" class="sf-depth-3"><i>Anopheles albimanus</i></a></li><li id="menu-3157-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-arabiensis.html" class="sf-depth-3"><i>Anopheles arabiensis</i></a></li><li id="menu-3342-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-atroparvus.html" class="sf-depth-3"><i>Anopheles atroparvus</i></a></li><li id="menu-3158-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-christyi.html" title="" class="sf-depth-3"><i>Anopheles christyi</i></a></li><li id="menu-3687-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-coluzzii.html" title="" class="sf-depth-3"><i>Anopheles coluzzii</i></a></li><li id="menu-3344-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-culicifacies.html" class="sf-depth-3"><i>Anopheles culicifacies</i></a></li><li id="menu-1781-1" class="middle odd sf-item-7 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-darlingi.html" title="" class="sf-depth-3"><i>Anopheles darlingi</i></a></li><li id="menu-3161-1" class="middle even sf-item-8 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-dirus.html" class="sf-depth-3"><i>Anopheles dirus</i></a></li><li id="menu-3159-1" class="middle odd sf-item-9 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-epiroticus.html" title="" class="sf-depth-3"><i>Anopheles epiroticus</i></a></li><li id="menu-3346-1" class="middle even sf-item-10 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-farauti.html" title="" class="sf-depth-3"><i>Anopheles farauti</i></a></li><li id="menu-3160-1" class="middle odd sf-item-11 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-funestus.html" class="sf-depth-3"><i>Anopheles funestus</i></a></li><li id="menu-776-1" class="middle even sf-item-12 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-gambiae.html" class="sf-depth-3"><i>Anopheles gambiae</i></a></li><li id="menu-3348-1" class="middle odd sf-item-13 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-maculatus.html" class="sf-depth-3"><i>Anopheles maculatus</i></a></li><li id="menu-3343-1" class="middle even sf-item-14 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-melas.html" class="sf-depth-3"><i>Anopheles melas</i></a></li><li id="menu-3345-1" class="middle odd sf-item-15 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-merus.html" class="sf-depth-3"><i>Anopheles merus</i></a></li><li id="menu-3163-1" class="middle even sf-item-16 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-minimus.html" class="sf-depth-3"><i>Anopheles minimus</i></a></li><li id="menu-3162-1" class="middle odd sf-item-17 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-quadriannulatus.html" class="sf-depth-3"><i>Anopheles quadriannulatus</i></a></li><li id="menu-3347-1" class="middle even sf-item-18 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-sinensis.html" class="sf-depth-3"><i>Anopheles sinensis</i></a></li><li id="menu-1780-1" class="last odd sf-item-19 sf-depth-3 sf-no-children"><a href="../organisms/anopheles-stephensi.html" class="sf-depth-3"><i>Anopheles stephensi</i></a></li></ol></li></ul></li><li id="menu-2869-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../organisms/biomphalaria-glabrata.html" class="sf-depth-2"><i>Biomphalaria glabrata</i></a></li><li id="menu-7815-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="../organisms/cimex-lectularius.html" title="" class="sf-depth-2"><i>Cimex lectularius</i></a></li><li id="menu-974-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="../organisms/culex-quinquefasciatus.html" title="" class="sf-depth-2"><i>Culex quinquefasciatus</i></a></li><li id="menu-4123-1" class="middle even sf-item-6 sf-depth-2 menuparent"><a href="../taxonomy/glossina.html" title="" class="sf-depth-2 menuparent"><table class="menuarrow"><tr><td class="menuarrowtext"><i>Glossina</i> </td><td class="menuarrowicon"><img class="menuarrow" src="../sites/default/files/ftp/triang.png" alt="submenu arrow"></td></tr></table></a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle even sf-item-6 sf-depth-2 menuparent"><ol><li id="menu-4124-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="../organisms/glossina-austeni.html" title="Vector of Animal African Trypanosomiasis" class="sf-depth-3"><i>Glossina austeni</i></a></li><li id="menu-4125-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="../organisms/glossina-brevipalpis.html" title="Ancestral vector of Animal African Trypanosomiasis (AAT)" class="sf-depth-3"><i>Glossina brevipalpis</i></a></li><li id="menu-4126-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="../organisms/glossina-fuscipes.html" title="Vector of Trypanosoma brucei rhodesiense in East Africa" class="sf-depth-3"><i>Glossina fuscipes</i></a></li><li id="menu-993-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="../organisms/glossina-morsitans.html" title="Vector of Human African Trypanosomiasis (sleeping sickness)" class="sf-depth-3"><i>Glossina morsitans</i></a></li><li id="menu-4127-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="../organisms/glossina-pallidipes.html" title="Major vector of Trypanosoma brucei brucei, Minor vector of Trypanosoma brucei rhodesiense" class="sf-depth-3"><i>Glossina pallidipes</i></a></li><li id="menu-5190-1" class="last even sf-item-6 sf-depth-3 sf-no-children"><a href="../organisms/glossina-palpalis.html" title="" class="sf-depth-3"><i>Glossina palpalis</i></a></li></ol></li></ul></li><li id="menu-971-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="../organisms/ixodes-scapularis.html" title="" class="sf-depth-2"><i>Ixodes scapularis</i></a></li><li id="menu-15064-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="../organisms/leptotrombidium-deliense.html" title="" class="sf-depth-2"><i>Leptotrombidium deliense</i></a></li><li id="menu-2867-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a href="../organisms/lutzomyia-longipalpis.html" title="" class="sf-depth-2"><i>Lutzomyia longipalpis</i></a></li><li id="menu-3850-1" class="middle even sf-item-10 sf-depth-2 sf-no-children"><a href="../organisms/musca-domestica.html" title="Musca domestica" class="sf-depth-2"><i>Musca domestica</i></a></li><li id="menu-975-1" class="middle odd sf-item-11 sf-depth-2 sf-no-children"><a href="../organisms/pediculus-humanus.html" title="" class="sf-depth-2"><i>Pediculus humanus</i></a></li><li id="menu-2868-1" class="middle even sf-item-12 sf-depth-2 sf-no-children"><a href="../organisms/phlebotomus-papatasi.html" title="" class="sf-depth-2"><i>Phlebotomus papatasi</i></a></li><li id="menu-976-1" class="middle odd sf-item-13 sf-depth-2 sf-no-children"><a href="../organisms/rhodnius-prolixus.html" title="" class="sf-depth-2"><i>Rhodnius prolixus</i></a></li><li id="menu-6654-1" class="middle even sf-item-14 sf-depth-2 sf-no-children"><a href="../organisms/sarcoptes-scabiei-var-canis.html" class="sf-depth-2"><i>Sarcoptes scabiei</i> var. <i>canis</i></a></li><li id="menu-6138-1" class="middle odd sf-item-15 sf-depth-2 sf-no-children"><a href="../organisms/stomoxys-calcitrans.html" title="Stomoxys calcitrans" class="sf-depth-2"><i>Stomoxys calcitrans</i></a></li><li id="menu-1786-1" class="last even sf-item-16 sf-depth-2 sf-no-children"><a href="../organisms.html" title="" class="sf-depth-2">All organisms...</a></li></ul></li><li id="menu-988-1" class="middle even sf-item-4 sf-depth-1 menuparent"><a href="../navigation/downloads.html" title="Download VectorBase data" class="sf-depth-1 menuparent">Downloads</a><ul><li id="menu-1775-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../downloads.html" title="Raw data files stored by VectorBase." class="sf-depth-2">Data files</a></li><li id="menu-1336-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../content/software-downloads.html" title="Open source software from VectorBase developers" class="sf-depth-2">Software</a></li><li id="menu-1397-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../image-gallery.html" title="" class="sf-depth-2">Images</a></li><li id="menu-1787-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="../downloadsee7a.html" title="" class="sf-depth-2">Ontologies</a></li></ul></li><li id="menu-1002-1" class="middle odd sf-item-5 sf-depth-1 menuparent"><a href="../navigation/tools.html" title="" class="sf-depth-1 menuparent">Tools</a><ul><li id="menu-1004-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../blast.html" title="Sequence similarity searching" class="sf-depth-2">BLAST</a></li><li id="menu-1009-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../clustalw.html" title="Align two or more sequences" class="sf-depth-2">ClustalW</a></li><li id="menu-1010-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../hmmer.html" title="Sensitive profile-based sequence search" class="sf-depth-2">HMMER</a></li><li id="menu-1008-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="../ontology-browser.html" title="" class="sf-depth-2">Ontology Browser</a></li></ul></li><li id="menu-973-1" class="middle even sf-item-6 sf-depth-1 menuparent"><a href="../navigation/data.html" title="" class="sf-depth-1 menuparent">Data</a><ul><li id="menu-3166-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../genomes.html" class="sf-depth-2">Genomes</a></li><li id="menu-2270-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../transcriptomes.html" class="sf-depth-2">Transcriptomes</a></li><li id="menu-9464-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../proteomes.html" class="sf-depth-2">Proteomes</a></li><li id="menu-1461-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="../mitochondrial-genomes.html" class="sf-depth-2">Mitochondrial sequences</a></li><li id="menu-4324-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="../releases.html" class="sf-depth-2">Release notes</a></li></ul></li><li id="menu-1001-1" class="middle odd sf-item-7 sf-depth-1 menuparent"><a href="../navigation/help.html" title="" class="sf-depth-1 menuparent">Help</a><ul><li id="menu-970-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../faqs.html" title="Frequently asked questions (with answers)" class="sf-depth-2">FAQs</a></li><li id="menu-4033-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../tutorials.html" class="sf-depth-2">Tutorials</a></li><li id="menu-1631-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../glossary.html" class="sf-depth-2">Glossary</a></li><li id="menu-1334-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="../faqs/how-cite-vectorbase.html" title="" class="sf-depth-2">How to cite VectorBase</a></li><li id="menu-1616-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="../data-policies.html" class="sf-depth-2">Data access and Submission policies</a></li><li id="menu-3845-1" class="last even sf-item-6 sf-depth-2 sf-no-children"><a href="../solr-information.html" title="Description of indexed solr fields" class="sf-depth-2">SOLR Fields</a></li></ul></li><li id="menu-1013-1" class="middle even sf-item-8 sf-depth-1 menuparent"><a href="../navigation/community.html" title="" class="sf-depth-1 menuparent">Community</a><ul><li id="menu-1777-1" class="first odd sf-item-1 sf-depth-2"><a href="../content/submit-data.html" class="sf-depth-2">Submit Data</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper first odd sf-item-1 sf-depth-2"></li></ul></li><li id="menu-1016-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../mailing-lists.html" title="" class="sf-depth-2">Mailing lists</a></li><li id="menu-1608-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../publications.html" class="sf-depth-2">Publications</a></li><li id="menu-10744-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="../workshops.html" class="sf-depth-2">Workshops/Meetings</a></li><li id="menu-12943-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="../jobpostings.html" class="sf-depth-2">Job postings</a></li><li id="menu-4034-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="../news.html" class="sf-depth-2">News</a></li><li id="menu-4035-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="../newsletters.html" class="sf-depth-2">Newsletters</a></li><li id="menu-2269-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="../useful-links.html" title="" class="sf-depth-2">Useful links</a></li><li id="menu-1014-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a href="http://www.facebook.com/pages/VectorBase/189608142260" title="" class="sf-depth-2"><table class="menuarrow"><tr><td class="menuarrowtext">Facebook  </td><td class="menuarrowicon"><img src="../sites/default/files/ftp/fb24.png" alt="link icon"></td></tr></table></a></li><li id="menu-1015-1" class="last even sf-item-10 sf-depth-2 sf-no-children"><a href="http://twitter.com/VectorBase" title="" class="sf-depth-2"><table class="menuarrow"><tr><td class="menuarrowtext">Twitter  </td><td class="menuarrowicon"><img src="../sites/default/files/ftp/tw24.png" alt="link icon"></td></tr></table></a></li></ul></li><li id="menu-994-1" class="last odd sf-item-9 sf-depth-1 sf-no-children"><a href="../contact.html" title="Send us comments, suggestions, or questions" class="sf-depth-1">Contact Us</a></li></ul>      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->    </div><!-- /main-menu-inner -->
+  </div><!-- /main-menu -->
+</div><!-- /main-menu-wrapper -->
+        </div><!-- /header-group -->
+      </div><!-- /header-group-wrapper -->
+
+      <div id="preface-top-outer"> </div>
+
+      <!-- main region: width = grid_width -->
+      <div id="main-wrapper" class="main-wrapper full-width clearfix">
+        <div id="main" class="main region grid16-16">
+          <div id="main-inner" class="main-inner inner clearfix">
+            
+<!-- sidebar-first region -->
+  <div id="sidebar-first" class="region region-sidebar-first sidebar-first nested grid16-4 sidebar">
+    <div id="sidebar-first-inner" class="sidebar-first-inner inner">
+      <div id="block-views-content_type_name-block" class="block block-views first last odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+        <div class="view view-content-type-name view-id-content_type_name view-display-id-block view-dom-id-0b89faba42e1a2559027194d338e9bec">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-type">        <div class="field-content rotate-90">Document</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->    </div><!-- /sidebar-first-inner -->
+  </div><!-- /sidebar-first -->
+
+            <!-- main group: width = grid_width - sidebar_first_width -->
+            <div id="main-group" class="main-group region nested grid16-12">
+              <div id="main-group-inner" class="main-group-inner inner">
+                 
+
+                <div id="main-content" class="main-content region nested">
+                  <div id="main-content-inner" class="main-content-inner inner">
+                    <!-- content group: width = grid_width - sidebar_first_width - sidebar_second_width -->
+                    <div id="content-group" class="content-group region nested grid16-12">
+                      <div id="content-group-inner" style="background-color:white;" class="content-group-inner inner">
+                        <div id="breadcrumbs" class="breadcrumbs block">
+<div id="breadcrumbs-inner" class="breadcrumbs-inner gutter">
+<a href="../index.html">Home</a> &raquo; Gene annotation changes CpipJ1.1 to CpipJ1.2
+</div><!-- /breadcrumbs-inner -->
+</div><!-- /breadcrumbs -->
+                        
+                        <div id="content-region" class="content-region region nested">
+                          <div id="content-region-inner" class="content-region-inner inner">
+
+                            <a name="main-content-area" id="main-content-area"></a>
+
+                                                        
+                              <!--DKDK highlighted -->
+
+                                                                                    <h1 class="title gutter">Gene annotation changes CpipJ1.1 to CpipJ1.2</h1>
+                                                                                                                                              
+<!-- content region -->
+  <div id="content" class="region region-content content nested grid16-12">
+    <div id="content-inner" class="content-inner inner">
+      <div id="block-system-main" class="block block-system first  odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+        <div class="node node-document node-promoted odd full-node view-mode-full clearfix">
+
+   
+      <div class="ds-left">
+      <div class="field field-name-field-type field-type-list-text field-label-above"><div class="field-label">Type:&nbsp;</div><div class="field-items"><div class="field-item even">Summary</div></div></div><div class="field field-name-field-gene-build-id field-type-entityreference field-label-above"><div class="field-label">Gene build id:&nbsp;</div><div class="field-items"><div class="field-item even">CpipJ1.2</div></div></div>    </div>
+  
+      <div class="ds-right">
+      <div class="field field-name-field-description field-type-text-with-summary field-label-above"><div class="field-label">Description:&nbsp;</div><div class="field-items"><div class="field-item even"> List of the modified or deleted genes between the gene sets CpipJ1.1 and CpipJ1.2.
+The modified genes have modification in their start/stop codons.
+The deleted genes were predictions we believed were bad. Most were 1- or 2- <a href="../glossary.html#Exon" title="The part of the genomic sequence that remains in the transcript (mRNA) after introns have been spliced out." class="lexicon-term">exon</a> genes, had no orthologs to any other species and lots of paralogs in Culex. The remaining few were matching bacterial proteins only or transposon-related sequences. We indenfied those after an extensive manual annotation step and we believed it was be better to delete them prior publication.
+
+<h3>Modified genes</h3>
+
+CPIJ018459 CPIJ018585 CPIJ006706 CPIJ006656 CPIJ011877 CPIJ020332 CPIJ010557 CPIJ008169 CPIJ019465 CPIJ019926 CPIJ000794 CPIJ005380 CPIJ017960 CPIJ006039 CPIJ018256 CPIJ018297 CPIJ019091 CPIJ008555 CPIJ019846 CPIJ009813 CPIJ010922 CPIJ002350 CPIJ003205 CPIJ015143 CPIJ004254 CPIJ000071 CPIJ000505 CPIJ000694 CPIJ000794 CPIJ001503 CPIJ001769 CPIJ002056 CPIJ002350 CPIJ002825 CPIJ002920 CPIJ003205 CPIJ003423 CPIJ003548 CPIJ004254 CPIJ005380 CPIJ006039 CPIJ006656 CPIJ006706 CPIJ006832 CPIJ007705 CPIJ007821 CPIJ007875 CPIJ007993 CPIJ008169 CPIJ008555 CPIJ008842 CPIJ009238 CPIJ009500 CPIJ009813 CPIJ010255 CPIJ010557 CPIJ010922 CPIJ011215 CPIJ011877 CPIJ012054 CPIJ012538 CPIJ012612 CPIJ012902 CPIJ014061 CPIJ014347 CPIJ014399 CPIJ015143 CPIJ015524 CPIJ015914 CPIJ015919 CPIJ016046 CPIJ016402 CPIJ016667 CPIJ017126 CPIJ017960 CPIJ018256 CPIJ018297 CPIJ018459 CPIJ018585 CPIJ019091 CPIJ019292 CPIJ019465 CPIJ019764 CPIJ019846 CPIJ019926 CPIJ020331 CPIJ020332
+
+<h3>Deleted genes</h3>
+
+CPIJ001020 CPIJ003444 CPIJ010436 CPIJ011403 CPIJ012299 CPIJ012730 CPIJ012774 CPIJ014449 CPIJ014806 CPIJ015034 CPIJ016193 CPIJ016267 CPIJ016442 CPIJ016919 CPIJ017818 CPIJ018026 CPIJ018225 CPIJ018387 CPIJ018393 CPIJ018394 CPIJ018395 CPIJ018402 CPIJ018695 CPIJ019047 CPIJ019048 CPIJ020201 CPIJ020759 CPIJ020799 CPIJ020965 CPIJ021466 CPIJ021731 CPIJ021737 CPIJ021909 CPIJ022135 CPIJ022186 CPIJ023043 CPIJ024287 CPIJ024975 CPIJ025777 CPIJ026074 CPIJ026456 CPIJ027270 CPIJ027287 CPIJ027320 CPIJ027380 CPIJ027522 CPIJ027784 CPIJ027836 CPIJ027859 CPIJ028197 CPIJ028273 CPIJ028562 CPIJ028907 CPIJ029212 CPIJ029685 CPIJ030145 CPIJ031368 CPIJ031635 CPIJ031925 CPIJ031936 CPIJ032008 CPIJ032163 CPIJ032730 CPIJ032874 CPIJ033969 CPIJ034109 CPIJ036029 CPIJ036188 CPIJ037126 CPIJ038280 CPIJ022741 CPIJ023275 CPIJ023511 CPIJ028636 CPIJ029115 CPIJ030126 CPIJ030678 CPIJ031486 CPIJ034789 CPIJ034973 CPIJ036249 CPIJ036423 CPIJ036649 CPIJ036794 CPIJ037332 CPIJ037945 CPIJ038634 CPIJ039031
+---
+CPIJ000028 CPIJ000100 CPIJ000122 CPIJ000132 CPIJ000158 CPIJ000165 CPIJ000170 CPIJ000171 CPIJ000174 CPIJ000208 CPIJ000217 CPIJ000222 CPIJ000223 CPIJ000249 CPIJ000255 CPIJ000262 CPIJ000267 CPIJ000268 CPIJ000269 CPIJ000271 CPIJ000397 CPIJ000430 CPIJ000439 CPIJ000441 CPIJ000442 CPIJ000522 CPIJ000527 CPIJ000528 CPIJ000547 CPIJ000548 CPIJ000549 CPIJ000551 CPIJ000555 CPIJ000567 CPIJ000568 CPIJ000569 CPIJ000581 CPIJ000582 CPIJ000592 CPIJ000604 CPIJ000605 CPIJ000606 CPIJ000612 CPIJ000634 CPIJ000650 CPIJ000652 CPIJ000666 CPIJ000704 CPIJ000709 CPIJ000711 CPIJ000712 CPIJ000725 CPIJ000762 CPIJ000799 CPIJ000803 CPIJ000804 CPIJ000914 CPIJ001001 CPIJ001009 CPIJ001015 CPIJ001034 CPIJ001102 CPIJ001115 CPIJ001118 CPIJ001143 CPIJ001146 CPIJ001147 CPIJ001153 CPIJ001159 CPIJ001192 CPIJ001322 CPIJ001325 CPIJ001331 CPIJ001366 CPIJ001420 CPIJ001431 CPIJ001432 CPIJ001436 CPIJ001444 CPIJ001524 CPIJ001526 CPIJ001532 CPIJ001533 CPIJ001536 CPIJ001541 CPIJ001542 CPIJ001589 CPIJ001682 CPIJ001683 CPIJ001809 CPIJ001815 CPIJ001817 CPIJ001866 CPIJ001877 CPIJ001927 CPIJ001959 CPIJ002024 CPIJ002041 CPIJ002080 CPIJ002203 CPIJ002204 CPIJ002210 CPIJ002215 CPIJ002218 CPIJ002226 CPIJ002243 CPIJ002244 CPIJ002264 CPIJ002288 CPIJ002291 CPIJ002318 CPIJ002362 CPIJ002363 CPIJ002409 CPIJ002438 CPIJ002473 CPIJ002474 CPIJ002475 CPIJ002476 CPIJ002486 CPIJ002489 CPIJ002503 CPIJ002515 CPIJ002558 CPIJ002641 CPIJ002706 CPIJ002778 CPIJ002791 CPIJ002792 CPIJ002839 CPIJ002860 CPIJ002875 CPIJ002876 CPIJ002905 CPIJ002915 CPIJ002924 CPIJ002960 CPIJ002965 CPIJ002972 CPIJ002980 CPIJ003039 CPIJ003092 CPIJ003107 CPIJ003112 CPIJ003114 CPIJ003219 CPIJ003231 CPIJ003253 CPIJ003254 CPIJ003268 CPIJ003272 CPIJ003332 CPIJ003401 CPIJ003402 CPIJ003454 CPIJ003617 CPIJ003669 CPIJ003670 CPIJ003690 CPIJ003691 CPIJ003698 CPIJ003736 CPIJ003758 CPIJ003771 CPIJ003779 CPIJ003786 CPIJ003791 CPIJ003792 CPIJ003824 CPIJ003849 CPIJ003872 CPIJ003875 CPIJ003899 CPIJ003902 CPIJ003924 CPIJ003925 CPIJ003948 CPIJ003956 CPIJ003957 CPIJ003959 CPIJ003992 CPIJ003993 CPIJ004007 CPIJ004045 CPIJ004051 CPIJ004101 CPIJ004107 CPIJ004111 CPIJ004122 CPIJ004126 CPIJ004139 CPIJ004140 CPIJ004314 CPIJ004368 CPIJ004385 CPIJ004387 CPIJ004408 CPIJ004423 CPIJ004424 CPIJ004486 CPIJ004509 CPIJ004512 CPIJ004518 CPIJ004585 CPIJ004592 CPIJ004622 CPIJ004624 CPIJ004627 CPIJ004632 CPIJ004633 CPIJ004655 CPIJ004673 CPIJ004722 CPIJ004735 CPIJ004744 CPIJ004751 CPIJ004753 CPIJ004771 CPIJ004775 CPIJ004777 CPIJ004800 CPIJ004889 CPIJ004917 CPIJ004920 CPIJ004998 CPIJ005026 CPIJ005027 CPIJ005103 CPIJ005133 CPIJ005139 CPIJ005147 CPIJ005177 CPIJ005178 CPIJ005179 CPIJ005180 CPIJ005181 CPIJ005193 CPIJ005201 CPIJ005233 CPIJ005264 CPIJ005265 CPIJ005314 CPIJ005319 CPIJ005398 CPIJ005402 CPIJ005409 CPIJ005412 CPIJ005427 CPIJ005442 CPIJ005444 CPIJ005538 CPIJ005549 CPIJ005555 CPIJ005556 CPIJ005557 CPIJ005578 CPIJ005579 CPIJ005581 CPIJ005618 CPIJ005622 CPIJ005633 CPIJ005658 CPIJ005670 CPIJ005689 CPIJ005781 CPIJ005806 CPIJ005817 CPIJ005844 CPIJ005911 CPIJ005980 CPIJ005989 CPIJ005990 CPIJ005991 CPIJ005994 CPIJ006135 CPIJ006151 CPIJ006197 CPIJ006200 CPIJ006201 CPIJ006262 CPIJ006264 CPIJ006304 CPIJ006305 CPIJ006307 CPIJ006308 CPIJ006309 CPIJ006315 CPIJ006336 CPIJ006338 CPIJ006360 CPIJ006439 CPIJ006440 CPIJ006482 CPIJ006505 CPIJ006530 CPIJ006550 CPIJ006579 CPIJ006580 CPIJ006584 CPIJ006591 CPIJ006593 CPIJ006604 CPIJ006611 CPIJ006655 CPIJ006658 CPIJ006663 CPIJ006696 CPIJ006759 CPIJ006778 CPIJ006779 CPIJ006786 CPIJ006798 CPIJ006810 CPIJ006819 CPIJ006821 CPIJ006848 CPIJ006860 CPIJ006864 CPIJ006872 CPIJ006875 CPIJ006876 CPIJ006886 CPIJ006900 CPIJ006922 CPIJ006924 CPIJ006983 CPIJ006994 CPIJ007001 CPIJ007022 CPIJ007031 CPIJ007039 CPIJ007048 CPIJ007120 CPIJ007124 CPIJ007161 CPIJ007203 CPIJ007235 CPIJ007278 CPIJ007279 CPIJ007280 CPIJ007387 CPIJ007390 CPIJ007399 CPIJ007419 CPIJ007492 CPIJ007499 CPIJ007537 CPIJ007553 CPIJ007564 CPIJ007572 CPIJ007585 CPIJ007591 CPIJ007592 CPIJ007601 CPIJ007614 CPIJ007665 CPIJ007667 CPIJ007669 CPIJ007671 CPIJ007703 CPIJ007704 CPIJ007706 CPIJ007719 CPIJ007817 CPIJ007832 CPIJ007833 CPIJ007845 CPIJ007846 CPIJ007853 CPIJ007947 CPIJ007949 CPIJ008000 CPIJ008063 CPIJ008064 CPIJ008121 CPIJ008125 CPIJ008126 CPIJ008152 CPIJ008153 CPIJ008166 CPIJ008167 CPIJ008229 CPIJ008244 CPIJ008299 CPIJ008326 CPIJ008415 CPIJ008437 CPIJ008478 CPIJ008479 CPIJ008609 CPIJ008612 CPIJ008614 CPIJ008652 CPIJ008708 CPIJ008709 CPIJ008710 CPIJ008711 CPIJ008712 CPIJ008713 CPIJ008717 CPIJ008723 CPIJ008724 CPIJ008726 CPIJ008727 CPIJ008728 CPIJ008732 CPIJ008734 CPIJ008748 CPIJ008769 CPIJ008810 CPIJ008912 CPIJ008938 CPIJ008971 CPIJ008973 CPIJ009016 CPIJ009019 CPIJ009021 CPIJ009022 CPIJ009027 CPIJ009036 CPIJ009040 CPIJ009075 CPIJ009080 CPIJ009096 CPIJ009102 CPIJ009103 CPIJ009150 CPIJ009158 CPIJ009159 CPIJ009161 CPIJ009173 CPIJ009194 CPIJ009199 CPIJ009200 CPIJ009221 CPIJ009238 CPIJ009245 CPIJ009289 CPIJ009290 CPIJ009307 CPIJ009313 CPIJ009325 CPIJ009382 CPIJ009386 CPIJ009387 CPIJ009393 CPIJ009400 CPIJ009401 CPIJ009414 CPIJ009428 CPIJ009439 CPIJ009472 CPIJ009533 CPIJ009534 CPIJ009537 CPIJ009540 CPIJ009541 CPIJ009547 CPIJ009552 CPIJ009558 CPIJ009564 CPIJ009576 CPIJ009577 CPIJ009585 CPIJ009612 CPIJ009650 CPIJ009659 CPIJ009676 CPIJ009688 CPIJ009689 CPIJ009690 CPIJ009691 CPIJ009692 CPIJ009711 CPIJ009712 CPIJ009751 CPIJ009771 CPIJ009809 CPIJ009810 CPIJ009842 CPIJ009845 CPIJ009847 CPIJ009848 CPIJ009849 CPIJ009866 CPIJ009868 CPIJ009869 CPIJ009871 CPIJ009908 CPIJ009915 CPIJ009932 CPIJ009952 CPIJ009963 CPIJ009983 CPIJ010006 CPIJ010009 CPIJ010010 CPIJ010011 CPIJ010027 CPIJ010042 CPIJ010043 CPIJ010078 CPIJ010088 CPIJ010105 CPIJ010115 CPIJ010131 CPIJ010153 CPIJ010198 CPIJ010219 CPIJ010243 CPIJ010248 CPIJ010251 CPIJ010262 CPIJ010264 CPIJ010274 CPIJ010287 CPIJ010289 CPIJ010327 CPIJ010351 CPIJ010362 CPIJ010378 CPIJ010379 CPIJ010380 CPIJ010387 CPIJ010420 CPIJ010427 CPIJ010450 CPIJ010507 CPIJ010517 CPIJ010571 CPIJ010638 CPIJ010642 CPIJ010651 CPIJ010713 CPIJ010735 CPIJ010736 CPIJ010742 CPIJ010772 CPIJ010773 CPIJ010775 CPIJ010780 CPIJ010783 CPIJ010784 CPIJ010785 CPIJ010786 CPIJ010792 CPIJ010797 CPIJ010813 CPIJ010871 CPIJ010873 CPIJ010874 CPIJ010898 CPIJ010908 CPIJ010909 CPIJ010912 CPIJ010926 CPIJ010929 CPIJ010931 CPIJ010932 CPIJ010949 CPIJ010994 CPIJ010995 CPIJ011000 CPIJ011007 CPIJ011011 CPIJ011020 CPIJ011022 CPIJ011024 CPIJ011042 CPIJ011043 CPIJ011044 CPIJ011045 CPIJ011048 CPIJ011066 CPIJ011072 CPIJ011138 CPIJ011150 CPIJ011158 CPIJ011210 CPIJ011288 CPIJ011329 CPIJ011333 CPIJ011341 CPIJ011348 CPIJ011351 CPIJ011354 CPIJ011355 CPIJ011360 CPIJ011364 CPIJ011396 CPIJ011399 CPIJ011404 CPIJ011411 CPIJ011421 CPIJ011422 CPIJ011440 CPIJ011469 CPIJ011481 CPIJ011484 CPIJ011618 CPIJ011622 CPIJ011668 CPIJ011669 CPIJ011672 CPIJ011678 CPIJ011679 CPIJ011688 CPIJ011689 CPIJ011723 CPIJ011724 CPIJ011736 CPIJ011739 CPIJ011740 CPIJ011750 CPIJ011751 CPIJ011792 CPIJ011794 CPIJ011808 CPIJ011813 CPIJ011815 CPIJ011858 CPIJ011869 CPIJ011871 CPIJ011872 CPIJ011873 CPIJ011882 CPIJ011892 CPIJ011894 CPIJ011968 CPIJ012008 CPIJ012009 CPIJ012019 CPIJ012047 CPIJ012050 CPIJ012051 CPIJ012101 CPIJ012102 CPIJ012103 CPIJ012109 CPIJ012116 CPIJ012117 CPIJ012148 CPIJ012203 CPIJ012212 CPIJ012228 CPIJ012258 CPIJ012277 CPIJ012310 CPIJ012455 CPIJ012469 CPIJ012483 CPIJ012508 CPIJ012531 CPIJ012559 CPIJ012566 CPIJ012581 CPIJ012608 CPIJ012612 CPIJ012624 CPIJ012625 CPIJ012651 CPIJ012694 CPIJ012705 CPIJ012706 CPIJ012707 CPIJ012708 CPIJ012709 CPIJ012710 CPIJ012729 CPIJ012761 CPIJ012777 CPIJ012778 CPIJ012789 CPIJ012823 CPIJ012825 CPIJ012847 CPIJ012849 CPIJ012859 CPIJ012860 CPIJ012881 CPIJ012898 CPIJ012903 CPIJ012915 CPIJ012922 CPIJ012927 CPIJ012937 CPIJ012941 CPIJ012962 CPIJ012965 CPIJ012966 CPIJ012983 CPIJ013000 CPIJ013003 CPIJ013018 CPIJ013030 CPIJ013051 CPIJ013061 CPIJ013062 CPIJ013098 CPIJ013100 CPIJ013108 CPIJ013110 CPIJ013134 CPIJ013135 CPIJ013151 CPIJ013166 CPIJ013226 CPIJ013233 CPIJ013239 CPIJ013248 CPIJ013263 CPIJ013271 CPIJ013397 CPIJ013422 CPIJ013428 CPIJ013442 CPIJ013446 CPIJ013458 CPIJ013483 CPIJ013484 CPIJ013485 CPIJ013505 CPIJ013514 CPIJ013544 CPIJ013546 CPIJ013549 CPIJ013571 CPIJ013575 CPIJ013605 CPIJ013606 CPIJ013607 CPIJ013608 CPIJ013612 CPIJ013656 CPIJ013664 CPIJ013690 CPIJ013699 CPIJ013701 CPIJ013702 CPIJ013703 CPIJ013803 CPIJ013811 CPIJ013812 CPIJ013814 CPIJ013839 CPIJ013853 CPIJ013857 CPIJ013885 CPIJ013911 CPIJ013930 CPIJ014000 CPIJ014008 CPIJ014010 CPIJ014012 CPIJ014014 CPIJ014042 CPIJ014070 CPIJ014071 CPIJ014074 CPIJ014078 CPIJ014079 CPIJ014096 CPIJ014106 CPIJ014107 CPIJ014116 CPIJ014138 CPIJ014151 CPIJ014152 CPIJ014153 CPIJ014159 CPIJ014203 CPIJ014205 CPIJ014264 CPIJ014277 CPIJ014278 CPIJ014290 CPIJ014291 CPIJ014301 CPIJ014314 CPIJ014316 CPIJ014317 CPIJ014321 CPIJ014341 CPIJ014366 CPIJ014369 CPIJ014371 CPIJ014373 CPIJ014378 CPIJ014403 CPIJ014412 CPIJ014413 CPIJ014414 CPIJ014441 CPIJ014464 CPIJ014474 CPIJ014479 CPIJ014483 CPIJ014492 CPIJ014517 CPIJ014528 CPIJ014538 CPIJ014545 CPIJ014547 CPIJ014568 CPIJ014582 CPIJ014610 CPIJ014615 CPIJ014616 CPIJ014625 CPIJ014627 CPIJ014639 CPIJ014641 CPIJ014642 CPIJ014643 CPIJ014645 CPIJ014665 CPIJ014677 CPIJ014685 CPIJ014688 CPIJ014705 CPIJ014754 CPIJ014775 CPIJ014807 CPIJ014816 CPIJ014830 CPIJ014831 CPIJ014842 CPIJ014844 CPIJ014848 CPIJ014852 CPIJ014853 CPIJ014854 CPIJ014855 CPIJ014858 CPIJ014859 CPIJ014899 CPIJ014968 CPIJ014980 CPIJ015021 CPIJ015030 CPIJ015031 CPIJ015068 CPIJ015115 CPIJ015129 CPIJ015148 CPIJ015163 CPIJ015169 CPIJ015170 CPIJ015225 CPIJ015307 CPIJ015339 CPIJ015340 CPIJ015344 CPIJ015356 CPIJ015381 CPIJ015397 CPIJ015398 CPIJ015404 CPIJ015412 CPIJ015430 CPIJ015431 CPIJ015434 CPIJ015435 CPIJ015437 CPIJ015456 CPIJ015464 CPIJ015466 CPIJ015467 CPIJ015492 CPIJ015494 CPIJ015502 CPIJ015518 CPIJ015540 CPIJ015551 CPIJ015564 CPIJ015572 CPIJ015574 CPIJ015592 CPIJ015602 CPIJ015609 CPIJ015610 CPIJ015612 CPIJ015613 CPIJ015614 CPIJ015615 CPIJ015666 CPIJ015684 CPIJ015696 CPIJ015706 CPIJ015722 CPIJ015748 CPIJ015757 CPIJ015760 CPIJ015780 CPIJ015781 CPIJ015782 CPIJ015794 CPIJ015805 CPIJ015818 CPIJ015830 CPIJ015831 CPIJ015844 CPIJ015865 CPIJ015869 CPIJ015886 CPIJ015904 CPIJ015905 CPIJ015927 CPIJ015937 CPIJ015968 CPIJ015969 CPIJ015972 CPIJ015974 CPIJ015978 CPIJ015988 CPIJ015993 CPIJ015994 CPIJ016016 CPIJ016017 CPIJ016057 CPIJ016069 CPIJ016087 CPIJ016088 CPIJ016090 CPIJ016106 CPIJ016108 CPIJ016109 CPIJ016110 CPIJ016119 CPIJ016136 CPIJ016137 CPIJ016148 CPIJ016152 CPIJ016170 CPIJ016178 CPIJ016180 CPIJ016182 CPIJ016183 CPIJ016194 CPIJ016196 CPIJ016197 CPIJ016198 CPIJ016199 CPIJ016200 CPIJ016201 CPIJ016203 CPIJ016206 CPIJ016228 CPIJ016231 CPIJ016240 CPIJ016250 CPIJ016251 CPIJ016256 CPIJ016264 CPIJ016279 CPIJ016333 CPIJ016363 CPIJ016391 CPIJ016415 CPIJ016446 CPIJ016458 CPIJ016480 CPIJ016481 CPIJ016482 CPIJ016483 CPIJ016500 CPIJ016501 CPIJ016506 CPIJ016510 CPIJ016533 CPIJ016537 CPIJ016546 CPIJ016550 CPIJ016558 CPIJ016561 CPIJ016587 CPIJ016606 CPIJ016607 CPIJ016609 CPIJ016624 CPIJ016626 CPIJ016628 CPIJ016630 CPIJ016631 CPIJ016675 CPIJ016684 CPIJ016703 CPIJ016704 CPIJ016718 CPIJ016720 CPIJ016753 CPIJ016754 CPIJ016758 CPIJ016760 CPIJ016772 CPIJ016773 CPIJ016784 CPIJ016793 CPIJ016813 CPIJ016833 CPIJ016835 CPIJ016838 CPIJ016870 CPIJ016877 CPIJ016897 CPIJ016915 CPIJ016942 CPIJ016972 CPIJ016984 CPIJ017003 CPIJ017009 CPIJ017015 CPIJ017020 CPIJ017028 CPIJ017036 CPIJ017049 CPIJ017051 CPIJ017069 CPIJ017093 CPIJ017125 CPIJ017126 CPIJ017134 CPIJ017136 CPIJ017137 CPIJ017171 CPIJ017175 CPIJ017266 CPIJ017268 CPIJ017270 CPIJ017271 CPIJ017274 CPIJ017279 CPIJ017281 CPIJ017282 CPIJ017283 CPIJ017292 CPIJ017313 CPIJ017335 CPIJ017336 CPIJ017339 CPIJ017340 CPIJ017347 CPIJ017348 CPIJ017349 CPIJ017409 CPIJ017411 CPIJ017465 CPIJ017500 CPIJ017504 CPIJ017509 CPIJ017523 CPIJ017525 CPIJ017537 CPIJ017554 CPIJ017560 CPIJ017577 CPIJ017581 CPIJ017590 CPIJ017608 CPIJ017644 CPIJ017676 CPIJ017683 CPIJ017685 CPIJ017688 CPIJ017696 CPIJ017710 CPIJ017742 CPIJ017770 CPIJ017802 CPIJ017804 CPIJ017817 CPIJ017852 CPIJ017853 CPIJ017854 CPIJ017861 CPIJ017863 CPIJ017864 CPIJ017865 CPIJ017868 CPIJ017869 CPIJ017871 CPIJ017872 CPIJ017889 CPIJ017900 CPIJ017932 CPIJ017935 CPIJ017941 CPIJ017942 CPIJ017943 CPIJ017950 CPIJ017951 CPIJ017953 CPIJ017979 CPIJ017981 CPIJ017998 CPIJ018001 CPIJ018020 CPIJ018076 CPIJ018077 CPIJ018082 CPIJ018090 CPIJ018095 CPIJ018096 CPIJ018098 CPIJ018115 CPIJ018119 CPIJ018125 CPIJ018163 CPIJ018165 CPIJ018188 CPIJ018189 CPIJ018195 CPIJ018206 CPIJ018207 CPIJ018229 CPIJ018243 CPIJ018259 CPIJ018304 CPIJ018305 CPIJ018311 CPIJ018331 CPIJ018345 CPIJ018351 CPIJ018354 CPIJ018360 CPIJ018361 CPIJ018363 CPIJ018367 CPIJ018384 CPIJ018385 CPIJ018386 CPIJ018388 CPIJ018389 CPIJ018390 CPIJ018391 CPIJ018392 CPIJ018396 CPIJ018397 CPIJ018398 CPIJ018399 CPIJ018400 CPIJ018401 CPIJ018403 CPIJ018419 CPIJ018447 CPIJ018468 CPIJ018469 CPIJ018474 CPIJ018487 CPIJ018489 CPIJ018490 CPIJ018496 CPIJ018497 CPIJ018523 CPIJ018536 CPIJ018537 CPIJ018543 CPIJ018554 CPIJ018562 CPIJ018572 CPIJ018580 CPIJ018612 CPIJ018647 CPIJ018651 CPIJ018660 CPIJ018663 CPIJ018664 CPIJ018671 CPIJ018691 CPIJ018700 CPIJ018708 CPIJ018709 CPIJ018713 CPIJ018722 CPIJ018726 CPIJ018740 CPIJ018743 CPIJ018759 CPIJ018774 CPIJ018798 CPIJ018801 CPIJ018807 CPIJ018808 CPIJ018815 CPIJ018817 CPIJ018821 CPIJ018841 CPIJ018842 CPIJ018851 CPIJ018852 CPIJ018878 CPIJ018879 CPIJ018880 CPIJ018888 CPIJ018898 CPIJ018901 CPIJ018902 CPIJ018907 CPIJ018927 CPIJ018934 CPIJ018947 CPIJ018951 CPIJ018965 CPIJ018969 CPIJ018972 CPIJ018981 CPIJ018982 CPIJ018989 CPIJ019012 CPIJ019026 CPIJ019035 CPIJ019038 CPIJ019040 CPIJ019041 CPIJ019042 CPIJ019046 CPIJ019049 CPIJ019050 CPIJ019051 CPIJ019052 CPIJ019054 CPIJ019055 CPIJ019056 CPIJ019057 CPIJ019062 CPIJ019064 CPIJ019067 CPIJ019068 CPIJ019094 CPIJ019095 CPIJ019097 CPIJ019100 CPIJ019116 CPIJ019117 CPIJ019126 CPIJ019128 CPIJ019130 CPIJ019145 CPIJ019151 CPIJ019152 CPIJ019154 CPIJ019155 CPIJ019156 CPIJ019157 CPIJ019158 CPIJ019161 CPIJ019162 CPIJ019166 CPIJ019186 CPIJ019201 CPIJ019202 CPIJ019203 CPIJ019208 CPIJ019212 CPIJ019213 CPIJ019214 CPIJ019215 CPIJ019216 CPIJ019217 CPIJ019218 CPIJ019220 CPIJ019236 CPIJ019256 CPIJ019267 CPIJ019288 CPIJ019311 CPIJ019315 CPIJ019335 CPIJ019342 CPIJ019350 CPIJ019352 CPIJ019354 CPIJ019356 CPIJ019367 CPIJ019368 CPIJ019369 CPIJ019371 CPIJ019379 CPIJ019383 CPIJ019415 CPIJ019421 CPIJ019423 CPIJ019424 CPIJ019456 CPIJ019474 CPIJ019490 CPIJ019496 CPIJ019505 CPIJ019512 CPIJ019513 CPIJ019537 CPIJ019545 CPIJ019548 CPIJ019558 CPIJ019560 CPIJ019574 CPIJ019580 CPIJ019581 CPIJ019596 CPIJ019597 CPIJ019601 CPIJ019620 CPIJ019644 CPIJ019647 CPIJ019657 CPIJ019658 CPIJ019659 CPIJ019660 CPIJ019661 CPIJ019662 CPIJ019674 CPIJ019709 CPIJ019721 CPIJ019724 CPIJ019732 CPIJ019742 CPIJ019743 CPIJ019753 CPIJ019755 CPIJ019759 CPIJ019768 CPIJ019770 CPIJ019771 CPIJ019776 CPIJ019792 CPIJ019797 CPIJ019815 CPIJ019839 CPIJ019842 CPIJ019843 CPIJ019845 CPIJ019852 CPIJ019853 CPIJ019858 CPIJ019884 CPIJ019886 CPIJ019893 CPIJ019898 CPIJ019899 CPIJ019904 CPIJ019909 CPIJ019913 CPIJ019934 CPIJ019943 CPIJ019957 CPIJ019958 CPIJ019959 CPIJ019960 CPIJ019961 CPIJ019962 CPIJ019963 CPIJ019964 CPIJ019965 CPIJ019966 CPIJ019967 CPIJ019968 CPIJ019969 CPIJ019970 CPIJ019971 CPIJ019972 CPIJ019973 CPIJ019975 CPIJ019977 CPIJ019978 CPIJ019989 CPIJ019994 CPIJ019995 CPIJ020020 CPIJ020043 CPIJ020046 CPIJ020051 CPIJ020064 CPIJ020065 CPIJ020066 CPIJ020073 CPIJ020074 CPIJ020080 CPIJ020084 CPIJ020088 CPIJ020089 CPIJ020090 CPIJ020110 CPIJ020135 CPIJ020147 CPIJ020151 CPIJ020152 CPIJ020153 CPIJ020154 CPIJ020155 CPIJ020156 CPIJ020157 CPIJ020158 CPIJ020159 CPIJ020160 CPIJ020162 CPIJ020163 CPIJ020164 CPIJ020166 CPIJ020167 CPIJ020178 CPIJ020184 CPIJ020188 CPIJ020195 CPIJ020205 CPIJ020214 CPIJ020241 CPIJ020248 CPIJ020253 CPIJ020254 CPIJ020255 CPIJ020256 CPIJ020257 CPIJ020258 CPIJ020259 CPIJ020260 CPIJ020261 CPIJ020262 CPIJ020298 CPIJ020313 CPIJ020319 CPIJ020325 CPIJ020326 CPIJ020327
+
+<h3>Genes to delete in next update</h3>
+
+<h4>Kathy Campbell [27-May-08]<h4>
+
+(81/131 -62%- have already been deleted)
+CPIJ014442 Transposase - 3 exon prediction. Plus see gene page for all paralogues- 25+ (all should be deleted) ...these are just a few CPIJ015814 CPIJ017500 CPIJ016003 CPIJ009200 CPIJ019092 CPIJ005076
+CPIJ001544 Gene fragment, represents 5' end of CPIJ003549 [ALREADY DELETED]
+CPIJ004764 Not in any other species - possible bacterial contaminant?
+CPIJ014444 ESTs may represent the 5' UTR for the gene on the opposite strand of each of these annotation CPIJ009009 Based on ESTs that belong to the 3'UTR of gene on opposite strand
+CPIJ004129 Multiple hits [ALREADY DELETED] Plus see gene page for all paralogues (all should be deleted)
+CPIJ016596 Multiple hits
+CPIJ004133
+CPIJ004134 Probable transposon
+CPIJ004135 Transopson [ALREADY DELETED]
+CPIJ004136 Looks like transposon [ALREADY DELETED]
+CPIJ004137 Looks like transposon
+CPIJ012789 hits multiple culex genes with "cadherin" in header. I am not sure that this is correct, hits an Aedes 3000+ cadherin gene that may have this exon included erroneously in the prediction. [ALREADY DELETED]
+CPIJ001541 Bacterial protein? [ALREADY DELETED]
+CPIJ006437 Mulitple hits in genome. [ALREADY DELETED]
+CPIJ010109 Multiple Culex hits. Plus see gene page for all paralogues (all should be deleted) [ALREADY DELETED]
+CPIJ010105 Overlaps <a href="../glossary.html#RepeatMasker" title="RepeatMasker (AFA Smit &amp; P Green) is a standard software tool used in computational genomics to identify repetitive elements and low-complexity sequences." class="lexicon-term">repeatmasker</a>, low complexity, hits multiple times. [ALREADY DELETED]
+CPIJ015666 Overlaps repeatmasker and a larger ORF [ALREADY DELETED]
+CPIJ001902
+CPIJ001913 Gene fragment homologous to upstream gene CPIJ001911. [ALREADY DELETED]
+CPIJ001910 Gene fragment homologous to upstream gene CPIJ001909. [ALREADY DELETED]
+CPIJ001905 Partially overlap an ORF that may be some sort of transposon
+CPIJ001906 Partially overlap an ORF that may be some sort of transposon
+List of genes below: "<a href="../glossary.html#Similarity" title="How well one sequence matches another determined by calculation by an alignment program of identical and conserved residues." class="lexicon-term">similarity</a> to heliotrons- rolling circle Rolling circle transposons". This is only a partial list- there are 30+: CPIJ002473 All blastp hits should be looked at and probably deleted.
+CPIJ017733 All blastp hits should be looked at and probably deleted.
+CPIJ019855 All blastp hits should be looked at and probably deleted. [ALREADY DELETED]
+CPIJ015412 All blastp hits should be looked at and probably deleted. [ALREADY DELETED]
+CPIJ002447 All blastp hits should be looked at and probably deleted.
+CPIJ009034 All blastp hits should be looked at and probably deleted.
+CPIJ002446 All blastp hits should be looked at and probably deleted.
+These may be bad predictions as well: CPIJ014899 [D] CPIJ014341 [D] CPIJ012987 CPIJ008268 [D] CPIJ016481 [D] CPIJ019026 [D] CPIJ019679 CPIJ020089 [D] CPIJ001148 [D] CPIJ017710 [D] CPIJ015978 [D] CPIJ004633 [D] CPIJ014749 CPIJ006860 [D] CPIJ020090 [D] CPIJ008973 [D] CPIJ013885 [D] CPIJ004544 CPIJ008724 [D] CPIJ018474 [D] CPIJ019490 [D] CPIJ006875 [D] CPIJ019989 [D] CPIJ008713 [D] CPIJ020064 [D] CPIJ007669 [D] CPIJ008709 [D] CPIJ008710 [D] CPIJ008711 [D] CPIJ008717 [D] CPIJ020088 [D] CPIJ006872 [D] CPIJ006876 [D] CPIJ019988 [D] CPIJ008727 [D] CPIJ006900 [D] CPIJ017708 CPIJ017932 [D] CPIJ008705 [D] CPIJ006903 [D] CPIJ017709 CPIJ017688 [D] CPIJ008723 [D] CPIJ014430 [D] CPIJ006864 [D] CPIJ007763 CPIJ008719 CPIJ015297 CPIJ008708 [D] CPIJ015691 [D] CPIJ001147 [D] CPIJ017098 CPIJ008712 [D] CPIJ006886 [D] CPIJ008726 [D] CPIJ020066 [D] CPIJ020048 CPIJ007670 CPIJ009019 [D] CPIJ004387 [D] CPIJ004385 [D] CPIJ011595 CPIJ009767 CPIJ006896 [D] CPIJ015875 [D] CPIJ004386 CPIJ015225 [D] CPIJ006862 CPIJ001531 [D] CPIJ004632 [D] CPIJ004135 [D] CPIJ008720 CPIJ001527 CPIJ001524 [D] CPIJ015226 CPIJ001532 [D] CPIJ008707 CPIJ005527 CPIJ012049 CPIJ008715 CPIJ001535 CPIJ013152 CPIJ001528 CPIJ019842 [D] CPIJ001533 [D] CPIJ004139 [D]
+
+Another group of genes with multiple hits - possible transposon-like CPIJ004140 [D] CPIJ004135 CPIJ004139 [D] CPIJ001531 CPIJ005527 CPIJ001535 CPIJ001528 CPIJ001527 CPIJ001534 CPIJ001525 CPIJ001533 [D] CPIJ001532 [D] CPIJ004133 CPIJ015225 [D] CPIJ001524 CPIJ009019 [D] CPIJ004387 [D] CPIJ009767 CPIJ020024
+
+<h4>Kathy Campbell [11-Jun-08]</h4>
+
+(26/28 -93%- have already been deleted)
+This sequence, present in CPIJ007048 and many other "bad" Culex predictions, is flanked by repeatmasker- looks like a type of transposase MSDVRKNTLVVDFSVLPERPKLDMVQRFVEKSLGLNPTDLRSIQLHNIRHCVLIQMADPA AAVEVAVQHHLKHAFRISPTKKiaipvyvdddivdvriHDLPPDMSNMQIAEAMLQYGEV LTIRDEVWRDIFAGVPNGVRVLKMKISKPVPSYVTICGLSSLATHTGQISTCRRCGFQRH VSKSCSEAAkkqqpkpkpqkNPSPSGPVLPIADLAAVQSQVVVPHTHEDNGNDGFITVVK
+CPIJ001877 [D] CPIJ015722 [D] CPIJ006980 CPIJ015757 [D] CPIJ002503 [D] CPIJ005658 [D] CPIJ019743 [D] CPIJ011724 [D]
+GNPCKDAQNSSGNQFATLPVDVSEKEEFERREKLPPIFVKTSSSDSVRKWLTGFIKSGARASIRLCADGLKILLPTRKDYNYVRDFLNNTKIEYYS
+
+These Culex predictions, in addition to others, include the sequence below: DVSVLKEELKTLKLNVIEVFKMTRHNKDIKHRDQLYLVHLEKGSTTPSELKAVRAIFNIIVSWERYRPVHRDVTQ
+CPIJ000255 [D] CPIJ014278 [D] CPIJ011066 [D] CPIJ015818 [D] CPIJ003454 [D] CPIJ020188 [D]
+
+These Culex predictions, in addition to others, include the sequence below: --MPHGKKKRRSSPARSADLKKLKNAEALPAKPGSLSKDAQKLSGNQFAILPVDVSEKEEFERREKLPPIFVKTSSSDSV
+CPIJ000255 [D] CPIJ019743 [D] CPIJ003039 [D] CPIJ015722 [D] CPIJ018354 [D] CPIJ005658 [D] CPIJ012761 [D]
+
+These Culex predictions contain the sequence below: MTDDDICTEGTNRHRSRPAALDHWTKHAGARGMLGVNNLRKINAGGEKVWTTAEargirlrggarKWKCWPVGP
+CPIJ017336 [D] CPIJ017335 [D] CPIJ018647 [D] CPIJ000857 CPIJ009849 [D] CPIJ009848 [D]
+
+<h4>Kathy Campbell [07-July-08]</h4>
+CPIJ002635 and most of its paralogs:
+CPIJ008364 CPIJ014648 CPIJ020243 CPIJ011251 CPIJ005549 CPIJ008069
+
+<h4>Kathy Campbell [07-Aug-08]</h4>
+
+CPIJ016977: TE (confirmed by discussions with Flybase annotators), present in Nasonia, Dmel, aphid (Acyrthosiphon pisum), Aedes but not in Anopheles
+CPIJ008069: 2 exon gene- many of the orthologues have been removed from 1.2. Hits genome multiple times
+CPIJ016661: <a href="../glossary.html#Domain" title="A region of special biological interest within a single protein sequence. However, a domain may also be defined as a region within the three-dimensional structure of a protein that may encompass regions of several distinct protein sequences that accomplishes a specific function. A domain class is a group of domains that share a common set of well-defined properties or characteristics." class="lexicon-term">domain</a> present multiple times-overlaps repeatmastker
+CPIJ000882: likely TE, 3 exon gene. Sequence hits the genome multiple times, ORF is flanked by repeatmasker- there are multiple paralogues listed on the gene page- all are questionable. I looked at the following paralogues of CPIJ000882 and they should be deleted: CPIJ009659 CPIJ017869 CPIJ013546 CPIJ015381 CPIJ015937 CPIJ015865 CPIJ010027 CPIJ005817 CPIJ012212 CPIJ008734 CPIJ007048 CPIJ011158 CPIJ009983 CPIJ005549 CPIJ013248 CPIJ013249 CPIJ009245 CPIJ011813 CPIJ004889 CPIJ010571 CPIJ008732 CPIJ003771 CPIJ016754 CPIJ002839 CPIJ009703
+
+CPIJ010214: 2 exon bad prediction. 5' exon is hitting multiple times in genome, 2nd exon has no orthologues.
+CPIJ010219: single exon, low complexity. Looks like it is deleted from Vectorbase, but not from Genbank
+Delete Orthologues of CPIJ008069 (was removed in 1.2) that still remain: CPIJ011251 CPIJ010109 CPIJ012179 CPIJ000018 etc.
+CPIJ008071: another example of erroneous orthologue call due to fact that "real gene" probably contains one of these transposase like sequences as an exon in this case the gene is CPIJ011088.
+CPIJ008072
+CPIJ008076: homology to transposons. Probably incorrect orthologue call due to possibility that real acetyl-coa carboxylase contains an errorneous transposon-like exon in the prediction
+CPIJ002635: flanked by repeatmasker, Hits multiple Culex "bad annotations" not deleted in Culex 1.2
+CPIJ004805: hits genome multiple times - transposase?
+CPIJ000508: no coding sequence- based on EST that probably represents the 5' UTR for gene downstream
+CPIJ000517: probable transposase
+CPIJ000518: sequence occurs multiple times in genome, multiple paralogues, referred to as DNA binding protein- overlaps repeatmasker--7 small exons
+CPIJ000522
+CPIJ000523
+CPIJ000527
+CPIJ010651: contains bacterial domain, ribonuclease E domain, Heliobacter pylori domain
+CPIJ010650: gene fragment, very small fragment -actual gene is on different <a href="../glossary.html#Supercontig" title="Supercontigs or scaffolds are sets of ordered, oriented contigs. They are longer sequences than contigs, but shorter than full chromosomes." class="lexicon-term">supercontig</a>
+CPIJ003861: heliotron, transposase
+CPIJ015439
+CPIJ003152
+CPIJ019992
+CPIJ007264
+CPIJ017143: 3 exon prediction, Reovirus sigma C capsid protein domain
+CPIJ009401
+CPIJ012102 [D]: low complexity - hits many other "bad predictions" with product "Av71 muscle cell intermediate filament" The ortholuges (if there are any left) should be looked at and probably all deleted. This is a forced 3 exon gene - One exon is the main offending sequence and it is a very short stretch of repeats.
+CPIJ012101: delete, this is a tiny piece of the gene importin (CPIJ010329) which is correct and on a different supercontig
+CPIJ005285: This is either a stray gene fragment of ribonuclease iii gene or <a href="../glossary.html#Pseudogene" title="A noncoding sequence similar to an active protein. A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog). Source: http://www.sequenceontology.org/browser/current_svn/term/SO:0000336" class="lexicon-term">pseudogene</a>.
+CPIJ014734: DDE superfamily endonuclease.
+CPIJ014737 transposase, hits aspergillus transposase, multiple paralogues-check and put on delete list once vectorbase is up DDE superfamily endonuclease.
+CPIJ014738: DDE superfamily endonuclease.
+CPIJ014739: DDE superfamily endonuclease.
+CPIJ014740: DDE superfamily endonuclease.
+CPIJ014742: likely delete, not in agam
+CPIJ014749: delete 100s of blastp hits, check - has orthologue in C.elegans and human
+CPIJ014750 : delete 100s of hits check with vectorbase to see if deleted
+CPIJ017776: delete, aligns to endonuclease
+This group below is just a partial list of genes that should be deleted. They are paralogues of each other and the Aedes orthologue it is hitting should be deleted too. All other paralogues of these genes should most likely be deleted as well. They are flankded by repeatmasker and hit the genome multiple times. CPIJ014800 CPIJ015829 CPIJ020238 CPIJ020102 CPIJ006437 CPIJ008137
+
+
+<h3>Potential pseudogenes</h3>
+
+<h4>Robert Waterhouse [07-Aug-08]</h4>
+
+CPIJ004325 CPIJ004229 CPIJ009878 </div></div></div>    </div>
+   
+</div>
+      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->    </div><!-- /content-inner -->
+  </div><!-- /content -->
+				                                                          			   
+			
+                          </div><!-- /content-region-inner -->
+                        </div><!-- /content-region -->
+
+                      </div><!-- /content-group-inner -->
+                    </div><!-- /content-group -->
+
+                                      </div><!-- /main-content-inner -->
+                </div><!-- /main-content -->
+
+                              </div><!-- /main-group-inner -->
+            </div><!-- /main-group -->
+          </div><!-- /main-inner -->
+        </div><!-- /main -->
+      </div><!-- /main-wrapper -->
+
+            
+<!-- footer region -->
+<div id="footer-wrapper" class="footer-wrapper full-width clearfix">
+  <div id="footer" class="region region-footer footer  grid16-16">
+    <div id="footer-inner" class="footer-inner inner">
+      <div id="block-block-9" class="block block-block first last odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+         <!--<div id="bannerMessage">Not ready for the New VectorBase? <a href="http://classic.vectorbase.org/">Link back to the old site here. (not here)</a></div>-->
+<!--<div id="warningMessage" style="text-align:center">
+     VectorBase is currently undergoing maintenance.<br />
+     Some data and/or services may be temporarily unavailable.
+</div>-->
+<div class="single-footer">
+    <div style="text-align:center;background-color:white; border-radius: 10px;-moz-border-radius: 10px;">
+        <a style="margin:5px 10px; border:none; text-decoration:none;" href="http://www.nd.edu/" ><img src="../sites/default/files/ftp/site_logos/notredame.png" alt="ND" style="border:none; margin:5px 0;"/></a>
+        <a style="margin:5px 10px; border:none; text-decoration:none;" href="http://www.ebi.ac.uk/" ><img src="../sites/default/files/ftp/site_logos/ebi.png" alt="EBI" style="border:none; margin:5px 0;"/></a>
+        <a style="margin:5px 10px; border:none; text-decoration:none;" href="http://www.imperial.ac.uk/" ><img src="../sites/default/files/ftp/site_logos/imperialcollegelondon.png" alt="Imperial College" style="border:none; margin:5px 0;"/></a>
+    </div>
+    <p style="text-align:center;">This project has been funded in whole or in part with Federal funds from the National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services, under Contract No. HHSN272201400029C.</p>
+    <p>
+        Bioinformatics Resource Centers for Infectious Disease: 
+        <a href="https://www.vectorbase.org/" class="brc-postscript-link"><span class="brc-postscript-linktext">VectorBase</span></a> | 
+        <a href="https://eupathdb.org/" class="brc-postscript-link"><span class="brc-postscript-linktext">EuPathDB</span></a> | 
+        <a href="https://www.fludb.org/" class="brc-postscript-link"><span class="brc-postscript-linktext">IRD</span></a> |
+        <a href="https://patricbrc.org/" class="brc-postscript-link"><span class="brc-postscript-linktext">PATRIC</span></a> |
+        <a href="https://www.viprbrc.org/" class="brc-postscript-link"><span class="brc-postscript-linktext">ViPR</span></a> 
+    </p>
+    <div style="text-align:center">
+        <a style="margin:5px 10px; border:none; text-decoration:none;" href="mailto:info@vectorbase.org" title="Email VectorBase"><img src="../sites/default/files/ftp/email.png" alt="Email VectorBase" style="border:none;  height:30px; width:30px;"/></a>
+        <a style="margin:5px 10px; border:none; text-decoration:none;" href="https://www.vectorbase.org/justnews/feed" title="RSS Feed"><img src="../images/small_logos/48x48/feed.png" alt="RSS Feed" style="border:none;  height:30px; width:30px;"/></a>
+<!--        <a style="margin:5px 10px; border:none; text-decoration:none;" href="https://www.vectorbase.org/forum" title="Forum"><img src="/sites/default/files/ftp/images/forum.png" alt="Forum" style="border:none;  height:30px; width:30px;"/></a> -->
+        <a style="margin:5px 10px; border:none; text-decoration:none;" href="http://www.facebook.com/pages/VectorBase/189608142260" title="Facebook"><img src="../images/small_logos/48x48/facebook.png" alt="Facebook" style="border:none; height:30px; width:30px;"/></a>
+        <a style="margin:5px 10px; border:none; text-decoration:none;" href="http://twitter.com/VectorBase" title="Twitter"><img src="../images/small_logos/48x48/twitter.png" alt="Twitter" style="border:none; height:30px; width:30px;"/></a>
+    </div>
+</div>       </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->    </div><!-- /footer-inner -->
+  </div><!-- /footer -->
+</div><!-- /footer-wrapper -->
+    </div><!-- /page-inner -->
+  </div><!-- /page -->
+  </body>
+
+<!-- Mirrored from legacy.vectorbase.org/documents/gene-annotation-changes-cpipj11-cpipj12 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 May 2021 01:16:34 GMT -->
+</html>
